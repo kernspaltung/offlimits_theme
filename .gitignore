@@ -1,28 +1,7 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Ignora dependencias
+# para instalarlas -> ' npm install '
+# despues -> ' bower install '
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+node_modules/*
+bower_components/*
+LICENSE
