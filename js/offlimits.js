@@ -3,7 +3,7 @@
 $(document).ready(function(){
 
   //
-  u = new FrontEndUtils();
+  var u = new FrontEndUtils();
   u.vcenter();
   //
   $(".imgLiquidFill").imgLiquid();

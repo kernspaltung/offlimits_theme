@@ -2230,6 +2230,9 @@
 .uppercase {
   text-transform: uppercase !important; }
 
+.no-bullet {
+  list-style-type: none; }
+
 .ovH {
   overflow: hidden; }
 
@@ -2873,7 +2876,42 @@
   .pt_sm_25vh {
     padding-top: 25vh; } }
 
-.cursor-pointer {
+@media screen and (max-width: 1024px) {
+  .h, .h_1vh, .h_2vh, .h_3vh, .h_5vh, .h_10vh, .h_12vh, .h_15vh, .h_20vh, .h_25vh, .h_30vh, .h_33vh, .h_35vh, .h_40vh, .h_45vh, .h_50vh, .h_55vh, .h_60vh, .h_65vh, .h_70vh, .h_75vh, .h_77vh, .h_80vh, .h_85vh, .h_89vh, .h_90vh, .h_100vh, .h_10, .h_20, .h_25, .h_33, .h_30, .h_35, .h_40, .h_50, .h_55, .h_60, .h_70, .h_75, .h_80, .h_85, .h_90, .h_100, .h_full, .minH_10, .minH_20, .minH_30, .minH_60, .minH_100, .minH_20vh, .minH_50vh, .minH_70vh, .minH_100vh, .maxH_80 {
+    display: block; }
+  .h_md_0vh {
+    display: block;
+    min-height: 0;
+    height: auto; }
+  .h_md_25vh {
+    display: block;
+    height: 25% !important; }
+  .h_md_40vh {
+    display: block;
+    height: 40% !important; }
+  .h_md_3vh {
+    display: block;
+    height: 3vh !important; }
+  .h_md_5vh {
+    display: block;
+    height: 5vh !important; }
+  .h_md_10vh {
+    display: block;
+    height: 10vh !important; }
+  .h_md_15vh {
+    display: block;
+    height: 15vh !important; }
+  .h_md_20vh {
+    display: block;
+    height: 20vh !important; }
+  .h_md_70vh {
+    display: block;
+    height: 70vh !important; }
+  .h_md_50 {
+    display: block;
+    height: 50% !important; } }
+
+.cursor-pointer, .pointer {
   cursor: pointer; }
 
 .fullH {
@@ -2988,22 +3026,22 @@
   font-size: 2vmin; }
 
 .fontRS {
-  font-size: 3vmin; }
+  font-size: 2.5vmin; }
 
 .fontRM {
-  font-size: 4vmin; }
+  font-size: 3vmin; }
 
 .fontRL {
-  font-size: 5vmin; }
+  font-size: 4vmin; }
 
 .fontRXL {
-  font-size: 5.5vmin; }
+  font-size: 4.5vmin; }
 
 .fontRXXL {
-  font-size: 6.5vmin; }
+  font-size: 5vmin; }
 
 .fontRXXXL {
-  font-size: 7vmin; }
+  font-size: 5.5vmin; }
 
 .fontRHuge {
   font-size: 30vmin; }
@@ -3077,6 +3115,9 @@
     -moz-filter: grayscale(0%); }
 
 /*estilos plataforma festival offlimits*/
+* {
+  outline: 1px solid brown; }
+
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
    * 1. Set default font family to sans-serif.

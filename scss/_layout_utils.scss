@@ -12,12 +12,12 @@ $fontHuge:100px;
 $fontRXXXS:1vmin;
 $fontRXXS:1.5vmin;
 $fontRXS:2vmin;
-$fontRS:3vmin;
-$fontRM:4vmin;
-$fontRL:5vmin;
-$fontRXL:5.5vmin;
-$fontRXXL:6.5vmin;
-$fontRXXXL:7vmin;
+$fontRS:2.5vmin;
+$fontRM:3vmin;
+$fontRL:4vmin;
+$fontRXL:4.5vmin;
+$fontRXXL:5vmin;
+$fontRXXXL:5.5vmin;
 $fontRHuge:30vmin;
 
 /******* FOUNDATION MODS *******/
@@ -57,6 +57,9 @@ $screen-lg-min: 1025px;
 }
 .uppercase {
 	text-transform: uppercase !important;
+}
+.no-bullet {
+	list-style-type: none;
 }
 .ovH {
 	overflow: hidden;
@@ -663,7 +666,7 @@ $screen-lg-min: 1025px;
 	padding-left: $spacing * 6 !important;
 }
 
-
+// foundation small breakpoint
 @media screen and (max-width:640px) {
 
 
@@ -937,8 +940,68 @@ $screen-lg-min: 1025px;
 
 }
 
+// foundation medium breakpoint
+
+@media screen and (max-width:1024px) {
+
+	.h {
+		display: block;
+	}
+
+	.h_md_0vh {
+		display: block;
+		min-height: 0;
+		height: auto;
+	}
+	.h_md_25vh {
+		display: block;
+		height: 25% !important;
+	}
+	.h_md_40vh {
+		display: block;
+		height: 40% !important;
+	}
+
+	.h_md_3vh {
+		display: block;
+		height: 3vh !important;
+	}
+	.h_md_5vh {
+		display: block;
+		height: 5vh !important;
+	}
+	.h_md_10vh {
+		display: block;
+		height: 10vh !important;
+	}
+	.h_md_15vh {
+		display: block;
+		height: 15vh !important;
+	}
+
+	.h_md_20vh {
+		display: block;
+		height: 20vh !important;
+	}
+
+	.h_md_70vh {
+		display: block;
+		height: 70vh !important;
+	}
+
+	.h_md_50 {
+		display: block;
+		height: 50% !important;
+	}
+
+
+}
+// end medium breakpoint
+
+
+
 //cursor
-.cursor-pointer {
+.cursor-pointer, .pointer {
 		cursor: pointer;
 }
 
