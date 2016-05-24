@@ -23,7 +23,7 @@
           <div class="small-9 columns text-center p2">Menú</div>
 
           <div class="small-3 columns p2 text-center" aria-label="Close menu" type="button" data-close="">
-            <span aria-hidden="true"><i class="fa fa-angle-right fontRXL pointer"></i></span>
+            <span aria-hidden="true"><i class="fa fa-angle-right fontRXXL pointer"></i></span>
           </div>
 
         </div>
@@ -106,4 +106,4 @@
 
 
         <!-- main -->
-        <main id="main" class="small-12 columns h_80vh h_md_70vh m0 p0">
+        <main id="main" class="small-12 columns h_80vh h_md_70vh m0 p0 scrollH">

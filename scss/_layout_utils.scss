@@ -1074,12 +1074,15 @@ $screen-lg-min: 1025px;
 }
 
 
+
 @media screen and (max-width:768px) {
 	.scroll_sm_h {
 		overflow-y: auto;
 		overflow-x: hidden;
 	}
 }
+
+
 
 @media screen and (min-width:768px) and (max-width:1024px){
 	.scroll_md_h {
@@ -1273,4 +1276,13 @@ $screen-lg-min: 1025px;
 		-moz-filter: grayscale(0%);
 
 	}
+}
+
+// patron para imagenes
+%pattern {
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAEklEQVQImWNgIBmcOnXKl3RdAI02Aqx7ujt2AAAAAElFTkSuQmCC) repeat;
+}
+
+.img-overlay {
+  @extend %pattern;
 }
