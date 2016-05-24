@@ -31,25 +31,25 @@
         <nav id="header-menu-escritorio" class="menu vertical h_90vh columns text-center">
           <ul class="w_100 h_100 no-bullet m0">
             <a href="#" class="columns h_14">
-              <li class="vcenter">Menú 1</li>
+              <li class="vcenter">Festival</li>
             </a>
             <a href="#" class="columns h_14">
-              <li class="vcenter">Menú 2</li>
+              <li class="vcenter">LineUp</li>
             </a>
             <a href="#" class="columns h_14">
-              <li class="vcenter">Menú 3</li>
+              <li class="vcenter">Blog</li>
             </a>
             <a href="#" class="columns h_14">
-              <li class="vcenter">Menú 4</li>
+              <li class="vcenter">Información</li>
             </a>
             <a href="#" class="columns h_14">
-              <li class="vcenter">Menú 5</li>
+              <li class="vcenter">Tienda</li>
             </a>
             <a href="#" class="columns h_14">
-              <li class="vcenter">Menú 6</li>
+              <li class="vcenter">FAQ</li>
             </a>
             <a href="#" class="columns h_14">
-              <li class="vcenter">Menú 7</li>
+              <li class="vcenter">Contacto</li>
             </a>
           </ul>
         </nav>
@@ -82,7 +82,7 @@
                 <li>Festival</li>
               </a>
               <a href="#" class="large-2 columns p2 h_100">
-                <li>Line Up</li>
+                <li>LineUp</li>
               </a>
               <a href="#" class="large-1 columns p2 h_100">
                 <li>Blog</li>
