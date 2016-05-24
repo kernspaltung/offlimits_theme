@@ -16,7 +16,9 @@
 
       <div class="off-canvas position-right align-center h_100vh" id="offCanvasRight" data-off-canvas data-position="right">
 
-        <div id="titulo_menu" class="small-12 columns h_10 fontRL">
+
+        <!-- menu movil aqui -->
+        <div id="titulo_menu" class="small-12 columns h_10vh fontRL">
 
           <div class="small-9 columns text-center p2">Menú</div>
 
@@ -25,29 +27,29 @@
           </div>
 
         </div>
-        <!-- menu movil aqui -->
-        <nav id="header-menu-escritorio" class="menu vertical columns text-center">
-          <ul class="w_100 h_100 no-bullet">
-            <a href="#" class="columns h_100">
-              <li>Menú 1</li>
+
+        <nav id="header-menu-escritorio" class="menu vertical h_90vh columns text-center">
+          <ul class="w_100 h_100 no-bullet m0">
+            <a href="#" class="columns h_14">
+              <li class="vcenter">Menú 1</li>
             </a>
-            <a href="#" class="columns h_100">
-              <li>Menú 2</li>
+            <a href="#" class="columns h_14">
+              <li class="vcenter">Menú 2</li>
             </a>
-            <a href="#" class="columns h_100">
-              <li>Menú 3</li>
+            <a href="#" class="columns h_14">
+              <li class="vcenter">Menú 3</li>
             </a>
-            <a href="#" class="columns h_100">
-              <li>Menú 4</li>
+            <a href="#" class="columns h_14">
+              <li class="vcenter">Menú 4</li>
             </a>
-            <a href="#" class="columns h_100">
-              <li>Menú 5</li>
+            <a href="#" class="columns h_14">
+              <li class="vcenter">Menú 5</li>
             </a>
-            <a href="#" class="columns h_100">
-              <li>Menú 6</li>
+            <a href="#" class="columns h_14">
+              <li class="vcenter">Menú 6</li>
             </a>
-            <a href="#" class="columns h_100">
-              <li>Menú 7</li>
+            <a href="#" class="columns h_14">
+              <li class="vcenter">Menú 7</li>
             </a>
           </ul>
         </nav>
@@ -63,29 +65,29 @@
 
           <!-- logo offlimits -->
 
-          <div class="small-6 large-4 columns h_100 imgLiquid imgLiquidFill">
+          <div class="small-5 large-3 columns h_100 imgLiquid imgLiquidFill">
             <img src="http://fakeimg.pl/250x100/" alt="" />
           </div>
 
 
           <!-- Este solo aparece en movil -->
-          <div id="header-icono-menu-movil" class="small-6 hide-for-large columns p0 text-right p0 h_100">
+          <div id="header-icono-menu-movil" class="small-7 hide-for-large columns p0 text-right p0 h_100">
             <button type="button" class="button hollow boton-menu-movil vcenter mb0 p0 h_100" data-toggle="offCanvasRight"><i class="fa fa-bars fontRXL"></i></button>
           </div>
 
           <!-- header menu large y large desktop -->
-          <nav id="header-menu-escritorio" class="menu large-8 show-for-large columns align-right">
+          <nav id="header-menu-escritorio" class="menu large-9 show-for-large columns align-right pr0 vcenter">
             <ul class="large-12 h_100 no-bullet text-center">
-              <a href="#" class="large-2 columns columns p2 h_100">
+              <a href="#" class="large-2 columns p2 h_100">
                 <li>Festival</li>
               </a>
-              <a href="#" class="large-3 columns columns p2 h_100">
-                <li>LineUp / Bands</li>
+              <a href="#" class="large-2 columns p2 h_100">
+                <li>Line Up</li>
               </a>
               <a href="#" class="large-1 columns p2 h_100">
                 <li>Blog</li>
               </a>
-              <a href="#" class="large-3 columns p2 h_100">
+              <a href="#" class="large-2 columns p2 h_100">
                 <li>Información</li>
               </a>
               <a href="#" class="large-2 columns p2 h_100">

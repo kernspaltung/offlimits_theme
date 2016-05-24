@@ -3118,6 +3118,10 @@
 * {
   outline: 1px solid brown; }
 
+.h_14 {
+  display: block;
+  height: 14.2%; }
+
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
    * 1. Set default font family to sans-serif.
