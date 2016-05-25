@@ -3114,6 +3114,9 @@
     -webkit-filter: grayscale(0%);
     -moz-filter: grayscale(0%); }
 
+.img-overlay {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAEklEQVQImWNgIBmcOnXKl3RdAI02Aqx7ujt2AAAAAElFTkSuQmCC) repeat; }
+
 /*estilos plataforma festival offlimits*/
 * {
   outline: 1px solid brown; }
@@ -3121,6 +3124,10 @@
 .h_14 {
   display: block;
   height: 14.2%; }
+
+.translate_heroscreen {
+  -ms-transform: translateY(-100%);
+      transform: translateY(-100%); }
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**

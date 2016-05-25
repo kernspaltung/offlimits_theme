@@ -7,10 +7,14 @@
   <!-- <div class="img-overlay h_100 w_100 absUpL z1"></div> -->
 
   <!-- logo -->
-  <div id="heroscreen-logo" class="row w_100 h_100 align-center align-middle abs">
+  <div id="heroscreen-logo-contador" class="columns h_100 align-center align-middle rel z1 translate_heroscreen">
 
-      <div class="columns h_50 imgLiquid imgLiquidNoFill cursor-pointer">
-        <img class="" src="http://loremflickr.com/300/300/offlimits" alt="offlimits MX hardcore festival" />
+      <div id="heroscreen-logo" class="columns h_60 imgLiquid imgLiquidNoFill cursor-pointer">
+        <img class="" src="http://fakeimg.pl/300" alt="offlimits MX hardcore festival" />
+      </div>
+
+      <div id="heroscreen-contador" class="columns h_40 text-center">
+         <div class="columns fontXXXL vcenter">06:06:06</div>
       </div>
 
   </div>
