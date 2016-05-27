@@ -2,12 +2,16 @@
 
 require_once "secciones/heroscreen.php";
 
-require_once "secciones/avisos_destacados.php";
+?>
 
-require_once "secciones/lineup.php";
+<div id="contenido-general" class="large-12 columns p0 m0 ha">
 
-require_once "secciones/festival.php";
+<?php
 
-require_once "secciones/blog.php";
+require_once "secciones/contenidos.php";
 
-require_once "secciones/registro_footer.php";
+require_once "secciones/avisos_destacados_desktop_sticky.php";
+
+?>
+
+</div>

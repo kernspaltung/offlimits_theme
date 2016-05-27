@@ -9,12 +9,14 @@
   <!-- logo -->
   <div id="heroscreen-logo-contador" class="columns h_100 align-center align-middle rel z1 translate_heroscreen">
 
-      <div id="heroscreen-logo" class="columns h_60 imgLiquid imgLiquidNoFill cursor-pointer">
-        <img class="" src="http://fakeimg.pl/300" alt="offlimits MX hardcore festival" />
-      </div>
-
-      <div id="heroscreen-contador" class="columns h_40 text-center">
-         <div class="columns fontXXXL vcenter">06:06:06</div>
-      </div>
+    <div id="heroscreen-logo" class="columns h_60 imgLiquid imgLiquidNoFill cursor-pointer">
+      <img class="" src="http://fakeimg.pl/300" alt="offlimits MX hardcore festival" />
+    </div>
+    
+    <div id="heroscreen-contador" class="columns h_40 text-center">
+      <div class="columns fontXXXL vcenter">06:06:06</div>
+    </div>
 
   </div>
+
+</div>
