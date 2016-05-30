@@ -350,6 +350,10 @@ $screen-lg-min: 1025px;
 	min-height: 100%;
 }
 // VHs
+.minH_10vh {
+	@extend .h;
+	min-height: 10vh;
+}
 .minH_20vh {
 	@extend .h;
 	min-height: 20vh;
