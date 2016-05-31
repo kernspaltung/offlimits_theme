@@ -33,7 +33,7 @@
             <a href="#" class="columns h_14">
               <li class="vcenter">Festival</li>
             </a>
-            <a href="#" class="columns h_14">
+            <a href="#lineup" class="columns h_14">
               <li class="vcenter">LineUp</li>
             </a>
             <a href="#" class="columns h_14">
@@ -81,7 +81,7 @@
               <a href="#" class="large-2 columns p2 h_100">
                 <li>Festival</li>
               </a>
-              <a href="#" class="large-2 columns p2 h_100">
+              <a href="#lineup" class="large-2 columns p2 h_100">
                 <li>LineUp</li>
               </a>
               <a href="#" class="large-1 columns p2 h_100">
@@ -106,4 +106,4 @@
 
 
         <!-- main -->
-        <main id="main" class="small-12 columns h_80vh h_md_70vh m0 p0 scrollH">
+        <main id="main" class="small-12 columns h_80vh h_md_70vh m0 p0 scrollH" data-sticky-container>

@@ -43,7 +43,7 @@
 
         <div class="large-2 columns p2 m0 minH_10vh fontRM bold text-center">
           <div class="vcenter">
-            <i class="fa fa-angle-right"></i>
+            <i class="fa fa-plus"></i>
           </div>
         </div>
 
@@ -61,7 +61,7 @@
           </div>
         </div>
 
-        <div id="avisos-destacados-principal-header" class="small-12 columns p2 m0 ha fontRS">
+        <div id="avisos-destacados-principal-header" class="small-12 columns p2 m0 ha fontRXS">
           <!-- <div class="vcenter"> -->
           Título aviso anterior 1
           Montes ac anomian.
@@ -70,12 +70,16 @@
 
         </div>
 
-        <div class="small-12 columns p2 m0 ha fontRXS">
+        <div class="large-12 columns p2 m0 ha fontRXXS">
           <!-- <div class="vcenter"> -->
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quaerat, sunt dignissimos.
           <!-- </div> -->
         </div>
-
+        <div class="large-12 columns p0 m0 fontRM bold text-center">
+          <div class="vcenter">
+            <i class="fa fa-plus"></i>
+          </div>
+        </div>
       </div>
     </a> <!-- termina primer aviso  -->
 
@@ -89,7 +93,7 @@
           </div>
         </div>
 
-        <div id="avisos-destacados-principal-header" class="small-12 columns p2 m0 ha fontRS">
+        <div id="avisos-destacados-principal-header" class="small-12 columns p2 m0 ha fontRXS">
           <!-- <div class="vcenter"> -->
           Título aviso anterior 2
           Montes ac anomian.
@@ -98,12 +102,16 @@
 
         </div>
 
-        <div class="small-12 columns p2 m0 ha fontRXS">
+        <div class="large-12 columns p2 m0 ha fontRXXS">
           <!-- <div class="vcenter"> -->
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quaerat, sunt dignissimos.
           <!-- </div> -->
         </div>
-
+        <div class="large-12 columns p0 m0 fontRM bold text-center">
+          <div class="vcenter">
+            <i class="fa fa-plus"></i>
+          </div>
+        </div>
       </div>
     </a><!-- termina segundo aviso -->
 

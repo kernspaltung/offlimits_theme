@@ -1,4 +1,4 @@
-<div id="contenido-informacion" class="small-12 large-9 pr0 columns minH_100">
+<div id="contenido-informacion" class="small-12 large-9 p0 columns ha">
 
 <?php
 
