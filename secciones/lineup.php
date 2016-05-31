@@ -20,7 +20,7 @@
 
   </div>
 
-  <div id="lineup_galeria" class="large-12 columns p0 h_90vh">
+  <div id="lineup_galeria" class="large-12 columns p0 ha">
 
     <?php
     $titulo_imagen = array('Banda uno','Banda dos','Banda tres','Banda cuatro','Banda cinco',
@@ -29,7 +29,7 @@
     for ($i=1; $i <= 9; $i++) { ?>
       <div class="columns h_100 p0">
 
-        <div class="small-12 columns p0 h_70vh imgLiquid imgLiquidFill">
+        <div class="small-12 columns p0 h_80vh imgLiquid imgLiquidFill">
 
           <!-- <img src="img/slider/<?php #echo $i; ?>.jpg" alt="" /> -->
           <img class="" src="http://fakeimg.pl/1220x60<?php echo $i; ?>" alt="" />

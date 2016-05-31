@@ -341,6 +341,10 @@ $screen-lg-min: 1025px;
 	@extend .h;
 	min-height: 30%;
 }
+.minH_50 {
+	@extend .h;
+	min-height: 50%;
+}
 .minH_60 {
 	@extend .h;
 	min-height: 60%;

@@ -14,7 +14,7 @@ $(document).ready(function(){
       console.log(target.length + " " + target.offset());
       if (target.length) {
         // $('html, body').animate({
-        $('#contenido-informacion').animate({
+        $('#main').animate({
           scrollTop: target.offset().top
         }, 500);
         return false;
