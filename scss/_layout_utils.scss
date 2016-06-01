@@ -190,6 +190,10 @@ $screen-lg-min: 1025px;
 	@extend .h;
 	height: 20vh;
 }
+.h_22vh {
+	@extend .h;
+	height: 22vh;
+}
 .h_25vh {
 	@extend .h;
 	height: 25vh;

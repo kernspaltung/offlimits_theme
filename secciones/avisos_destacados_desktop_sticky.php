@@ -1,6 +1,6 @@
-<div id="avisos-destacados-sticky-large" class="large-3 columns show-for-large p0 h_100vh right" data-sticky-container>
+<div id="avisos-destacados-sticky-large" class="large-3 columns show-for-large p0 right" data-sticky-container>
 
-  <div id="avisos-destacados-sticky" class="sticky large-12 columns h_100" data-sticky data-margin-top="0">
+  <div id="avisos-destacados-sticky" class="sticky large-12 columns minH_50vh" data-sticky data-margin-top="0">
 
     <!-- noticia destacada principal -->
     <a href="#">
@@ -17,9 +17,9 @@
     </a> <!-- temrina header destacados sticky -->
 
     <a href="#">
-      <div id="avisos-destacados-principal" class="large-12 columns p0 m0 h_50vh">
+      <div id="avisos-destacados-principal" class="large-12 columns p0 m0 min_20vh">
 
-        <div id="avisos-destacados-principal-header" class="large-8 columns p2 m0 ha fontRS">
+        <div id="avisos-destacados-principal-header" class="large-8 columns p1 m0 ha fontRS">
           <div class="vcenter">
           Título aviso principal
           Montes ac anomian futas.
@@ -27,8 +27,7 @@
         </div>
         <div id="avisos-destacados-principal-header-fecha" class="large-4 columns text-center pt1 fontRXS"> 1 January 1970</div>
 
-        <div class="small-12 columns p0 m0 h_50">
-
+        <div class="small-12 columns p0 m0 h_22vh">
           <div id="avisos-destacados-thumb" class="columns h_100 imgLiquid imgLiquidFill cursor-pointer">
             <img class="" src="http://fakeimg.pl/300" alt="" />
           </div>
@@ -54,16 +53,16 @@
 
     <!-- avisos secundarios -->
     <a href="#">
-      <div id="avisos-destacados-secundario" class="large-6 columns p0 m0 h_50vh">
+      <div id="avisos-destacados-secundario" class="large-6 columns p0 m0">
 
 
-        <div class="small-12 columns p0 m0 h_30">
+        <div class="small-12 columns p0 m0 h_12vh">
           <div id="avisos-destacados-thumb" class="columns h_100 imgLiquid imgLiquidFill cursor-pointer">
             <img class="" src="http://fakeimg.pl/150" alt="" />
           </div>
         </div>
 
-        <div id="avisos-destacados-principal-header" class="small-12 columns p2 m0 ha fontRXS">
+        <div id="avisos-destacados-principal-header" class="small-12 columns p1 m0 ha fontRXS">
           <div class="vcenter">
           Título aviso anterior 1
           Montes ac anomian.
@@ -72,11 +71,11 @@
 
         </div>
 
-        <div class="large-12 columns p2 m0 ha fontRXXS">
+        <!-- <div class="large-12 columns p2 m0 ha fontRXXS">
           <div class="vcenter">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quaerat, sunt dignissimos.
           </div>
-        </div>
+        </div> -->
 
         <div class="large-12 columns p2 m0 fontRXS bold text-center">
           <div class="vcenter">
@@ -87,16 +86,16 @@
     </a> <!-- termina primer aviso  -->
 
     <a href="#">
-      <div id="avisos-destacados-secundario" class="large-6 columns p0 m0 h_50vh">
+      <div id="avisos-destacados-secundario" class="large-6 columns p0 m0">
 
 
-        <div class="small-12 columns p0 m0 h_30">
+        <div class="small-12 columns p0 m0 h_12vh">
           <div id="avisos-destacados-thumb" class="columns h_100 imgLiquid imgLiquidFill cursor-pointer">
             <img class="" src="http://fakeimg.pl/150" alt="" />
           </div>
         </div>
 
-        <div id="avisos-destacados-principal-header" class="small-12 columns p2 m0 ha fontRXS">
+        <div id="avisos-destacados-principal-header" class="small-12 columns p1 m0 ha fontRXS">
           <div class="vcenter">
           Título aviso anterior 2
           Montes ac anomian.
@@ -105,11 +104,12 @@
 
         </div>
 
-        <div class="large-12 columns p2 m0 ha fontRXXS">
+        <!-- <div class="large-12 columns p2 m0 ha fontRXXS">
           <div class="vcenter">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quaerat, sunt dignissimos.
           </div>
-        </div>
+        </div> -->
+
         <div class="large-12 columns p2 m0 fontRXS bold text-center">
           <div class="vcenter">
             <i class="fa fa-plus"></i>
