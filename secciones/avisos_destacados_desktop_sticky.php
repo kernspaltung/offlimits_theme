@@ -1,6 +1,6 @@
 <div id="avisos-destacados-sticky-large" class="large-3 columns show-for-large p0 h_100vh right" data-sticky-container>
 
-  <div id="avisos-destacados-sticky" class="large-12 columns sticky pl0 h_100" data-sticky data-margin-top="0">
+  <div id="avisos-destacados-sticky" class="sticky large-12 columns pl0 h_100" data-sticky data-margin-top="0">
 
     <!-- noticia destacada principal -->
     <a href="#">
@@ -49,6 +49,8 @@
 
       </div>
     </a>
+
+
 
     <!-- avisos secundarios -->
     <a href="#">

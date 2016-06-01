@@ -72,7 +72,7 @@
 
           <!-- Este solo aparece en movil -->
           <div id="header-icono-menu-movil" class="small-7 hide-for-large columns p0 text-right p0 h_100">
-            <button type="button" class="button hollow boton-menu-movil vcenter mb0 p0 h_100" data-toggle="offCanvasRight"><i class="fa fa-bars fontRXL"></i></button>
+            <button type="button" class="button hollow boton-menu-movil vcenter mb0 p0 h_100" data-toggle="offCanvasRight"><i class="fa fa-bars fontRXXL"></i></button>
           </div>
 
           <!-- header menu large y large desktop -->

@@ -25,7 +25,7 @@
 
   <div id="festival-contenido" class="large-12 columns p0 h_80vh">
 
-    <div class="small-7 columns h_100 p0">
+    <div class="small-5 medium-7 columns h_100 p0">
 
       <div class="row h_100">
         <!-- <div class="columns align-self-bottom p2"> -->
@@ -41,7 +41,7 @@
     </div>
 
 <!-- poster evento -->
-    <div class="small-5 columns p3 h_100">
+    <div class="small-7 medium-5 columns p3 h_100">
 
       <!-- fondo -->
       <div id="festival-imagen-poster" class="row imgLiquid imgLiquidNoFill h_100 p3" >
