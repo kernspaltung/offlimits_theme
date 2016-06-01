@@ -30,13 +30,13 @@
 
         <nav id="header-menu-escritorio" class="menu vertical h_90vh columns text-center">
           <ul class="w_100 h_100 no-bullet m0">
-            <a href="#" class="columns h_14">
+            <a href="#festival" class="columns h_14">
               <li class="vcenter">Festival</li>
             </a>
             <a href="#lineup" class="columns h_14">
               <li class="vcenter">LineUp</li>
             </a>
-            <a href="#" class="columns h_14">
+            <a href="#blog" class="columns h_14">
               <li class="vcenter">Blog</li>
             </a>
             <a href="#" class="columns h_14">
@@ -78,13 +78,13 @@
           <!-- header menu large y large desktop -->
           <nav id="header-menu-escritorio" class="menu large-9 show-for-large columns align-right pr0 vcenter">
             <ul class="large-12 h_100 no-bullet text-center">
-              <a href="#" class="large-2 columns p2 h_100">
+              <a href="#festival" class="large-2 columns p2 h_100">
                 <li>Festival</li>
               </a>
               <a href="#lineup" class="large-2 columns p2 h_100">
                 <li>LineUp</li>
               </a>
-              <a href="#" class="large-1 columns p2 h_100">
+              <a href="#blog" class="large-1 columns p2 h_100">
                 <li>Blog</li>
               </a>
               <a href="#" class="large-2 columns p2 h_100">
@@ -106,4 +106,4 @@
 
 
         <!-- main -->
-        <main id="main" class="small-12 columns h_80vh h_md_70vh m0 p0 scrollH" data-sticky-container>
+        <main id="main" class="small-12 columns h_80vh h_md_70vh m0 p0 scrollH">

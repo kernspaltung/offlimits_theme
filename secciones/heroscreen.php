@@ -1,9 +1,9 @@
-<div id="heroscreen-fondo" class="large-12 columns p0 m0 h_100">
+<div id="heroscreen-fondo" class="large-12 columns p0 m0 h_80vh">
 
   <!-- fondo -->
   <div id="heroscreen-imagen-fondo" class="expanded row imgLiquidFill imgLiquid h_100 w_100 rel z-1" >
     <!-- <img class="" src="http://loremflickr.com/1220/600/hardcore" alt="offlimits MX hardcore festival" /> -->
-      <img class="" src="http://fakeimg.pl/1920x800" alt="" />  
+      <img class="" src="http://fakeimg.pl/1920x800" alt="" />
   </div>
   <!-- <div class="img-overlay h_100 w_100 absUpL z1"></div> -->
 

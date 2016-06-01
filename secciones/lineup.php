@@ -1,5 +1,6 @@
 <div id="lineup" class="small-12 columns p0 h_100">
 
+<!-- header secciones home -->
   <div id="lineup-header" class="small-12 columns p0 h_10vh">
 
     <a href="">
@@ -20,7 +21,7 @@
 
   </div>
 
-  <div id="lineup_galeria" class="large-12 columns p0 ha">
+  <div id="lineup_galeria" class="large-12 columns p0 h_80vh">
 
     <?php
     $titulo_imagen = array('Banda uno','Banda dos','Banda tres','Banda cuatro','Banda cinco',
