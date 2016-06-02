@@ -24,7 +24,7 @@
 
 <!-- blog ultima -->
   <a href="#">
-    <div id="blog-principal" class="large-12 columns p0 m0 minH_50vh">
+    <article id="blog-principal" class="large-12 columns p0 m0 minH_50vh">
 
       <div id="blog-principal-header" class="small-12 p2 m0 rel">
         <div id="blog-principal-titulo" class="small-8 columns p2 m0 minH_10vh fontRS">
@@ -62,14 +62,14 @@
         </div>
       </div>
 
-    </div>
+    </article>
   </a><!-- termina blog ultima -->
 
 
 
   <!-- blog anteriores 1-->
   <a href="#">
-    <div id="blog-secundario" class="large-6 columns p0 m0 minH_10vh">
+    <article id="blog-secundario" class="large-6 columns p0 m0 minH_10vh">
 
 
       <div class="small-12 columns p0 m0 minH_20vh">
@@ -105,12 +105,12 @@
       </div>
 
 
-    </div>
+    </article>
   </a> <!-- termina blog secundario 1  -->
 
   <!-- blog anteriores 2-->
   <a href="#">
-    <div id="blog-secundario" class="large-6 columns p0 m0 minH_10vh">
+    <article id="blog-secundario" class="large-6 columns p0 m0 minH_10vh">
 
 
       <div class="small-12 columns p0 m0 minH_20vh">
@@ -146,7 +146,7 @@
       </div>
 
 
-    </div>
+    </article>
   </a> <!-- termina blog secundario 2  -->
 
 

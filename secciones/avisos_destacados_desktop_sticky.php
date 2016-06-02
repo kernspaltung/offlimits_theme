@@ -1,6 +1,7 @@
-<div id="avisos-destacados-sticky-large" class="large-3 columns show-for-large p0 right" data-sticky-container>
+<div id="avisos-destacados-sticky-large" class="large-3 columns show-for-large p0 right" ><!-- data-sticky-container -->
 
-  <div id="avisos-destacados-sticky" class="sticky large-12 columns minH_50vh" data-sticky data-margin-top="0">
+  <div id="avisos-destacados-sticky" class="large-12 columns minH_50vh"><!-- class="sticky" data-sticky data-margin-top="0" -->
+
 
     <!-- noticia destacada principal -->
     <a href="#">
@@ -17,7 +18,7 @@
     </a> <!-- temrina header destacados sticky -->
 
     <a href="#">
-      <div id="avisos-destacados-principal" class="large-12 columns p0 m0 min_20vh">
+      <article id="avisos-destacados-principal" class="large-12 columns p0 m0 min_20vh">
 
         <div id="avisos-destacados-principal-header" class="large-8 columns p1 m0 ha fontRS">
           <div class="vcenter">
@@ -46,14 +47,14 @@
           </div>
         </div>
 
-      </div>
+      </article>
     </a>
 
 
 
     <!-- avisos secundarios -->
     <a href="#">
-      <div id="avisos-destacados-secundario" class="large-6 columns p0 m0">
+      <article id="avisos-destacados-secundario" class="large-6 columns p0 m0">
 
 
         <div class="small-12 columns p0 m0 h_12vh">
@@ -82,11 +83,11 @@
             <i class="fa fa-plus"></i>
           </div>
         </div>
-      </div>
+      </article>
     </a> <!-- termina primer aviso  -->
 
     <a href="#">
-      <div id="avisos-destacados-secundario" class="large-6 columns p0 m0">
+      <article id="avisos-destacados-secundario" class="large-6 columns p0 m0">
 
 
         <div class="small-12 columns p0 m0 h_12vh">
@@ -115,7 +116,7 @@
             <i class="fa fa-plus"></i>
           </div>
         </div>
-      </div>
+      </article>
     </a><!-- termina segundo aviso -->
 
 

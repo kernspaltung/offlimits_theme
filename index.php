@@ -1,10 +1,12 @@
 <?php
 
-
-include_once 'header.php';
-
-
-include_once 'home.php';
+get_header();
 
 
-include_once 'footer.php';
+global $mainPages;
+$mainPages = get_pages( array( "child_of" => get_the_id(), "parent" => get_the_id(), 'sort_column' => 'menu_order', 'sort' => 'desc' ));
+
+get_template_part( 'inicio' );
+
+
+get_footer();

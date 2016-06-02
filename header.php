@@ -1,12 +1,21 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" <?php language_attributes(); ?> > <!-- lang="en"  -->
 <head>
-  <meta charset="utf-8">
+  <meta charset="<?php bloginfo( 'charset' ); ?>" />
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Off Limits Festival</title>
-  <link rel="stylesheet" href="css/app.css">
+  <title><?php wp_title(); ?> - <?php bloginfo( 'name' ); ?></title>
+  <!-- <link rel="stylesheet" href="css/app.css"> -->
+  <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS2 Feed" href="<?php bloginfo('rss2_url'); ?>" />
+  <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+
+  <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
+
+
+  <?php wp_head(); ?>
+
 </head>
+
 <body>
 
   <!-- off-canvas menu solo para movil-->

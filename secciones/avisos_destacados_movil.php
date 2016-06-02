@@ -15,7 +15,7 @@
   </a> <!-- termina header destacados -->
 
   <a href="#">
-    <div id="avisos-destacados-principal" class="large-12 columns p0 m0 minH_50vh">
+    <article id="avisos-destacados-principal" class="large-12 columns p0 m0 minH_50vh">
 
       <div id="avisos-destacados-principal-header" class="small-12 p2 m0 rel">
         <div id="avisos-destacados-principal-titulo" class="small-8 columns p2 m0 ha fontRS">
@@ -53,12 +53,12 @@
         </div>
       </div>
 
-    </div>
+    </article>
   </a>
 
   <!-- avisos secundarios -->
   <a href="#">
-    <div id="avisos-destacados-secundario" class="large-6 columns p0 m0 h_50vh">
+    <article id="avisos-destacados-secundario" class="large-6 columns p0 m0 h_50vh">
 
 
       <div class="small-12 columns p0 m0 h_70">
@@ -91,13 +91,13 @@
         </div>
       </div>
 
-    </div>
+    </article>
   </a> <!-- termina primer aviso secundario  -->
 
 
   <!-- segundo aviso secundario  -->
   <a href="#">
-    <div id="avisos-destacados-secundario" class="large-6 columns p0 m0 h_50vh">
+    <article id="avisos-destacados-secundario" class="large-6 columns p0 m0 h_50vh">
 
 
       <div class="small-12 columns p0 m0 h_70">
@@ -130,7 +130,7 @@
         </div>
       </div>
 
-    </div>
+    </article>
   </a><!-- termina segundo aviso secundario-->
 
 
