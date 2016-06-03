@@ -1,4 +1,5 @@
 <?php
+/*Template Name: Inicio*/
 
 // require_once "secciones/heroscreen.php";
 get_template_part('secciones/heroscreen');

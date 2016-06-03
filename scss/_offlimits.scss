@@ -1,6 +1,6 @@
 /*estilos plataforma festival offlimits*/
 * {
-  // outline: 1px solid brown;
+   outline: 1px solid brown;
 }
 
 // altura menus
@@ -9,6 +9,7 @@
   height: 14.2%;
 }
 
-.translate_heroscreen {
+.translate_heroscreen,
+.translate_festival_header {
   transform: translateY( -100%);
 }
