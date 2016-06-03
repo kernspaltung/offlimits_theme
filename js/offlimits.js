@@ -5,12 +5,6 @@ $(document).ready(function(){
   //vcenter
   var u = new FrontEndUtils();
   u.vcenter();
-  // vcenter con resize
-  // $(window).resize(function() {
-  //     u.vcenter();
-  // });
-
-
 
 
   //scroll

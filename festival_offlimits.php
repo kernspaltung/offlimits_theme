@@ -7,7 +7,7 @@ get_header();
 
 <div id="template-festival-header" class="small-12 large-9 columns p0 h_25vh">
 
-<!-- template-festival-fondo header -->
+  <!-- template-festival-fondo header -->
   <div id="template-festival-header-fondo" class="expanded row imgLiquidFill imgLiquid h_100 w_100 rel z-1" >
     <!-- <img class="" src="http://loremflickr.com/1220/600/hardcore" alt="offlimits MX hardcore festival" /> -->
     <img class="" src="http://fakeimg.pl/420x380" alt="" />
@@ -34,32 +34,56 @@ get_header();
     </div>
 
 
-<div id="template-festival-lineup" class="small-12 columns p0">
-    <!-- header seccion lineup -->
-    <div id="template-festival-lineup-header" class="small-12 columns p0 h_10vh">
+    <div id="template-festival-lineup" class="small-12 columns p0">
+      <!-- header seccion lineup -->
+      <div id="template-festival-lineup-header" class="small-12 columns p0 h_10vh">
 
-      <a href="">
+        <a href="">
 
-        <div class="small-9 columns fontRM h_100">
-          <div class="vcenter">
-           Line Up
+          <div class="small-9 columns fontRM h_100">
+            <div class="vcenter">
+              Line Up
+            </div>
           </div>
-        </div>
 
-        <div class="small-3 columns p2 m0 h_100 fontRL text-center">
-          <div class="vcenter">
-            <i class="fa fa-angle-right"></i>
+          <div class="small-3 columns p2 m0 h_100 fontRL text-center">
+            <div class="vcenter">
+              <i class="fa fa-angle-right"></i>
+            </div>
           </div>
-        </div>
 
-      </a>
+        </a>
+
+      </div>
 
     </div>
     <!-- temina header -->
 
 
-</div><!-- row expanded -->
 
+    <div id="template-festival-lineup" class="small-12 columns p0">
+
+      <?php
+      $html;
+      for ($i=0; $i < 16; $i++) {
+
+        $html .= '
+
+        <div id="template-festival-lineup-mosaico" class="small-6 medium-3 columns p0 h_25vh end">
+
+          <div id="template-festival-header-thumb" class="expanded row imgLiquidFill imgLiquid h_100 w_100 rel z-1" >
+            <img class="" src="http://loremflickr.com/240/240/hardcore" alt="offlimits MX hardcore festival" />
+          </div>
+
+        </div>';
+
+      };
+
+      echo $html;
+
+      ?>
+
+    </div>
 
   </div><!-- template-festival-header -->
 
