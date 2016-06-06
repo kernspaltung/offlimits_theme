@@ -19,9 +19,9 @@
 <body>
 
   <!-- off-canvas menu solo para movil-->
-  <div class="off-canvas-wrapper minH_100vh">
+  <div class="off-canvas-wrapper minH_100vh"><!-- cierra en el footer -->
 
-    <div class="off-canvas-wrapper-inner " data-off-canvas-wrapper>
+    <div class="off-canvas-wrapper-inner " data-off-canvas-wrapper><!-- cierra en el footer -->
 
       <div class="off-canvas position-right align-center h_100vh" id="offCanvasRight" data-off-canvas data-position="right">
 
@@ -67,7 +67,7 @@
       </div>
 
       <!-- contenido del sitio -->
-      <div class="off-canvas-content" data-off-canvas-content>
+      <div class="off-canvas-content" data-off-canvas-content><!-- cierra en el footer -->
 
         <!-- header -->
         <header id="header" class="columns h_10vh" >
@@ -82,6 +82,7 @@
           <!-- Este solo aparece en movil -->
           <div id="header-icono-menu-movil" class="small-7 hide-for-large columns p0 text-right p0 h_100">
             <button type="button" class="button hollow boton-menu-movil vcenter mb0 p0 h_100" data-toggle="offCanvasRight"><i class="fa fa-bars fontRXXL"></i></button>
+            <!-- <a class="button hollow boton-menu-movil vcenter mb0 p0 h_100" data-toggle="offCanvasRight"><i class="fa fa-bars fontRXXL"></i></a> -->
           </div>
 
           <!-- header menu large y large desktop -->
