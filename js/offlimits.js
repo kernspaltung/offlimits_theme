@@ -1,9 +1,9 @@
 //mapa
-var latLong = {lat: 13.3755498, lng: -98.1806603};
+var latLong = {lat: 19.4538898, lng: -99.2192209};
 function initMap() {
   var mapDiv = document.getElementById('template-festival-map');
   var map = new google.maps.Map(mapDiv, {
-    zoom: 4,
+    zoom: 14,
     center: latLong,
     // mapTypeId: google.maps.MapTypeId.ROADMAP,
     scrollwheel: false,

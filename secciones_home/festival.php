@@ -45,8 +45,8 @@
 
       <!-- fondo -->
       <div id="festival-imagen-poster" class="row imgLiquid imgLiquidNoFill h_100 p3" >
-        <!-- <img class="" src="http://loremflickr.com/1220/600/hardcore" alt="offlimits MX hardcore festival" /> -->
-        <img class="" src="<?php echo get_stylesheet_directory_uri() ?>/img/1200x600.png" alt="" />
+        <img class="" src="http://loremflickr.com/600/1220/hardcore" alt="offlimits MX hardcore festival" />
+        <!-- <img class="" src="<?php echo get_stylesheet_directory_uri() ?>/img/1200x600.png" alt="" /> -->
       </div>
 
     </div>
