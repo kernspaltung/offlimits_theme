@@ -33,7 +33,7 @@
         <div class="small-12 columns p0 h_80vh imgLiquid imgLiquidFill">
 
           <!-- <img src="img/slider/<?php #echo $i; ?>.jpg" alt="" /> -->
-          <img class="" src="http://fakeimg.pl/1220x60<?php echo $i; ?>" alt="" />
+          <img class="" src="<?php echo get_stylesheet_directory_uri() ?>/img/1200x600.png<?php echo $i; ?>" alt="" />
 
           <div id="img-caption" class="small-12 text-center absDownL fontRXXXL p2"><?php echo $titulo_imagen[$i - 1]?></div>
 

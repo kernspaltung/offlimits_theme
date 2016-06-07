@@ -75,7 +75,7 @@
           <!-- logo offlimits -->
 
           <div class="small-5 large-3 columns h_100 imgLiquid imgLiquidFill">
-            <img src="http://fakeimg.pl/250x100/" alt="" />
+            <img src="<?php echo get_stylesheet_directory_uri() ?>/img/1200x600.png" alt="" />
           </div>
 
 
