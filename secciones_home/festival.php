@@ -5,13 +5,13 @@
 
     <a href="">
 
-      <div class="small-9 columns fontRM h_100">
+      <div class="small-9 columns fontRXL h_100">
         <div class="vcenter">
           Festival Off Limits CDMX
         </div>
       </div>
 
-      <div class="small-3 columns p2 m0 h_100 fontRL text-center">
+      <div class="small-3 columns p2 m0 h_100 fontRXL text-center">
         <div class="vcenter">
           <i class="fa fa-angle-right"></i>
         </div>

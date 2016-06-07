@@ -1,6 +1,6 @@
 <!-- link regresa heroscreen -->
 <div class="small-12 columns minH_10vh">
-  <a href="#heroscreen-fondo">
+  <a href="#main">
     <div class="vcenter fontRXXL bold text-right">
 
       <i class="fa fa-angle-up"></i>
@@ -18,7 +18,7 @@
       <a href="#">
         <div class="vcenter">
           <i class="fa fa-facebook fontRXXL"></i>
-          <p class="fontRM">offlimitsmx</p>
+          <p class="fontRL">offlimitsmx</p>
         </div>
       </a>
     </div>
@@ -49,13 +49,17 @@
     <!-- contacto -->
     <div class="small-12 columns h_50 p2 text-center">
       <a href="#">
-      <i class="fa fa-envelope fontRXXL">&nbsp;&nbsp;<span class="fontRS">contacto@offlimits.mx</span></i>
+      <i class="fa fa-envelope fontRXXL">&nbsp;&nbsp;<span class="fontRM">contacto@offlimits.mx</span></i>
       </a>
-      <p class="columns p2 fontRS">
+      <div class="columns p2 pl6 pr6 fontRM">
+
+        <p class="small-6 small-centered p2 " >
         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Saepe veritatis aspernatur voluptatem tempora, fugiat id similique. Maiores, quia.
         Consectetur adipisicing elit.Lorem ipsum dolor sit amet.
-      </p>
+        </p>
+
+      </div>
 
     </div>
 

@@ -25,7 +25,7 @@ function ol_enqueue_scripts() {
   wp_enqueue_script( 'offlimits-js', get_stylesheet_directory_uri() . '/js/offlimits.js',array('jquery'),'0.01', true );
 
   // para el mapa cambiar api key
-  //  wp_enqueue_script( 'maps-js', 'https://maps.googleapis.com/maps/api/js?callback=initMap', array(), '1', false );
+   wp_enqueue_script( 'maps-js', 'https://maps.googleapis.com/maps/api/js', array(), '1', false );
   //  wp_enqueue_script( 'maps-js', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBpQxyk-9VglJzuX10s8PFkufhjRPpsqy8&callback=initMap', array(), '1', true );
 
   //

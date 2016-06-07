@@ -2707,6 +2707,12 @@
 .pr4 {
   padding-right: 60px !important; }
 
+.pr5 {
+  padding-right: 75px !important; }
+
+.pr6 {
+  padding-right: 90px !important; }
+
 .pl0 {
   padding-left: 0 !important; }
 
@@ -2935,6 +2941,9 @@
   .h_md_70vh {
     display: block;
     height: 70vh !important; }
+  .h_md_80vh {
+    display: block;
+    height: 80vh !important; }
   .h_md_50 {
     display: block;
     height: 50% !important; } }
@@ -3054,22 +3063,22 @@
   font-size: 1vmin; }
 
 .fontRS {
-  font-size: 2vmin; }
+  font-size: 1.75vmin; }
 
 .fontRM {
-  font-size: 3vmin; }
+  font-size: 2vmin; }
 
 .fontRL {
-  font-size: 4vmin; }
+  font-size: 2.5vmin; }
 
 .fontRXL {
-  font-size: 5vmin; }
+  font-size: 3.5vmin; }
 
 .fontRXXL {
-  font-size: 6vmin; }
+  font-size: 4vmin; }
 
 .fontRXXXL {
-  font-size: 7vmin; }
+  font-size: 5vmin; }
 
 .fontRHuge {
   font-size: 30vmin; }
@@ -3149,6 +3158,9 @@
 * {
   outline: 1px solid brown; }
 
+* img {
+  background-color: gray; }
+
 .h_14 {
   display: block;
   height: 14.2%; }
@@ -3156,6 +3168,10 @@
 .altura-servicios {
   display: block;
   height: 16.66%; }
+
+.altura-actividad {
+  display: block;
+  height: 29%; }
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**

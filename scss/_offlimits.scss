@@ -3,6 +3,9 @@
    outline: 1px solid brown;
 }
 
+* img {
+  background-color: gray;
+}
 // altura menus
 .h_14 {
   display: block;
@@ -12,4 +15,9 @@
 .altura-servicios {
   display: block;
   height: 16.66%;
+}
+
+.altura-actividad {
+  display: block;
+  height: 29%;
 }

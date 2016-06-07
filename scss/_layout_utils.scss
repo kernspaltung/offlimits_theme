@@ -12,12 +12,12 @@ $fontHuge:100px;
 $fontRXXXS:0.5vmin;
 $fontRXXS:0.75vmin;
 $fontRXS:1vmin;
-$fontRS:2vmin;
-$fontRM:3vmin;
-$fontRL:4vmin;
-$fontRXL:5vmin;
-$fontRXXL:6vmin;
-$fontRXXXL:7vmin;
+$fontRS:1.75vmin;
+$fontRM:2vmin;
+$fontRL:2.5vmin;
+$fontRXL:3.5vmin;
+$fontRXXL:4vmin;
+$fontRXXXL:5vmin;
 $fontRHuge:30vmin;
 
 /******* FOUNDATION MODS *******/
@@ -668,6 +668,12 @@ $screen-lg-min: 1025px;
 .pr4 {
 	padding-right: $spacing * 4 !important;
 }
+.pr5 {
+	padding-right: $spacing * 5 !important;
+}
+.pr6 {
+	padding-right: $spacing * 6 !important;
+}
 
 
 
@@ -1019,6 +1025,11 @@ $screen-lg-min: 1025px;
 	.h_md_70vh {
 		display: block;
 		height: 70vh !important;
+	}
+
+	.h_md_80vh {
+		display: block;
+		height: 80vh !important;
 	}
 
 	.h_md_50 {
