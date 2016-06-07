@@ -45,7 +45,7 @@
       <div class="small-12 columns p0 m0 minH_50vh">
 
         <div id="blog-thumb" class="columns h_50vh imgLiquid imgLiquidFill cursor-pointer">
-          <img class="" src="http://fakeimg.pl/300" alt="" />
+          <img class="" src="<?php echo get_stylesheet_directory_uri() ?>/img/1200x600.png" alt="" />
         </div>
 
       </div>
@@ -74,7 +74,7 @@
 
       <div class="small-12 columns p0 m0 minH_20vh">
         <div id="blog-thumb" class="columns h_30vh imgLiquid imgLiquidFill cursor-pointer">
-          <img class="" src="http://fakeimg.pl/150" alt="" />
+          <img class="" src="<?php echo get_stylesheet_directory_uri() ?>/img/1200x600.png" alt="" />
         </div>
       </div>
 
@@ -115,7 +115,7 @@
 
       <div class="small-12 columns p0 m0 minH_20vh">
         <div id="blog-thumb" class="columns h_30vh imgLiquid imgLiquidFill cursor-pointer">
-          <img class="" src="http://fakeimg.pl/150" alt="" />
+          <img class="" src="<?php echo get_stylesheet_directory_uri() ?>/img/1200x600.png" alt="" />
         </div>
       </div>
 
