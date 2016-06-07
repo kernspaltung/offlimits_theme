@@ -9,7 +9,7 @@ function initMap() {
     scrollwheel: false,
     navigationControl: true,
     mapTypeControl: true,
-    draggable: false
+    draggable: true
   });
   var marker = new google.maps.Marker({
     position: latLong,

@@ -131,7 +131,7 @@ get_header();
     </div>
 
 
-    <div id="template-festival-map" class="small-6 columns h_70vh">Mapa Aquí</div>
+    <div id="template-festival-map" class="small-6 columns h_70vh h_md_60vh">Mapa Aquí</div>
     <div id="template-festival-map-info" class="small-6 columns h_70vh p3">
       <div class="vcenter p0 fontRXL">
 
