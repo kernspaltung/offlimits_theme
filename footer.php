@@ -9,7 +9,7 @@
   <div class="small-12 large-7 columns h_100 h_md_50">player</div>
 
   <!-- redes footer -->
-  <div class="small-12 large-5 columns fontRXL h_100 h_md_50">
+  <div class="small-12 large-5 columns fontRXXL h_100 h_md_50">
     <div class="small-3 columns h_100 text-center">
       <i class="fa fa-facebook vcenter"></i>
     </div>

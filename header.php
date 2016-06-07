@@ -27,12 +27,12 @@
 
 
         <!-- menu movil aqui -->
-        <div id="titulo_menu" class="small-12 columns h_10vh fontRL">
+        <div id="titulo_menu" class="small-12 columns h_10vh fontRXXL pointer" aria-label="Close menu">
 
-          <div class="small-9 columns text-center p2">Menú</div>
+          <div class="small-9 columns text-center p2 pointer" >Menú</div>
 
-          <div class="small-3 columns p2 text-center" aria-label="Close menu" type="button" data-close="">
-            <span aria-hidden="true"><i class="fa fa-angle-right fontRXXL pointer"></i></span>
+          <div class="small-3 columns p2 text-center" type="button" data-close="">
+            <span aria-hidden="true"><i class="fa fa-angle-right fontRXXXL"></i></span>
           </div>
 
         </div>
@@ -80,9 +80,9 @@
 
 
           <!-- Este solo aparece en movil -->
-          <div id="header-icono-menu-movil" class="small-7 hide-for-large columns p0 text-right p0 h_100">
-            <button type="button" class="button hollow boton-menu-movil vcenter mb0 p0 h_100" data-toggle="offCanvasRight"><i class="fa fa-bars fontRXXL"></i></button>
-            <!-- <a class="button hollow boton-menu-movil vcenter mb0 p0 h_100" data-toggle="offCanvasRight"><i class="fa fa-bars fontRXXL"></i></a> -->
+          <div id="header-icono-menu-movil" class="small-7 hide-for-large columns p0 text-right p0 h_100 pointer" data-toggle="offCanvasRight">
+            <button type="button" class="button hollow boton-menu-movil vcenter mb0 p0 h_100" ><i class="fa fa-bars fontRXXXL"></i></button>
+            <!-- <a class="button hollow boton-menu-movil vcenter mb0 p0 h_100" data-toggle="offCanvasRight"><i class="fa fa-bars fontRXXXL"></i></a> -->
           </div>
 
           <!-- header menu large y large desktop -->
