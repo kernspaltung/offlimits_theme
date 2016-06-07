@@ -39,12 +39,7 @@ get_header();
     </div>
 
 
-    <!-- template-festival-fondo header -->
-    <div id="template-festival-header-fondo" class="expanded row imgLiquidFill imgLiquid h_100 w_100 rel z-1" >
-      <!-- <img class="" src="http://loremflickr.com/1220/600/hardcore" alt="offlimits MX hardcore festival" /> -->
-      <img class="" src="<?php echo get_stylesheet_directory_uri() ?>/img/1200x600.png" alt="" />
-    </div>
-    <!-- template-festival-header -->
+</div>
 
 
 
@@ -399,6 +394,7 @@ get_header();
 
   </div>
   <!-- template festival -->
+
   <?php
 
   get_template_part('secciones_home/avisos_destacados_desktop_sticky');
