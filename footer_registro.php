@@ -1,7 +1,7 @@
 <!-- link regresa heroscreen -->
 <div class="small-12 columns minH_10vh">
-  <a href="#main">
-    <div class="vcenter fontRXXL bold text-right">
+  <a href="#main" class="small-12 h_100">
+    <div class="vcenterx fontRXXL bold text-right">
 
       <i class="fa fa-angle-up"></i>
 
@@ -53,10 +53,9 @@
       </a>
       <div class="columns p2 pl6 pr6 fontRM">
 
-        <p class="small-6 small-centered p2 " >
+        <p class="small-6 small-centered p2 mb0" >
         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Saepe veritatis aspernatur voluptatem tempora, fugiat id similique. Maiores, quia.
-        Consectetur adipisicing elit.Lorem ipsum dolor sit amet.
         </p>
 
       </div>
