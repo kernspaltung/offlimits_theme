@@ -12,7 +12,7 @@
 
     <div class="small-12 columns h_50">
       <div class="small-6 p2 vcenter fontRXXXL">
-        line Up
+        Line Up
       </div>
     </div>
 
