@@ -1,4 +1,4 @@
-<li class="accordion-item is-active" data-accordion-item>
+<li class="small-12 columns accordion-item is-active" data-accordion-item>
 
   <a href="#" class="accordion-title">Puntos de venta</a>
 

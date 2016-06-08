@@ -22,11 +22,14 @@
 
   </div>
 
+<!-- mapa aqui -->
+  <div id="template-festival-map" class="small-6 columns h_70vh h_md_60vh"></div>
 
-  <div id="template-festival-map" class="small-6 columns h_70vh h_md_60vh">Mapa Aquí</div>
   <div id="template-festival-map-info" class="small-6 columns h_70vh p3">
     <div class="vcenter p0 fontRXL">
 
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Consectetur adipisicing elit, Lorem ipsum dolor sit amet.
       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
       Consectetur adipisicing elit, Lorem ipsum dolor sit amet.
 

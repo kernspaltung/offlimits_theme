@@ -1,10 +1,14 @@
-<li class="accordion-item is-active" data-accordion-item>
+<li class="small-12 columns accordion-item is-active" data-accordion-item>
 
   <a href="#" class="accordion-title">Lugar / Venue</a>
 
   <div class="accordion-content" data-tab-content>
 
-    (.small-6.large-12.columns.p3.h_15vh>.vcenter{horario})*8
+    <?php
+
+      get_template_part('secciones_informacion/mapa_informacion');
+
+    ?>
 
   </div>
 
