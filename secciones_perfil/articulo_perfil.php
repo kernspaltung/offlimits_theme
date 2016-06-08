@@ -27,9 +27,9 @@
 
 
     <!-- contenidos perfil -->
-    <div class="small-12 columns p3 m0 fontR minH_10vh">
+    <div class="small-12 columns p2 m0 fontR minH_10vh">
 
-      <div class="small-11 large-10 small-centered large-centered">
+      <div class="small-11 large-10 small-centered large-centered columns mt2">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quaerat, sunt dignissimos.
         A quaerat, sunt dignissimos.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quaerat, sunt dignissimos.
@@ -40,14 +40,14 @@
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quaerat, sunt dignissimos.
         A quaerat, sunt dignissimos.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 
-      <!-- player banda -->
-      <div id="perfil-player-embed" class="small-10 columns small-centered p3 m0 mt2">
+        <!--embed para player banda -->
+        <div id="perfil-player-embed" class="small-12 columns small-centered p0 m0 mt2">
 
-        <iframe class="columns p0" style="border: 0; width: 100%; height: 407px;" src="https://bandcamp.com/EmbeddedPlayer/album=109081833/size=large/bgcol=333333/linkcol=e99708/artwork=small/transparent=true/" seamless>
-          <a href="http://tiniebla.bandcamp.com/album/terror-2">Terror by Tiniebla</a>
-        </iframe>
+          <iframe class="columns p0" style="border: 0; width: 100%; height: 407px;" src="https://bandcamp.com/EmbeddedPlayer/album=109081833/size=large/bgcol=333333/linkcol=e99708/artwork=small/transparent=true/" seamless>
+            <a href="http://tiniebla.bandcamp.com/album/terror-2">Terror by Tiniebla</a>
+          </iframe>
 
-      </div>
+        </div>
 
       </div>
 
