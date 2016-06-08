@@ -29,7 +29,7 @@ get_template_part('secciones_festival/pre_festival');
 
     ## seccion registro
 
-    get_template_part('footer_registro');
+    get_template_part('secciones_compartidas/footer_registro');
 
     ?>
 
@@ -38,7 +38,7 @@ get_template_part('secciones_festival/pre_festival');
 
   <?php
 
-  get_template_part('secciones_home/avisos_destacados_desktop_sticky');
+  get_template_part('secciones_compartidas/avisos_destacados_desktop_sticky');
 
 
   get_footer();
