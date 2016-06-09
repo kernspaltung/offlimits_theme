@@ -3093,10 +3093,10 @@
   font-size: 3.5vmin !important; }
 
 .fontRXXL {
-  font-size: 14vmin !important; }
+  font-size: 5vmin !important; }
 
 .fontRXXXL {
-  font-size: 17vmin !important; }
+  font-size: 6vmin !important; }
 
 .fontRBig {
   font-size: 18vmin !important; }
@@ -3174,22 +3174,6 @@
 
 .img-overlay {
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAEklEQVQImWNgIBmcOnXKl3RdAI02Aqx7ujt2AAAAAElFTkSuQmCC) repeat; }
-
-/*estilos plataforma festival offlimits*/
-* img {
-  background-color: gray; }
-
-.h_14 {
-  display: block;
-  height: 14.2%; }
-
-.altura-servicios {
-  display: block;
-  height: 16.66%; }
-
-.altura-actividad {
-  display: block;
-  height: 29%; }
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
@@ -7790,3 +7774,30 @@ table.hover tr:nth-of-type(even):hover {
 
 .long-delay {
   animation-delay: 700ms !important; }
+
+/*estilos plataforma festival offlimits*/
+* img {
+  background-color: gray; }
+
+.h_14 {
+  display: block;
+  height: 14.2%; }
+
+.altura-servicios {
+  display: block;
+  height: 16.66%; }
+
+.altura-actividad {
+  display: block;
+  height: 29%; }
+
+/****** LAYOUT ******/
+/****** COLORES ******/
+html, body {
+  background-color: #000;
+  color: white; }
+
+.fa, a {
+  color: #FE5000; }
+  .fa:hover, a:hover {
+    color: #ED4000; }

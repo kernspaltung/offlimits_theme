@@ -37,7 +37,7 @@
     <div class="small-12 columns h_60">
 
     <div id="template-festival-actividad-thumb" class="expanded row imgLiquidFill imgLiquid h_100 w_100" >
-      <img class="" src="http://loremflickr.com/540/380/hardcore,live" alt="offlimits MX hardcore festival" />
+      <img class="" src="<?php echo get_stylesheet_directory_uri(); ?>/img/1200x600.png" alt="offlimits MX hardcore festival" />
     </div>
 
     </div>

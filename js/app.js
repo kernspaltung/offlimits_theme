@@ -14,10 +14,10 @@ jQuery(document).ready(function($){
 
       var diferencia_milisegundos = Math.abs( fecha_festival.getTime() - fecha_hoy.getTime() );
 
-      var diferencia_dias = Math.ceil( diferencia_milisegundos / ( un_dia ) );
-      var diferencia_horas = Math.ceil( diferencia_milisegundos / ( una_hora ) );
-      var diferencia_minutos = Math.ceil( diferencia_milisegundos / ( un_minuto ) );
-      var diferencia_segundos = Math.ceil( diferencia_milisegundos / ( un_segundo ) );
+      var diferencia_dias = Math.floor( diferencia_milisegundos / ( un_dia ) );
+      var diferencia_horas = Math.floor( diferencia_milisegundos / ( una_hora ) );
+      var diferencia_minutos = Math.floor( diferencia_milisegundos / ( un_minuto ) );
+      var diferencia_segundos = Math.floor( diferencia_milisegundos / ( un_segundo ) );
 
       var dias_restantes = diferencia_dias;
       var horas_restantes = diferencia_horas % 24;
@@ -26,7 +26,7 @@ jQuery(document).ready(function($){
 
       if( dias_restantes > 10 )
          dias_restantes = ("0" + dias_restantes).slice(-3)
-         
+
       $('#heroscreen-contador-dias').html( dias_restantes );
       $('#heroscreen-contador-horas').html( ("0" + horas_restantes).slice(-2) );
       $('#heroscreen-contador-minutos').html( ("0" + minutos_restantes).slice(-2) );

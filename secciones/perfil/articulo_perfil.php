@@ -10,7 +10,7 @@
 
         <div id="perfil-thumb" class="columns h_100 p0 imgLiquid imgLiquidFill cursor-pointer">
 
-          <img class="" src="http://loremflickr.com/940/480/hardcore,live" alt="offlimits MX hardcore festival" />
+          <img class="" src="<?php echo get_stylesheet_directory_uri(); ?>/img/1200x600.png" alt="offlimits MX hardcore festival" />
           <!-- <img class="" src="<?php echo get_stylesheet_directory_uri() ?>/img/1200x600.png" alt="" /> -->
         </div>
 

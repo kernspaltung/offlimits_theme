@@ -6,7 +6,6 @@
 // agregados
 @import "bower_components/font-awesome/scss/font-awesome";
 @import "layout_utils";
-@import "offlimits";
 //
 @include foundation-global-styles;
 @include foundation-grid;
@@ -54,3 +53,6 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+
+@import "offlimits";

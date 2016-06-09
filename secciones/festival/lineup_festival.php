@@ -24,29 +24,7 @@
 
 
   <?php
-  $html;
-  for ($i=0; $i < 16; $i++) {
-
-    $html .= '
-
-    <div id="template-festival-lineup-mosaico" class="small-6 medium-3 columns p0 h_25vh end">
-
-    <div id="template-festival-header-thumb" class="expanded row imgLiquidFill imgLiquid h_100 w_100 rel z-1" >
-    <img class="" src="http://loremflickr.com/240/240/hardcore,live" alt="offlimits MX hardcore festival" />
-    </div>
-
-    <div id="template-festival-header-menu" class="small-12 p3 text-center fontRXL white h_100 rel z1 translateY-100">
-    <div class="vcenter">
-    Banda de Hardcore
-    </div>
-    </div>
-
-    </div>';
-
-  };
-
-  echo $html;
-
+  get_template_part('secciones/compartidas/mosaico_bandas');
   ?>
 
 </div>  <!-- template festival lineup -->

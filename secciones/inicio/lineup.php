@@ -23,25 +23,8 @@
 
   <div id="lineup_galeria" class="large-12 columns p0 h_80vh">
 
-    <?php
-    $titulo_imagen = array('Banda uno','Banda dos','Banda tres','Banda cuatro','Banda cinco',
-    'Banda seis','Banda siete','Banda ocho','Banda nueve','Banda diez');
-
-    for ($i=1; $i <= 9; $i++) { ?>
-      <div class="columns h_100 p0">
-
-        <div class="small-12 columns p0 h_80vh imgLiquid imgLiquidFill">
-
-          <img src="img/slider/<?php echo $i; ?>.jpg" alt="" />
-          <!-- <img class="" src="<?php echo get_stylesheet_directory_uri() ?>/img/1200x600.png<?php echo $i; ?>" alt="" /> -->
-
-          <div id="img-caption" class="small-12 text-center absDownL fontRXXXL p2"><?php echo $titulo_imagen[$i - 1]?></div>
-
-        </div>
-
-      </div>
-
-      <?php } ?>
-    </div>
+      <?php
+      get_template_part('secciones/compartidas','mosaico_bandas')
+      ?>
 
   </div>

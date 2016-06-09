@@ -21,3 +21,26 @@
   display: block;
   height: 29%;
 }
+
+
+
+/****** LAYOUT ******/
+
+
+/****** COLORES ******/
+
+html, body {
+   background-color: #000;
+   color: white;
+}
+
+
+.fa, a {
+
+   color: #FE5000;
+
+   &:hover {
+      color: #ED4000;
+   }
+
+}
