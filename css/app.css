@@ -2314,7 +2314,7 @@
 .w_100vw {
   width: 100vw; }
 
-.h, .h_1vh, .h_2vh, .h_3vh, .h_5vh, .h_10vh, .h_12vh, .h_15vh, .h_20vh, .h_22vh, .h_25vh, .h_30vh, .h_33vh, .h_35vh, .h_40vh, .h_45vh, .h_50vh, .h_55vh, .h_60vh, .h_65vh, .h_70vh, .h_75vh, .h_77vh, .h_80vh, .h_85vh, .h_89vh, .h_90vh, .h_100vh, .h_10, .h_20, .h_25, .h_33, .h_30, .h_35, .h_40, .h_50, .h_55, .h_60, .h_70, .h_75, .h_80, .h_85, .h_90, .h_100, .h_full, .minH_10, .minH_20, .minH_30, .minH_50, .minH_60, .minH_100, .minH_10vh, .minH_20vh, .minH_50vh, .minH_70vh, .minH_100vh, .maxH_80 {
+.h, .h_1vh, .h_2vh, .h_3vh, .h_5vh, .h_10vh, .h_12vh, .h_15vh, .h_20vh, .h_22vh, .h_25vh, .h_30vh, .h_33vh, .h_35vh, .h_40vh, .h_45vh, .h_50vh, .h_55vh, .h_60vh, .h_65vh, .h_70vh, .h_75vh, .h_77vh, .h_80vh, .h_85vh, .h_89vh, .h_90vh, .h_100vh, .h_10, .h_20, .h_25, .h_33, .h_30, .h_35, .h_40, .h_50, .h_55, .h_60, .h_70, .h_75, .h_80, .h_85, .h_90, .h_100, .h_full, .minH_10, .minH_20, .minH_30, .minH_50, .minH_60, .minH_100, .minH_10vh, .minH_20vh, .minH_30vh, .minH_50vh, .minH_70vh, .minH_100vh, .maxH_80 {
   display: block; }
 
 .ha {
@@ -2472,6 +2472,9 @@
 
 .minH_20vh {
   min-height: 20vh; }
+
+.minH_30vh {
+  min-height: 30vh; }
 
 .minH_50vh {
   min-height: 50vh; }
@@ -2735,7 +2738,7 @@
   padding-left: 90px !important; }
 
 @media screen and (max-width: 640px) {
-  .h, .h_1vh, .h_2vh, .h_3vh, .h_5vh, .h_10vh, .h_12vh, .h_15vh, .h_20vh, .h_22vh, .h_25vh, .h_30vh, .h_33vh, .h_35vh, .h_40vh, .h_45vh, .h_50vh, .h_55vh, .h_60vh, .h_65vh, .h_70vh, .h_75vh, .h_77vh, .h_80vh, .h_85vh, .h_89vh, .h_90vh, .h_100vh, .h_10, .h_20, .h_25, .h_33, .h_30, .h_35, .h_40, .h_50, .h_55, .h_60, .h_70, .h_75, .h_80, .h_85, .h_90, .h_100, .h_full, .minH_10, .minH_20, .minH_30, .minH_50, .minH_60, .minH_100, .minH_10vh, .minH_20vh, .minH_50vh, .minH_70vh, .minH_100vh, .maxH_80 {
+  .h, .h_1vh, .h_2vh, .h_3vh, .h_5vh, .h_10vh, .h_12vh, .h_15vh, .h_20vh, .h_22vh, .h_25vh, .h_30vh, .h_33vh, .h_35vh, .h_40vh, .h_45vh, .h_50vh, .h_55vh, .h_60vh, .h_65vh, .h_70vh, .h_75vh, .h_77vh, .h_80vh, .h_85vh, .h_89vh, .h_90vh, .h_100vh, .h_10, .h_20, .h_25, .h_33, .h_30, .h_35, .h_40, .h_50, .h_55, .h_60, .h_70, .h_75, .h_80, .h_85, .h_90, .h_100, .h_full, .minH_10, .minH_20, .minH_30, .minH_50, .minH_60, .minH_100, .minH_10vh, .minH_20vh, .minH_30vh, .minH_50vh, .minH_70vh, .minH_100vh, .maxH_80 {
     display: block; }
   .h_sm_0 {
     display: block;
@@ -2908,7 +2911,7 @@
     padding-top: 25vh; } }
 
 @media screen and (max-width: 1024px) {
-  .h, .h_1vh, .h_2vh, .h_3vh, .h_5vh, .h_10vh, .h_12vh, .h_15vh, .h_20vh, .h_22vh, .h_25vh, .h_30vh, .h_33vh, .h_35vh, .h_40vh, .h_45vh, .h_50vh, .h_55vh, .h_60vh, .h_65vh, .h_70vh, .h_75vh, .h_77vh, .h_80vh, .h_85vh, .h_89vh, .h_90vh, .h_100vh, .h_10, .h_20, .h_25, .h_33, .h_30, .h_35, .h_40, .h_50, .h_55, .h_60, .h_70, .h_75, .h_80, .h_85, .h_90, .h_100, .h_full, .minH_10, .minH_20, .minH_30, .minH_50, .minH_60, .minH_100, .minH_10vh, .minH_20vh, .minH_50vh, .minH_70vh, .minH_100vh, .maxH_80 {
+  .h, .h_1vh, .h_2vh, .h_3vh, .h_5vh, .h_10vh, .h_12vh, .h_15vh, .h_20vh, .h_22vh, .h_25vh, .h_30vh, .h_33vh, .h_35vh, .h_40vh, .h_45vh, .h_50vh, .h_55vh, .h_60vh, .h_65vh, .h_70vh, .h_75vh, .h_77vh, .h_80vh, .h_85vh, .h_89vh, .h_90vh, .h_100vh, .h_10, .h_20, .h_25, .h_33, .h_30, .h_35, .h_40, .h_50, .h_55, .h_60, .h_70, .h_75, .h_80, .h_85, .h_90, .h_100, .h_full, .minH_10, .minH_20, .minH_30, .minH_50, .minH_60, .minH_100, .minH_10vh, .minH_20vh, .minH_30vh, .minH_50vh, .minH_70vh, .minH_100vh, .maxH_80 {
     display: block; }
   .h_md_0vh {
     display: block;
@@ -3066,37 +3069,40 @@
   font-size: 50px !important; }
 
 .fontHuge {
-  font-size: 100px; }
+  font-size: 100px !important; }
 
 .fontRXXXS {
-  font-size: 0.5vmin; }
+  font-size: 0.5vmin !important; }
 
 .fontRXXS {
-  font-size: 0.75vmin; }
+  font-size: 0.75vmin !important; }
 
 .fontRXS {
-  font-size: 1vmin; }
+  font-size: 1vmin !important; }
 
 .fontRS {
-  font-size: 1.75vmin; }
+  font-size: 1.75vmin !important; }
 
 .fontRM {
-  font-size: 2vmin; }
+  font-size: 2vmin !important; }
 
 .fontRL {
-  font-size: 2.5vmin; }
+  font-size: 2.5vmin !important; }
 
 .fontRXL {
-  font-size: 3.5vmin; }
+  font-size: 3.5vmin !important; }
 
 .fontRXXL {
-  font-size: 4vmin; }
+  font-size: 4vmin !important; }
 
 .fontRXXXL {
-  font-size: 5vmin; }
+  font-size: 5vmin !important; }
+
+.fontRBig {
+  font-size: 18vmin !important; }
 
 .fontRHuge {
-  font-size: 30vmin; }
+  font-size: 30vmin !important; }
 
 .op0 {
   opacity: 0; }
@@ -3170,9 +3176,6 @@
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAEklEQVQImWNgIBmcOnXKl3RdAI02Aqx7ujt2AAAAAElFTkSuQmCC) repeat; }
 
 /*estilos plataforma festival offlimits*/
-* {
-  outline: 1px solid brown; }
-
 * img {
   background-color: gray; }
 
