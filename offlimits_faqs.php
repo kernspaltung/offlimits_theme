@@ -5,7 +5,7 @@ get_header();
 ?>
 
 
-<!-- template festival -->
+<!-- template faqs -->
 <div id="template-festival" class="small-12 large-9 columns p0">
 
 <?php
@@ -20,7 +20,7 @@ get_template_part('secciones/faqs/pregunta');
     ?>
 
   </div>
-  <!-- template festival -->
+  <!-- template faqs -->
 
   <?php
 
