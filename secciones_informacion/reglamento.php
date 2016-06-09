@@ -20,7 +20,6 @@
       <p class="fontRL p2">lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 
       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      <a href="#">+ Info</a>
 
       </p>
 

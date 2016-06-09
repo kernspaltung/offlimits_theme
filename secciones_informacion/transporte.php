@@ -22,7 +22,7 @@
 
           Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          <a class="small-12 columns" href="#">+ Info</a>
 
           </p>
 

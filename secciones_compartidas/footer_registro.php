@@ -1,9 +1,9 @@
 <!-- link regresa heroscreen -->
 <div class="small-12 columns minH_10vh">
   <a href="#main" class="small-12 h_100">
-    <div class="vcenterx fontRXXL bold text-right">
+    <div class="vcenterx fontRXXXL bold text-right">
 
-      <i class="fa fa-angle-up"></i>
+      <i class="fa fa-angle-up bold mr1"></i>
 
     </div>
   </a>

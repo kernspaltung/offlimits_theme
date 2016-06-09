@@ -11,11 +11,11 @@
   <div id="heroscreen-logo-contador" class="columns h_100 align-center align-middle rel z1 translateY-100">
 
     <div id="heroscreen-logo" class="columns h_60 imgLiquid imgLiquidNoFill cursor-pointer">
-      <img class="" src="<?php echo get_stylesheet_directory_uri() ?>/img/1200x600.png" alt="offlimits MX hardcore festival" />
+      <!-- <img class="" src="<?php #echo get_stylesheet_directory_uri() ?>/img/1200x600.png" alt="offlimits MX hardcore festival" /> -->
     </div>
 
     <div id="heroscreen-contador" class="columns h_40 text-center">
-      <div class="columns fontXXXL vcenter">06:06:06</div>
+      <div class="columns fontRBig vcenter">06:06:06</div>
     </div>
 
   </div>
