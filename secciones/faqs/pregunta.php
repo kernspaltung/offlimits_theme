@@ -1,9 +1,3 @@
-<div id="titulo-seccion-faqs" class="small-12 columns h30vh fontRXXXL text-center">
-  <div class="small-12 columns p1">Off Limits FAQs</div>
-  <div class="small-12 columns fontRL p2">Preguntas frecuentes</div>
-
-</div>
-
 <div class="small-12 columns minH_50vh">
 
   <?php

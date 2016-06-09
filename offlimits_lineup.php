@@ -10,6 +10,8 @@ get_header();
 
 <?php
 
+// get_template_part('secciones/compartidas/header_seccion');
+
 get_template_part('secciones/lineup/header_lineup');
 
 

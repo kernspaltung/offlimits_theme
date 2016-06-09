@@ -1,8 +1,3 @@
-<div id="titulo-seccion-faqs" class="small-12 columns h30vh fontRXXXL text-center">
-  <div class="small-12 columns p1">Información</div>
-  <div class="small-12 columns fontRL p2">Off Limits</div>
-
-</div>
   <li class="small-12 columns accordion-item is-active" data-accordion-item>
 
   <a href="#" class="accordion-title fontRXXL">Horario</a>

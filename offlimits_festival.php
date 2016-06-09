@@ -8,7 +8,11 @@ get_header();
 <!-- template festival -->
 <div id="template-festival" class="small-12 large-9 columns p0">
 
+
 <?php
+
+get_template_part('secciones/compartidas/header_seccion');
+
 
 get_template_part('secciones/festival/header_festival');
 

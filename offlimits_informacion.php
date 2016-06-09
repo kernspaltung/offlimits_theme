@@ -2,6 +2,11 @@
 /*Template Name: Información*/
 
 get_header();
+
+
+
+get_template_part('secciones/compartidas/header_seccion');
+
 ?>
 
 
