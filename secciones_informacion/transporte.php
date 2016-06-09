@@ -1,10 +1,42 @@
-<li class="small-12 columns accordion-item is-active" data-accordion-item>
+<li class="small-12 columns accordion-item" data-accordion-item>
 
-  <a href="#" class="accordion-title">Transporte</a>
+  <a href="#" class="accordion-title fontRXXL">Transporte</a>
 
   <div class="accordion-content" data-tab-content>
 
-    .small-12.columns.p0.h_15vh>.vcenter{horario})
+
+        <?php
+
+        $html = '';
+
+        for ($i=1; $i < 5; $i++) {
+
+          $html .=
+          '<div class="small-6 large-12 columns p3 minH_10vh">
+
+          <div class="vcenter fontRL bold p2">'
+
+          . $i . '. Metro Cuatro caminos.
+
+          <p class="fontRL p2">lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+          </p>
+
+          </div>
+          </div>';
+
+
+        };
+
+        echo $html;
+
+        ?>
+
+
 
   </div>
 

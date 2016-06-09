@@ -1,6 +1,6 @@
-<li class="small-12 columns accordion-item is-active" data-accordion-item>
+  <li class="small-12 columns accordion-item is-active" data-accordion-item>
 
-  <a href="#" class="accordion-title">Horario</a>
+  <a href="#" class="accordion-title fontRXXL">Horario</a>
 
   <div class="accordion-content text-center fontRL" data-tab-content>
 

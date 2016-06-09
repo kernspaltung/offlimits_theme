@@ -382,6 +382,10 @@ $screen-lg-min: 1025px;
 	@extend .h;
 	min-height: 20vh;
 }
+.minH_30vh {
+	@extend .h;
+	min-height: 30vh;
+}
 .minH_50vh {
 	@extend .h;
 	min-height: 50vh;
@@ -1226,41 +1230,41 @@ $screen-lg-min: 1025px;
 	font-size: $fontXXXL !important;
 }
 .fontHuge {
-	font-size: $fontHuge;
+	font-size: $fontHuge !important;
 }
 //texto responsivo
 .fontRXXXS {
-	font-size: $fontRXXXS;
+	font-size: $fontRXXXS !important;
 }
 .fontRXXS {
-	font-size: $fontRXXS;
+	font-size: $fontRXXS !important;
 }
 .fontRXS {
-	font-size: $fontRXS;
+	font-size: $fontRXS !important;
 }
 .fontRS {
-	font-size: $fontRS;
+	font-size: $fontRS !important;
 }
 .fontRM {
-	font-size: $fontRM;
+	font-size: $fontRM !important;
 }
 .fontRL {
-	font-size: $fontRL;
+	font-size: $fontRL !important;
 }
 .fontRXL {
-	font-size: $fontRXL;
+	font-size: $fontRXL !important;
 }
 .fontRXXL {
-	font-size: $fontRXXL;
+	font-size: $fontRXXL !important;
 }
 .fontRXXXL {
-	font-size: $fontRXXXL;
+	font-size: $fontRXXXL !important;
 }
 .fontRBig {
-	font-size: $fontRBig;
+	font-size: $fontRBig !important;
 }
 .fontRHuge {
-	font-size: $fontRHuge;
+	font-size: $fontRHuge !important;
 }
 //
 .op0 {
