@@ -6,7 +6,7 @@
 
     <?php
 
-      get_template_part('secciones_informacion/mapa_informacion');
+      get_template_part('secciones/informacion/mapa_informacion');
 
     ?>
 

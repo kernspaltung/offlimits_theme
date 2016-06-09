@@ -12,17 +12,17 @@ get_header();
 
     <?php
 
-    get_template_part('secciones_informacion/horario');
+    get_template_part('secciones/informacion/horario');
 
-    get_template_part('secciones_informacion/costo');
+    get_template_part('secciones/informacion/costo');
 
-    get_template_part('secciones_informacion/lugar');
+    get_template_part('secciones/informacion/lugar');
 
-    get_template_part('secciones_informacion/puntos_de_venta');
+    get_template_part('secciones/informacion/puntos_de_venta');
 
-    get_template_part('secciones_informacion/reglamento');
+    get_template_part('secciones/informacion/reglamento');
 
-    get_template_part('secciones_informacion/transporte');
+    get_template_part('secciones/informacion/transporte');
 
     ?>
 
@@ -31,9 +31,9 @@ get_header();
   <?php
   ## seccion registro
 
-  get_template_part('secciones_inicio/avisos_destacados_movil');
+  get_template_part('secciones/inicio/avisos_destacados_movil');
 
-  get_template_part('secciones_compartidas/footer_registro');
+  get_template_part('secciones/compartidas/footer_registro');
 
   ?>
 
@@ -42,7 +42,7 @@ get_header();
 
 <?php
 
-get_template_part('secciones_compartidas/avisos_destacados_desktop_sticky');
+get_template_part('secciones/compartidas/avisos_destacados_desktop_sticky');
 
 
 get_footer();

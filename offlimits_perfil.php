@@ -10,15 +10,15 @@ get_header();
 
 <?php
 
-get_template_part('secciones_perfil/articulo_perfil');
+get_template_part('secciones/perfil/articulo_perfil');
 
 
-# get_template_part('secciones_perfil/');
+# get_template_part('secciones/perfil/');
 
 
     ## seccion registro
 
-    get_template_part('secciones_compartidas/footer_registro');
+    get_template_part('secciones/compartidas/footer_registro');
 
     ?>
 
@@ -27,7 +27,7 @@ get_template_part('secciones_perfil/articulo_perfil');
 
   <?php
 
-  get_template_part('secciones_compartidas/avisos_destacados_desktop_sticky');
+  get_template_part('secciones/compartidas/avisos_destacados_desktop_sticky');
 
 
   get_footer();
