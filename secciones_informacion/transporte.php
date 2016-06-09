@@ -4,7 +4,7 @@
 
   <div class="accordion-content" data-tab-content>
 
-    (.small-6.large-12.columns.p3.h_15vh>.vcenter{horario})*8
+    .small-12.columns.p0.h_15vh>.vcenter{horario})
 
   </div>
 

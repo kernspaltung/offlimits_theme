@@ -53,10 +53,9 @@
       </a>
       <div class="columns p2 pl6 pr6 fontRM">
 
-        <p class="small-6 small-centered p2 mb0" >
+        <p class="small-10 large-7 small-centered p2 mb0" >
         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Saepe veritatis aspernatur voluptatem tempora, fugiat id similique. Maiores, quia.
-        </p>
+        Saepe veritatis aspernatur voluptatem tempora.
 
       </div>
 
