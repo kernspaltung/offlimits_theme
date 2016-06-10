@@ -3,7 +3,7 @@
 
 <!-- footer + player -->
 
-<footer class="small-12 columns h_10vh h_md_20vh p0">
+<footer class="w_100 expanded black_bg h_10vh h_md_20vh p0 absDownL fixed">
 
   <!-- player -->
   <div class="small-12 large-7 columns h_100 h_md_50">player</div>

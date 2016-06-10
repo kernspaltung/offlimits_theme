@@ -70,7 +70,7 @@
       <div class="off-canvas-content" data-off-canvas-content><!-- cierra en el footer -->
 
         <!-- header -->
-        <header id="header" class="columns h_10vh" >
+        <header id="header" class="columns h_10vh fixed absUpL z1k black_bg">
 
           <!-- logo offlimits -->
 
@@ -116,4 +116,4 @@
 
 
         <!-- main -->
-        <main id="main" class="small-12 columns h_80vh h_md_70vh m0 p0 scrollH">
+        <main id="main" class="small-12 columns m0 pl0 pr0 pt_10vh">

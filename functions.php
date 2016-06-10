@@ -3,6 +3,9 @@
 #el topbar de wp fuera
 add_filter( 'show_admin_bar', '__return_false' );
 
+include_once 'backend/bandas.php';
+include_once 'backend/avisos.php';
+
 
 // estilos
 function ol_enqueue_styles() {
@@ -15,6 +18,9 @@ add_action( 'wp_enqueue_scripts', 'ol_enqueue_styles' );
 // scripts
 function ol_enqueue_scripts() {
   wp_enqueue_style( 'offlimits-css', get_stylesheet_directory_uri() . '/css/app.css' );
+  wp_enqueue_style( 'slick-css', get_stylesheet_directory_uri() . '/bower_components/slick-carousel/slick/slick.css' );
+  wp_enqueue_style( 'slick-theme-css', get_stylesheet_directory_uri() . '/bower_components/slick-carousel/slick/slick-theme.css' );
+
   // wp_enqueue_script( 'jquery', get_stylesheet_directory_uri() . '/bower_components/jquery/dist/jquery.js',array(),'2', false );
   wp_enqueue_script( 'whatinput-js', get_stylesheet_directory_uri() . '/bower_components/what-input/what-input.js',array('jquery'),'0.99', true );
   wp_enqueue_script( 'foundation-js', get_stylesheet_directory_uri() . '/bower_components/foundation-sites/dist/foundation.js',array(),'0.99', true );
@@ -25,7 +31,7 @@ function ol_enqueue_scripts() {
   wp_enqueue_script( 'offlimits-js', get_stylesheet_directory_uri() . '/js/offlimits.js',array('jquery'),'0.01', true );
 
   // para el mapa cambiar api key
-   wp_enqueue_script( 'maps-js', 'https://maps.googleapis.com/maps/api/js', array(), '1', false );
+   // wp_enqueue_script( 'maps-js', 'https://maps.googleapis.com/maps/api/js', array(), '1', false );
   //  wp_enqueue_script( 'maps-js', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBpQxyk-9VglJzuX10s8PFkufhjRPpsqy8&callback=initMap', array(), '1', true );
 
   //
