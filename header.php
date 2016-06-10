@@ -29,7 +29,7 @@
         <!-- menu movil aqui -->
         <div id="titulo_menu" class="small-12 columns h_10vh fontRXXL pointer" aria-label="Close menu" data-close="">
 
-          <div class="small-9 columns text-center p2 pointer vcenter" >Menú</div>
+          <div class="small-9 columns text-center p2 pointer black vcenter" >Menú</div>
 
           <div class="small-3 columns p2 text-center vcenter" type="button">
             <span aria-hidden="true"><i class="fa fa-angle-right fontRXXXL"></i></span>

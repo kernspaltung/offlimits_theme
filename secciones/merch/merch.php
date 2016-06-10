@@ -10,10 +10,10 @@
     $merch .= '<a href="">
     <article id="merch" class="small-12 medium-6 columns p3 minH_10vh">
 
-    <div class="small-12 columns p0 m0 minH_50vh">
+    <div class="small-12 columns p0 m0 h_40vh">
 
-    <div id="avisos-destacados-thumb" class="columns h_40vh imgLiquid imgLiquidFill cursor-pointer">
-    <img class="" src="http://loremflickr.com/1200/440/hardcore" alt="" />
+    <div id="merch-img-producto" class="columns h_100 imgLiquid imgLiquidFill cursor-pointer">
+    <img class="" src="http://loremflickr.com/920/480" alt="" />
     </div>
 
     </div>
@@ -33,34 +33,40 @@
     <ul id="merch-tallas" class="menu horizontal small-12 large-6 columns mt2 fontRL">
 
     <a href="">
-    <li class="small-3 columns h_5vh text-center">S</li>
+    <li class="small-4 columns h_5vh text-center p0">Tallas:&nbsp;</li>
     </a>
     <a href="">
-    <li class="small-3 columns h_5vh text-center">M</li>
+    <li class="small-2 columns h_5vh text-center">S</li>
     </a>
     <a href="">
-    <li class="small-3 columns h_5vh text-center">L</li>
+    <li class="small-2 columns h_5vh text-center">M</li>
     </a>
     <a href="">
-    <li class="small-3 columns h_5vh text-center">XL</li>
+    <li class="small-2 columns h_5vh text-center">L</li>
+    </a>
+    <a href="">
+    <li class="small-2 columns h_5vh text-center">XL</li>
     </a>
 
     </ul>
 
 
-    <ul id="merch-colores" class="menu horizontal small-12 large-6 columns mt2 fontRL">
+    <ul id="merch-colores" class="menu horizontal small-12 large-6 columns mt2 fontRL" end>
 
     <a href="">
-    <li class="small-3 columns h_2vh text-center">Negro</li>
+    <li class="small-4 columns h_5vh text-center p0">Colores:&nbsp;</li>
     </a>
     <a href="">
-    <li class="small-3 columns h_2vh text-center">Rojo</li>
+    <li class="hollow  small-2 columns h_5vh text-center color-producto-negro"></li>
     </a>
     <a href="">
-    <li class="small-3 columns h_2vh text-center">gris</li>
+    <li class="small-2 columns h_5vh text-center color-producto-gris"></li>
     </a>
     <a href="">
-    <li class="small-3 columns h_2vh text-center">Naranja</li>
+    <li class="small-2 columns h_5vh text-center color-producto-azul"></li>
+    </a>
+    <a href="">
+    <li class="small-2 columns h_5vh text-center color-producto-rojo"></li>
     </a>
 
     </ul>

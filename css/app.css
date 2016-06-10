@@ -7756,3 +7756,15 @@ html, body {
   color: #FE5000; }
   .fa:hover, a:hover {
     color: #ED4000; }
+
+.color-producto-negro {
+  background-color: black; }
+
+.color-producto-gris {
+  background-color: gray; }
+
+.color-producto-azul {
+  background-color: blue; }
+
+.color-producto-rojo {
+  background-color: red; }
