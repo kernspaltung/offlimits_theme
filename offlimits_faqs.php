@@ -6,7 +6,7 @@ get_header();
 
 
 <!-- template faqs -->
-<div id="template-festival" class="small-12 large-9 columns p0">
+<div id="festival" class="small-12 large-9 columns p0">
 
 <?php
 

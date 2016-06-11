@@ -1,7 +1,12 @@
 </div>
 
 <?php
-get_template_part('secciones/compartidas/avisos_destacados');
+
+if( ! is_page("Festival") && ! is_page("Información") ) :
+
+   get_template_part('secciones/compartidas/avisos_destacados');
+
+endif;
 ?>
 
 </div>

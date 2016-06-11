@@ -1,9 +1,11 @@
 <!doctype html>
 <html class="no-js" <?php language_attributes(); ?> > <!-- lang="en"  -->
 <head>
+
   <meta charset="<?php bloginfo( 'charset' ); ?>" />
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title><?php wp_title(); ?> - <?php bloginfo( 'name' ); ?></title>
   <!-- <link rel="stylesheet" href="css/app.css"> -->
   <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS2 Feed" href="<?php bloginfo('rss2_url'); ?>" />
@@ -48,15 +50,19 @@
         <header id="header" class="columns h_10vh fixed absUpL z1k black_bg">
 
           <!-- logo offlimits -->
+          <a href="<?php echo site_url(); ?>" class="small-5 large-3 columns h_100">
 
-          <div class="small-5 large-3 columns h_100 imgLiquid imgLiquidFill">
-            <img src="<?php echo get_stylesheet_directory_uri() ?>/img/1200x600.png" alt="" />
-          </div>
+             <div class="h_100 imgLiquid imgLiquidNoFill">
+               <img src="<?php echo get_stylesheet_directory_uri() ?>/img/LogoDT.png" alt="" />
+             </div>
 
+          </a>
 
           <!-- Este solo aparece en movil -->
           <div id="header-icono-menu-movil" class="small-7 hide-for-large columns p0 text-right p0 h_100 pointer" data-toggle="offCanvasRight">
-            <button type="button" class="button black_bg boton-menu-movil vcenter mb0 p0 h_100" ><i class="fa fa-bars fontRXXXL"></i></button>
+            <button type="button" class="button black_bg boton-menu-movil vcenter mb0 p0 h_100" >
+               <i class="fa fa-bars fontRXXXL"></i>
+            </button>
             <!-- <a class="button hollow boton-menu-movil vcenter mb0 p0 h_100" data-toggle="offCanvasRight"><i class="fa fa-bars fontRXXXL"></i></a> -->
           </div>
 
@@ -66,8 +72,8 @@
 
         <!-- main -->
         <main id="main" class="small-12 columns m0 pl0 pr0 pt_10vh">
-           <header id="cabecera_seccion" class="columns p0 h_100">
+           <header id="cabecera_seccion" class="columns p0 h_100 h_sm_a">
               <?php get_template_part('secciones/compartidas/header_seccion'); ?>
            </header>
            <div id="contenido-general" class="columns ha">
-              <div id="area_contenidos" class="small-12 small-pull-12 large-9 p0 columns ha pb5">
+              <div id="area_contenidos" class="small-12 small-pull-12 large-<?php echo ! is_page('Festival') ? 9 : 12; ?> p0 columns ha pb5">

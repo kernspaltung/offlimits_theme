@@ -142,6 +142,28 @@ function FrontEndUtils(){
 		fe.shareH();
 	});
 
+
+
+	this.sameMaxH = function( elements ) {
+		var do_this = true;
+		elements.each(function(){
+			if( $(window).width() > 1024 && $(this).hasClass('noSameH_lg') ){
+				do_this = false;
+			}
+		})
+		if( do_this ) {
+
+			var maxH = 0;
+			elements.each(function(){
+				if( $(this).height() > maxH ){
+					maxH = $(this).height();
+				}
+			})
+
+			elements.height( maxH );
+		}
+
+	}
 }
 
 

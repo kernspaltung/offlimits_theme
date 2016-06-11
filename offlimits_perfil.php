@@ -6,7 +6,7 @@ get_header();
 
 
 <!-- template perfil -->
-<div id="template-perfil" class="small-12 large-9 columns p0">
+<div id="perfil" class="small-12 large-9 columns p0">
 
 <?php
 

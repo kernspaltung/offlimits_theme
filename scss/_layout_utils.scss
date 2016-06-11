@@ -170,9 +170,6 @@ $screen-lg-min: 1025px;
 	display: block;
 }
 
-.ha {
-	height: auto !important;
-}
 
 .h_1vh {
 	@extend .h;
@@ -403,6 +400,61 @@ $screen-lg-min: 1025px;
 	@extend .h;
 	max-height: 80%;
 }
+
+
+.h_a,
+.ha {
+	height: auto !important;
+}
+.w_a,
+.wa {
+	width: auto !important
+}
+.f_l {
+	float: left !important;
+}
+@media screen and ( max-width:640px ){
+	.h_a_sm,
+	.ha_sm {
+		height: auto !important;
+	}
+	.w_a_sm,
+	.wa_sm {
+		width: auto !important
+	}
+	.f_l_sm {
+		float: left !important;
+	}
+}
+
+@media screen and ( min-width:641px ) and ( max-width:1024px ) {
+	.h_a_md,
+	.ha_md {
+		height: auto !important;
+	}
+	.w_a_md,
+	.wa_md {
+		width: auto !important
+	}
+	.f_l_md {
+		float: left !important;
+	}
+}
+
+@media screen and ( min-width:1025px ) {
+	.h_a_lg,
+	.ha_lg {
+		height: auto !important;
+	}
+	.w_a_lg,
+	.wa_lg {
+		width: auto !important
+	}
+	.f_l_lg {
+		float: left !important;
+	}
+}
+
 
 
 
@@ -792,6 +844,10 @@ $screen-lg-min: 1025px;
 		display: block;
 		height: 70vh !important;
 	}
+	.h_sm_75vh {
+		display: block;
+		height: 75vh !important;
+	}
 	.h_sm_80vh {
 		display: block;
 		height: 80vh !important;
@@ -807,6 +863,10 @@ $screen-lg-min: 1025px;
 	.h_sm_100vh {
 		display: block;
 		height: 100vh !important;
+	}
+	.h_sm_160vh {
+		display: block;
+		height: 160vh !important;
 	}
 
 
@@ -1303,6 +1363,13 @@ $screen-lg-min: 1025px;
 
 .txsh1 {
 	text-shadow: 1px 1px 0 black;
+}
+
+.txsh2 {
+	text-shadow: 1px 1px 0 #666;
+}
+.txsh3 {
+	text-shadow: 1px 1px 0 #aaa;
 }
 
 .z-1k {

@@ -17,7 +17,7 @@
       </div>
 
       <!-- titulo -->
-      <div class="small-12 columns p3 fontRBig text-center bold white rel z1 translateY-100">
+      <div class="small-12 columns p3 fontRBig text-center bold white rel z1">
 
         Titulo de banda
 

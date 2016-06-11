@@ -1,9 +1,9 @@
 <!-- contenedor servicios -->
-<div id="template-festival-servicios" class="small-12 large-6 columns p0 h_80vh h_md_70vh">
+<div id="festival-servicios" class="small-12 large-6 columns p0 h_80vh h_md_70vh">
 
 
   <!-- header secciones servicios -->
-  <div id="template-festival-header-servicios" class="small-12 columns p0 h_10vh">
+  <div id="festival-header-servicios" class="small-12 columns p0 h_10vh">
 
     <a href="">
 
@@ -27,7 +27,7 @@
 
   <div class="columns p0 h_70vh h_md_60vh">
     <!-- servicios -->
-    <div id="template-festival-lista-servicios" class="small-12 columns p0 h_100">
+    <div id="festival-lista-servicios" class="small-12 columns p0 h_100">
 
 
       <ul class="small-12 columns p0 m0 h_100 no-bullet end">

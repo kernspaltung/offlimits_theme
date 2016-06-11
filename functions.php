@@ -32,6 +32,9 @@ function ol_enqueue_scripts() {
   wp_enqueue_script( 'front-js', get_stylesheet_directory_uri() . '/js/frontendutils.js',array(),'0.1', true );
   wp_enqueue_script( 'offlimits-js', get_stylesheet_directory_uri() . '/js/offlimits.js',array('jquery'),'0.01', true );
 
+  if( is_page("Inicio") )
+   wp_enqueue_script( 'tiempo_faltante', get_stylesheet_directory_uri() . '/js/tiempo_faltante.js',array('offlimits-js'),'0.01', true );
+
   // para el mapa cambiar api key
    // wp_enqueue_script( 'maps-js', 'https://maps.googleapis.com/maps/api/js', array(), '1', false );
   //  wp_enqueue_script( 'maps-js', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBpQxyk-9VglJzuX10s8PFkufhjRPpsqy8&callback=initMap', array(), '1', true );

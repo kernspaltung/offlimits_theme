@@ -6,27 +6,24 @@ get_header();
 
 
 <!-- template festival -->
-<div id="template-festival" class="small-12 large-9 columns p0">
+<section id="festival" class="columns p0">
 
 
-<?php
+   <?php
 
-get_template_part('secciones/festival/00-header');
-
-
-get_template_part('secciones/festival/01-lineup');
+   get_template_part('secciones/festival/01-lineup');
 
 
-get_template_part('secciones/festival/02-boleto');
+   get_template_part('secciones/festival/02-boletos');
 
 
-get_template_part('secciones/festival/03-mapa');
+   get_template_part('secciones/festival/03-mapa');
 
 
-get_template_part('secciones/festival/04-servicios');
+   get_template_part('secciones/festival/04-servicios');
 
 
-get_template_part('secciones/festival/05-actividades');
+   get_template_part('secciones/festival/05-actividades');
 
 
 // get_template_part('secciones/festival/06-pre');
@@ -37,8 +34,8 @@ get_template_part('secciones/festival/05-actividades');
 
     ?>
 
-  </div>
-  <!-- template festival -->
+</section>
+
 
   <?php
 
