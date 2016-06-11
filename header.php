@@ -56,7 +56,7 @@
 
           <!-- Este solo aparece en movil -->
           <div id="header-icono-menu-movil" class="small-7 hide-for-large columns p0 text-right p0 h_100 pointer" data-toggle="offCanvasRight">
-            <button type="button" class="button hollow boton-menu-movil vcenter mb0 p0 h_100" ><i class="fa fa-bars fontRXXXL"></i></button>
+            <button type="button" class="button black_bg boton-menu-movil vcenter mb0 p0 h_100" ><i class="fa fa-bars fontRXXXL"></i></button>
             <!-- <a class="button hollow boton-menu-movil vcenter mb0 p0 h_100" data-toggle="offCanvasRight"><i class="fa fa-bars fontRXXXL"></i></a> -->
           </div>
 

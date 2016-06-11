@@ -122,6 +122,8 @@ $(document).ready(function(){
 
             }
 
+            $('#offCanvasRight').foundation('close');
+
          }
 
       })
