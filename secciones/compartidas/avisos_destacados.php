@@ -6,7 +6,7 @@ $avisos = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'aviso' ) );
 
 <div id="avisos-destacados" class="small-12 small-pull-12 large-3 columns p0" data-sticky-container>
 
-  <div id="avisos-destacados-sticky" class="sticky" data-sticky data-margin-top="7" data-anchor="area_contenidos" data-sticky-on="large">
+  <div id="avisos-destacados-sticky" class="sticky" data-sticky data-margin-top="3" data-anchor="area_contenidos" data-sticky-on="large">
 
 
     <!-- noticia destacada principal -->

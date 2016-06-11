@@ -19,11 +19,11 @@
     <nav class="menu horizontal small-12 columns h_50 p0">
       <ul class="small-12 columns p0 m0 h_100 fontRL text-center no-bullet">
         <a class="small-4 large-2 columns p0 h_100 h_md_50" href="#"><li class="vcenter">Lineup</li></a>
+        <a class="small-4 large-2 columns p0 h_100 h_md_50" href="#"><li class="vcenter">Boletos</li></a>
         <a class="small-4 large-2 columns p0 h_100 h_md_50" href="#"><li class="vcenter">Venue</li></a>
         <a class="small-4 large-2 columns p0 h_100 h_md_50" href="#"><li class="vcenter">Servicios</li></a>
         <a class="small-4 large-2 columns p0 h_100 h_md_50" href="#"><li class="vcenter">Actividades</li></a>
         <a class="small-4 large-2 columns p0 h_100 h_md_50" href="#"><li class="vcenter">Servicios</li></a>
-        <a class="small-4 large-2 columns p0 h_100 h_md_50" href="#"><li class="vcenter">Información</li></a>
       </ul>
     </nav>
   </div>

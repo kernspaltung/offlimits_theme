@@ -1,13 +1,16 @@
 <div id="festival" class="small-12 columns p0 h_100">
 
-  <!-- header secciones home -->
+  <?php
+  $intro_festival = get_page_by_title("Introducción Festival");
+
+  ?>
   <div id="festival-header" class="small-12 columns p0 h_10vh">
 
     <a href="">
 
       <div class="small-9 columns fontRXL h_100">
         <div class="vcenter">
-          Festival Off Limits CDMX
+          <?php echo apply_filters('the_title',$intro_festival->post_title); ?>
         </div>
       </div>
 
@@ -29,11 +32,9 @@
 
       <div class="row h_100">
         <!-- <div class="columns align-self-bottom p2"> -->
-          <h1 id="festival-titulo-informacion" class="small-12 columns align-bottom p3 pt5 fontRXXXL">
-            Lorem ipsum dolor sit.
-          </h1>
+
           <div id="festival-extracto-informacion" class="small-12 columns align-bottom p3 pb4 fontRL">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam explicabo id qui, voluptatem dolorem praesentium! Ea officiis, veritatis labore nam minus deserunt quasi beatae!
+             <?php echo apply_filters( 'the_content', $intro_festival->post_content ); ?>
           </div>
         <!-- </div> -->
       </div>
@@ -41,12 +42,11 @@
     </div>
 
 <!-- poster evento -->
-    <div class="small-7 medium-5 columns p3 h_100">
+    <div class="small-7 medium-5 columns p5 h_100">
 
       <!-- fondo -->
       <div id="festival-imagen-poster" class="row imgLiquid imgLiquidNoFill h_100 p3" >
-        <img class="" src="<?php echo get_stylesheet_directory_uri(); ?>/img/1200x600.png" alt="offlimits MX hardcore festival" />
-        <!-- <img class="" src="<?php echo get_stylesheet_directory_uri() ?>/img/1200x600.png" alt="" /> -->
+         <?php echo get_the_post_thumbnail( $intro_festival->ID, 'large' ); ?>
       </div>
 
     </div>

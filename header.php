@@ -117,3 +117,8 @@
 
         <!-- main -->
         <main id="main" class="small-12 columns m0 pl0 pr0 pt_10vh">
+           <header id="cabecera_seccion" class="columns p0 h_100">
+              <?php get_template_part('secciones/compartidas/header_seccion'); ?>
+           </header>
+           <div id="contenido-general" class="columns ha">
+              <div id="area_contenidos" class="small-12 small-pull-12 large-9 p0 columns ha pb5">

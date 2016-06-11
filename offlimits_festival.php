@@ -11,25 +11,25 @@ get_header();
 
 <?php
 
-get_template_part('secciones/compartidas/header_seccion');
+get_template_part('secciones/festival/00-header');
 
 
-get_template_part('secciones/festival/header_festival');
+get_template_part('secciones/festival/01-lineup');
 
 
-get_template_part('secciones/festival/lineup_festival');
+get_template_part('secciones/festival/02-boleto');
 
 
-get_template_part('secciones/festival/mapa_festival');
+get_template_part('secciones/festival/03-mapa');
 
 
-get_template_part('secciones/festival/servicios_festival');
+get_template_part('secciones/festival/04-servicios');
 
 
-get_template_part('secciones/festival/actividades_festival');
+get_template_part('secciones/festival/05-actividades');
 
 
-get_template_part('secciones/festival/pre_festival');
+// get_template_part('secciones/festival/06-pre');
 
     ## seccion registro
 
@@ -42,7 +42,6 @@ get_template_part('secciones/festival/pre_festival');
 
   <?php
 
-  get_template_part('secciones/compartidas/avisos_destacados_desktop_sticky');
 
 
   get_footer();
