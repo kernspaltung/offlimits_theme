@@ -6,6 +6,7 @@ add_filter( 'show_admin_bar', '__return_false' );
 include_once 'backend/bandas.php';
 include_once 'backend/avisos.php';
 
+add_theme_support('post-thumbnails');
 
 // estilos
 function ol_enqueue_styles() {
