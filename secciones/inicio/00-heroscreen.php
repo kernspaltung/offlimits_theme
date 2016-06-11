@@ -1,18 +1,14 @@
-<div id="heroscreen-fondo" class="large-12 columns p0 m0 h_80vh">
+<section id="heroscreen" class="columns p0 m0 h_80vh rel">
 
   <!-- fondo -->
-  <div id="heroscreen-imagen-fondo" class="expanded row imgLiquid imgLiquidFill  h_100 w_100 rel z0" >
+  <div id="heroscreen-imagen-fondo" class="expanded row imgLiquid imgLiquidFill  h_100 w_100 absUpL" >
     <img class="" src="<?php echo get_stylesheet_directory_uri(); ?>/img/1200x600.png" alt="offlimits MX hardcore festival" />
-      <!-- <img class="" src="http://fakeimg.pl/1920x800" alt="" /> -->
   </div>
   <!-- <div class="img-overlay h_100 w_100 absUpL z1"></div> -->
 
   <!-- logo -->
-  <div id="heroscreen-logo-contador" class="columns h_100 align-center align-middle rel z1 translateY-100">
+  <div id="heroscreen-logo-contador" class="columns pb4 align-center align-middle absDownL z1">
 
-    <div id="heroscreen-logo" class="columns h_50 imgLiquid imgLiquidNoFill cursor-pointer">
-      <!-- <img class="" src="<?php #echo get_stylesheet_directory_uri() ?>/img/1200x600.png" alt="offlimits MX hardcore festival" /> -->
-    </div>
 
     <div id="heroscreen-contador" class="columns h_50 text-center">
       <div class="small-12 medium-10 medium-centered large-8 large-centered columns fontRXXL  white bold">
@@ -31,9 +27,12 @@
          <span id="heroscreen-contador-minutos-texto" class="contador small-2 small-offset-1 columns text-center fontRS">Minutos</span>
          <span id="heroscreen-contador-segundos-texto" class="contador small-2 small-offset-1 columns text-center end fontRS">Segundos</span>
 
+         <!-- <div id="heroscreen-logo" class="columns h_50 imgLiquid imgLiquidNoFill cursor-pointer absUpL text-center">
+            <img class="" src="<?php echo get_stylesheet_directory_uri() ?>/img/1200x600.png" alt="offlimits MX hardcore festival" />
+         </div> -->
       </div>
     </div>
 
   </div>
 
-</div>
+</section>
