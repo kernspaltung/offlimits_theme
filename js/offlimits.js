@@ -1,21 +1,21 @@
 //mapa
 var latLong = {lat: 19.4538898, lng: -99.2192209};
 function initMap() {
-   var mapDiv = document.getElementById('template-festival-map');
-   var map = new google.maps.Map(mapDiv, {
-      zoom: 14,
-      center: latLong,
-      // mapTypeId: google.maps.MapTypeId.ROADMAP,
-      scrollwheel: false,
-      navigationControl: true,
-      mapTypeControl: true,
-      draggable: true
-   });
-   var marker = new google.maps.Marker({
-      position: latLong,
-      map: map,
-      title: 'Off Limits Festival'
-   });
+   // var mapDiv = document.getElementById('template-festival-map');
+   // var map = new google.maps.Map(mapDiv, {
+   //    zoom: 14,
+   //    center: latLong,
+   //    // mapTypeId: google.maps.MapTypeId.ROADMAP,
+   //    scrollwheel: false,
+   //    navigationControl: true,
+   //    mapTypeControl: true,
+   //    draggable: true
+   // });
+   // var marker = new google.maps.Marker({
+   //    position: latLong,
+   //    map: map,
+   //    title: 'Off Limits Festival'
+   // });
 };
 
 
@@ -90,6 +90,26 @@ $(document).ready(function(){
       }
 
 
+      $(window).resize(function() {
+
+         console.log( $(window).width() )
+
+         if( $(window).width() <= 1024 ) {
+            if( ! $('#avisos-destacados').hasClass('antes') ) {
+               console.log("antes")
+               $('#avisos-destacados').detach().insertBefore('#area_contenidos')
+               $('#avisos-destacados').addClass('antes')
+            }
+         } else {
+            if( $('#avisos-destacados').hasClass('antes') ) {
+               $('#avisos-destacados').detach().insertAfter('#area_contenidos')
+               $('#avisos-destacados').removeClass('antes')
+            }
+         }
+
+      })
+
+      $(window).trigger('resize');
 
    }); //fin ready
 
