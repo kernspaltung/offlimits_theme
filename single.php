@@ -1,10 +1,98 @@
-single post singlesinglesinglesinglesinglesinglesingle
-postpostpostpostpostpostpost
-singlesinglesinglesinglesingle
-postpostpostpostpostpostpost
-singlesinglesinglesingle
-postpostpost
-singlesinglesinglesinglesingle
-postpostpostpostpostpostpost
-singlesinglesinglesingle
-postpostpost
+<?php
+
+get_header();
+?>
+
+
+<div id="single-blog-offlimits" class="small-12 large-9 columns">
+
+
+  <? #php for ($i=0; $i < 6 ; $i++) {
+
+    ?>
+
+    <article class="small-12 columns p0">
+
+      <div id="single-blog-offlimits-thumb" class="expanded row imgLiquidFill imgLiquid h_50vh w_100" >
+
+        <img class="" src="<?php echo get_stylesheet_directory_uri(); ?>/img/1200x600.png" alt="offlimits MX hardcore festival" />
+
+      </div>
+
+      <div id="single-blog-offlimits-titlulo-fecha" class="small-12 columns p0 h_15vh">
+
+        <div class="small-7 columns p2 text-left fontRXXL vcenter">
+
+          Lorem ipsum dolor sit amet.
+
+        </div>
+
+        <div class="small-5 columns p2 text-right fontRM vcenter">
+
+          1 enero 1979
+
+        </div>
+
+      </div>
+
+      <div id="single-blog-offlimits-contenido" class="small-12 columns fontRL text-left p3">
+
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Quidem, repellendus dignissimos doloremque itaque neque maiores corrupti,
+        quos adipisci earum est cumque, natus veniam in labore laboriosam possimus
+        nam dolores delectus.
+        consectetur adipisicing elit. Quidem, repellendus dignissimos doloremque itaque
+        neque maiores corrupti, quos adipisci earum est cumque, natus veniam in labore
+        laboriosam possimus nam dolores delectus.
+        t. Quidem, repellendus dignissimos doloremque itaque neque maiores corrupti,
+        quos adipisci earum est cumque, natus veniam in labore laboriosam possimus
+        nam dolores delectus.
+
+
+      </div>
+
+
+      <div id="single-blog-offlimits-compartir" class="small-12 columns p0 mb3">
+
+        <ul id="merch-colores" class="menu horizontal small-12 large-6 columns mt2" end>
+
+        <a href="">
+        <li class="small-12 columns h_5vh text-left fontRL bold p0">Comparte:&nbsp;</li>
+        </a>
+        <a href="">
+        <li class="small-3 columns h_5vh text-center color-producto-gris"><i class="fa fa-facebook text-center vcenter fontRXL"></i></li>
+        </a>
+        <a href="">
+        <li class="small-3 columns h_5vh text-center color-producto-gris"><i class="fa fa-twitter text-center vcenter fontRXL"></i></li>
+        </a>
+        <a href="">
+        <li class="small-3 columns h_5vh text-center color-producto-gris"><i class="fa fa-instagram text-center vcenter fontRXL"></i></li>
+        </a>
+        <a href="">
+        <li class="small-3 columns h_5vh text-center color-producto-gris"><i class="fa fa-reddit text-center vcenter fontRXL"></i></li>
+        </a>
+
+        </ul>
+
+
+      </div>
+
+
+    </article>
+
+
+    <?php
+
+  #}
+
+  ?>
+
+
+
+</div>
+
+
+<?php
+
+get_footer();
+?>
