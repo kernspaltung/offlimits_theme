@@ -4,12 +4,7 @@ get_header();
 ?>
 
 
-<div id="single-blog-offlimits" class="small-12 large-9 columns">
-
-
-  <? #php for ($i=0; $i < 6 ; $i++) {
-
-    ?>
+<div id="single-blog-offlimits" class="small-12 columns pl0">
 
     <article class="small-12 columns p0">
 
@@ -54,22 +49,22 @@ get_header();
 
       <div id="single-blog-offlimits-compartir" class="small-12 columns p0 mb3">
 
-        <ul id="merch-colores" class="menu horizontal small-12 large-6 columns mt2" end>
+        <ul id="merch-colores" class="menu horizontal small-12 columns mt2" end>
 
         <a href="">
-        <li class="small-12 columns h_5vh text-left fontRL bold p0">Comparte:&nbsp;</li>
+        <li class="small-12 columns p2 text-left fontRL bold p0">Comparte:&nbsp;</li>
         </a>
         <a href="">
-        <li class="small-3 columns h_5vh text-center color-producto-gris"><i class="fa fa-facebook text-center vcenter fontRXL"></i></li>
+        <li class="small-3 columns p3 text-center "><i class="fa fa-facebook text-center vcenter fontRXL"></i></li>
         </a>
         <a href="">
-        <li class="small-3 columns h_5vh text-center color-producto-gris"><i class="fa fa-twitter text-center vcenter fontRXL"></i></li>
+        <li class="small-3 columns p3 text-center "><i class="fa fa-twitter text-center vcenter fontRXL"></i></li>
         </a>
         <a href="">
-        <li class="small-3 columns h_5vh text-center color-producto-gris"><i class="fa fa-instagram text-center vcenter fontRXL"></i></li>
+        <li class="small-3 columns p3 text-center"><i class="fa fa-instagram text-center vcenter fontRXL"></i></li>
         </a>
         <a href="">
-        <li class="small-3 columns h_5vh text-center color-producto-gris"><i class="fa fa-reddit text-center vcenter fontRXL"></i></li>
+        <li class="small-3 columns p3 text-center "><i class="fa fa-reddit text-center vcenter fontRXL"></i></li>
         </a>
 
         </ul>
@@ -79,13 +74,6 @@ get_header();
 
 
     </article>
-
-
-    <?php
-
-  #}
-
-  ?>
 
 
 
