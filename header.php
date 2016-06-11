@@ -37,32 +37,7 @@
 
         </div>
 
-        <nav id="header-menu-escritorio" class="menu vertical h_90vh columns text-center">
-          <ul class="w_100 h_100 no-bullet m0">
-            <a href="#festival" class="columns h_14">
-              <li class="vcenter">Festival</li>
-            </a>
-            <a href="#lineup" class="columns h_14">
-              <li class="vcenter">LineUp</li>
-            </a>
-            <a href="#blog" class="columns h_14">
-              <li class="vcenter">Blog</li>
-            </a>
-            <a href="#" class="columns h_14">
-              <li class="vcenter">Información</li>
-            </a>
-            <a href="#" class="columns h_14">
-              <li class="vcenter">Tienda</li>
-            </a>
-            <a href="#" class="columns h_14">
-              <li class="vcenter">FAQ</li>
-            </a>
-            <a href="#" class="columns h_14">
-              <li class="vcenter">Contacto</li>
-            </a>
-          </ul>
-        </nav>
-
+        <?php wp_nav_menu( array( 'theme_location' => 'menu-principal', 'container' => 'nav', '' ) ); ?>
 
       </div>
 
@@ -85,8 +60,6 @@
             <!-- <a class="button hollow boton-menu-movil vcenter mb0 p0 h_100" data-toggle="offCanvasRight"><i class="fa fa-bars fontRXXXL"></i></a> -->
           </div>
 
-          <!-- header menu large y large desktop -->
-          <?php wp_nav_menu( array( 'theme_location' => 'menu-principal', 'container' => 'nav', '' ) ); ?>
 
         </header>
 

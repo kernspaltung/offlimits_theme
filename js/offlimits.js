@@ -95,20 +95,39 @@ $(document).ready(function(){
 
          if( $(window).width() <= 1024 ) {
             if( ! $('#avisos-destacados').hasClass('antes') ) {
-               console.log("antes")
+
                $('#avisos-destacados').detach().insertBefore('#area_contenidos')
                $('#avisos-destacados').addClass('antes')
+
             }
+
+            if( $('#header nav').hasClass('large') ) {
+
+               $('#header nav').removeClass('large').detach().appendTo('#offCanvasRight');
+
+            }
+
          } else {
+
             if( $('#avisos-destacados').hasClass('antes') ) {
+
                $('#avisos-destacados').detach().insertAfter('#area_contenidos')
                $('#avisos-destacados').removeClass('antes')
+
             }
+
+            if( ! $('#offCanvasRight nav').hasClass('large') ) {
+
+               $('#offCanvasRight nav').addClass('large').detach().appendTo('#header');
+
+            }
+
          }
 
       })
 
       $(window).trigger('resize');
+
 
    }); //fin ready
 

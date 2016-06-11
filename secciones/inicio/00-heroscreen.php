@@ -5,7 +5,9 @@
   <div id="heroscreen-imagen-fondo" class="expanded row imgLiquid imgLiquidFill  h_100 w_100 absUpL" >
      <?php echo get_the_post_thumbnail($portada->ID, 'large'); ?>
   </div>
-  <!-- <div class="img-overlay h_100 w_100 absUpL z1"></div> -->
+  <div id="heroscreen-imagen-fondo" class="expanded row h_100 w_100 absUpL">
+     <div class="img-overlay h_100 w_100 absUpL z1k1"></div>
+   </div>
 
   <!-- logo -->
   <div id="heroscreen-logo-contador" class="columns pb4 align-center align-middle absDownL z1">
