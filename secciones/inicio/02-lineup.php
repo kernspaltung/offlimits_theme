@@ -30,7 +30,7 @@
       for ($i=1; $i <= 9; $i++) :
       ?>
 
-         <div class="banda h_60vh m0 p5 pr5 z0 rel">
+         <div class="banda h_60vh m0 p5 z0 rel">
             <div class="small-12 columns p5 h_60vh imgLiquid imgLiquidFill z0">
                <img class="" src="<?php echo get_stylesheet_directory_uri() ?>/img/1200x600.png" alt="" />
             </div>
