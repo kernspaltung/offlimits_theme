@@ -40,3 +40,19 @@ function ol_enqueue_scripts() {
   }
 }
 add_action( 'wp_enqueue_scripts', 'ol_enqueue_scripts' );
+
+
+
+
+// Menú
+
+
+function add_classes_on_li($classes, $item, $args) {
+  $classes[] = 'small-12 large-2 columns end color_principal uppercase fontM text-center pt1';
+  return $classes;
+}
+add_filter('nav_menu_css_class','add_classes_on_li',1,3);
+function registrar_menus() {
+  register_nav_menu('menu-principal',__( 'Menú principal' ));
+}
+add_action( 'init', 'registrar_menus' );

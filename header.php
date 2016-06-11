@@ -86,31 +86,7 @@
           </div>
 
           <!-- header menu large y large desktop -->
-          <nav id="header-menu-escritorio" class="menu large-9 show-for-large columns align-right pr0 vcenter">
-            <ul class="large-12 h_100 no-bullet text-center">
-              <a href="#festival" class="large-2 columns p2 h_100">
-                <li>Festival</li>
-              </a>
-              <a href="#lineup" class="large-2 columns p2 h_100">
-                <li>LineUp</li>
-              </a>
-              <a href="#blog" class="large-1 columns p2 h_100">
-                <li>Blog</li>
-              </a>
-              <a href="#" class="large-2 columns p2 h_100">
-                <li>Información</li>
-              </a>
-              <a href="#" class="large-2 columns p2 h_100">
-                <li>Tienda</li>
-              </a>
-              <a href="#" class="large-1 columns p2 h_100">
-                <li>FAQ</li>
-              </a>
-              <a href="#" class="large-2 columns p2 h_100">
-                <li>Contacto</li>
-              </a>
-            </ul>
-          </nav>
+          <?php wp_nav_menu( array( 'theme_location' => 'menu-principal', 'container' => 'nav', '' ) ); ?>
 
         </header>
 
