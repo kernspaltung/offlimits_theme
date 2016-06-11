@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Jun 11, 2016 at 06:23 
+-- Generation Time: Jun 11, 2016 at 06:47 
 -- Server version: 5.5.36
 -- PHP Version: 5.4.27
 
@@ -120,7 +120,7 @@ CREATE TABLE IF NOT EXISTS `offlmts_options` (
   `autoload` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'yes',
   PRIMARY KEY (`option_id`),
   UNIQUE KEY `option_name` (`option_name`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci AUTO_INCREMENT=600 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci AUTO_INCREMENT=601 ;
 
 --
 -- Dumping data for table `offlmts_options`
@@ -229,7 +229,7 @@ INSERT INTO `offlmts_options` (`option_id`, `option_name`, `option_value`, `auto
 (102, 'widget_calendar', 'a:1:{s:12:"_multiwidget";i:1;}', 'yes'),
 (103, 'widget_tag_cloud', 'a:1:{s:12:"_multiwidget";i:1;}', 'yes'),
 (104, 'widget_nav_menu', 'a:1:{s:12:"_multiwidget";i:1;}', 'yes'),
-(105, 'cron', 'a:10:{i:1465619803;a:1:{s:32:"woocommerce_cancel_unpaid_orders";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:2:{s:8:"schedule";b:0;s:4:"args";a:0:{}}}}i:1465624521;a:1:{s:30:"wp_scheduled_auto_draft_delete";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1465633441;a:3:{s:16:"wp_version_check";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}s:17:"wp_update_plugins";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}s:16:"wp_update_themes";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}}i:1465633456;a:1:{s:19:"wp_scheduled_delete";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1465645579;a:1:{s:28:"woocommerce_cleanup_sessions";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}}i:1465687933;a:1:{s:24:"tribe_common_log_cleanup";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1465688779;a:1:{s:30:"woocommerce_tracker_send_event";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1465689600;a:2:{s:16:"qsot_daily_stats";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}s:27:"woocommerce_scheduled_sales";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1467676800;a:1:{s:25:"woocommerce_geoip_updater";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:7:"monthly";s:4:"args";a:0:{}s:8:"interval";i:2635200;}}}s:7:"version";i:2;}', 'yes'),
+(105, 'cron', 'a:10:{i:1465623424;a:1:{s:32:"woocommerce_cancel_unpaid_orders";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:2:{s:8:"schedule";b:0;s:4:"args";a:0:{}}}}i:1465624521;a:1:{s:30:"wp_scheduled_auto_draft_delete";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1465633441;a:3:{s:16:"wp_version_check";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}s:17:"wp_update_plugins";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}s:16:"wp_update_themes";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}}i:1465633456;a:1:{s:19:"wp_scheduled_delete";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1465645579;a:1:{s:28:"woocommerce_cleanup_sessions";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}}i:1465687933;a:1:{s:24:"tribe_common_log_cleanup";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1465688779;a:1:{s:30:"woocommerce_tracker_send_event";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1465689600;a:2:{s:16:"qsot_daily_stats";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}s:27:"woocommerce_scheduled_sales";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1467676800;a:1:{s:25:"woocommerce_geoip_updater";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:7:"monthly";s:4:"args";a:0:{}s:8:"interval";i:2635200;}}}s:7:"version";i:2;}', 'yes'),
 (138, '_transient_twentysixteen_categories', '1', 'yes'),
 (140, 'current_theme', 'Off Limits Festival MX', 'yes'),
 (141, 'theme_mods_offlimits', 'a:1:{i:0;b:0;}', 'yes'),
@@ -477,7 +477,7 @@ CREATE TABLE IF NOT EXISTS `offlmts_postmeta` (
   PRIMARY KEY (`meta_id`),
   KEY `post_id` (`post_id`),
   KEY `meta_key` (`meta_key`(191))
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci AUTO_INCREMENT=239 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci AUTO_INCREMENT=252 ;
 
 --
 -- Dumping data for table `offlmts_postmeta`
@@ -492,14 +492,14 @@ INSERT INTO `offlmts_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) 
 (19, 14, '_wp_attached_file', '2016/04/propa.jpg'),
 (20, 14, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:621;s:6:"height";i:960;s:4:"file";s:17:"2016/04/propa.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:17:"propa-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:17:"propa-194x300.jpg";s:5:"width";i:194;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"1";s:8:"keywords";a:0:{}}}'),
 (23, 16, '_edit_last', '1'),
-(24, 16, '_edit_lock', '1465618181:1'),
+(24, 16, '_edit_lock', '1465620253:1'),
 (32, 34, '_edit_last', '1'),
-(33, 34, '_edit_lock', '1465618173:1'),
+(33, 34, '_edit_lock', '1465620253:1'),
 (34, 35, '_wp_attached_file', '2016/04/ilustracion.jpg'),
 (35, 35, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:923;s:6:"height";i:1097;s:4:"file";s:23:"2016/04/ilustracion.jpg";s:5:"sizes";a:4:{s:9:"thumbnail";a:4:{s:4:"file";s:23:"ilustracion-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:23:"ilustracion-252x300.jpg";s:5:"width";i:252;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:23:"ilustracion-768x913.jpg";s:5:"width";i:768;s:6:"height";i:913;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:24:"ilustracion-862x1024.jpg";s:5:"width";i:862;s:6:"height";i:1024;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}'),
 (39, 34, '_wp_old_slug', 'test-2'),
 (42, 39, '_edit_last', '1'),
-(43, 39, '_edit_lock', '1465618166:1'),
+(43, 39, '_edit_lock', '1465619841:1'),
 (51, 34, '_oembed_83a9475f28389a961c7cc7e06bea4be7', '<iframe width="500" height="281" src="https://www.youtube.com/embed/LyduuZNSLEs?feature=oembed" frameborder="0" allowfullscreen></iframe>'),
 (52, 34, '_oembed_time_83a9475f28389a961c7cc7e06bea4be7', '1465618178'),
 (53, 48, '_wp_page_template', 'qsot-calendar.php'),
@@ -650,29 +650,42 @@ INSERT INTO `offlmts_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) 
 (210, 66, '_wp_trash_meta_time', '1465523576'),
 (211, 66, '_wp_desired_post_slug', 'inicio-2'),
 (212, 70, '_edit_last', '1'),
-(213, 70, '_edit_lock', '1465581946:1'),
+(213, 70, '_edit_lock', '1465620254:1'),
 (214, 70, '_wp_page_template', 'default'),
 (215, 72, '_edit_last', '1'),
-(216, 72, '_edit_lock', '1465582461:1'),
+(216, 72, '_edit_lock', '1465620252:1'),
 (217, 73, '_wp_attached_file', '2016/06/ilustracion.jpeg'),
 (218, 73, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:703;s:6:"height";i:836;s:4:"file";s:24:"2016/06/ilustracion.jpeg";s:5:"sizes";a:5:{s:9:"thumbnail";a:4:{s:4:"file";s:24:"ilustracion-150x150.jpeg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:24:"ilustracion-252x300.jpeg";s:5:"width";i:252;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:14:"shop_thumbnail";a:4:{s:4:"file";s:24:"ilustracion-180x180.jpeg";s:5:"width";i:180;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}s:12:"shop_catalog";a:4:{s:4:"file";s:24:"ilustracion-300x300.jpeg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:11:"shop_single";a:4:{s:4:"file";s:24:"ilustracion-600x600.jpeg";s:5:"width";i:600;s:6:"height";i:600;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}'),
 (219, 72, '_thumbnail_id', '73'),
 (220, 74, '_edit_last', '1'),
-(221, 74, '_edit_lock', '1465582474:1'),
+(221, 74, '_edit_lock', '1465620252:1'),
 (222, 74, '_thumbnail_id', '73'),
 (223, 75, '_edit_last', '1'),
-(224, 75, '_edit_lock', '1465582484:1'),
+(224, 75, '_edit_lock', '1465620251:1'),
 (225, 75, '_thumbnail_id', '73'),
 (226, 76, '_edit_last', '1'),
-(227, 76, '_edit_lock', '1465618802:1'),
+(227, 76, '_edit_lock', '1465619880:1'),
 (228, 76, '_wp_page_template', 'default'),
 (229, 79, '_edit_last', '1'),
 (230, 79, '_wp_page_template', 'default'),
-(231, 79, '_edit_lock', '1465618064:1'),
+(231, 79, '_edit_lock', '1465620253:1'),
 (232, 76, '_thumbnail_id', '73'),
 (233, 39, '_thumbnail_id', '73'),
 (235, 34, '_thumbnail_id', '73'),
-(237, 16, '_thumbnail_id', '73');
+(237, 16, '_thumbnail_id', '73'),
+(239, 70, '_thumbnail_id', '73'),
+(240, 91, '_edit_last', '1'),
+(241, 91, '_wp_page_template', 'default'),
+(242, 91, '_edit_lock', '1465619905:1'),
+(243, 93, '_edit_last', '1'),
+(244, 93, '_edit_lock', '1465620255:1'),
+(245, 93, '_thumbnail_id', '73'),
+(246, 94, '_edit_last', '1'),
+(247, 94, '_edit_lock', '1465620254:1'),
+(248, 94, '_thumbnail_id', '73'),
+(249, 95, '_edit_last', '1'),
+(250, 95, '_edit_lock', '1465620253:1'),
+(251, 95, '_thumbnail_id', '73');
 
 -- --------------------------------------------------------
 
@@ -710,7 +723,7 @@ CREATE TABLE IF NOT EXISTS `offlmts_posts` (
   KEY `type_status_date` (`post_type`,`post_status`,`post_date`,`ID`),
   KEY `post_parent` (`post_parent`),
   KEY `post_author` (`post_author`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci AUTO_INCREMENT=90 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci AUTO_INCREMENT=96 ;
 
 --
 -- Dumping data for table `offlmts_posts`
@@ -777,7 +790,7 @@ INSERT INTO `offlmts_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, 
 (67, 1, '2016-06-09 02:56:33', '2016-06-09 02:56:33', '', 'Inicio', '', 'inherit', 'closed', 'closed', '', '66-revision-v1', '', '', '2016-06-09 02:56:33', '2016-06-09 02:56:33', '', 66, 'http://localhost/web/kernspaltung/offlimits/index.php/2016/06/09/66-revision-v1/', 0, 'revision', '', 0),
 (68, 1, '2016-06-09 02:56:42', '2016-06-09 02:56:42', '', 'Festival', '', 'publish', 'closed', 'closed', '', 'festival', '', '', '2016-06-09 02:56:43', '2016-06-09 02:56:43', '', 0, 'http://localhost/web/kernspaltung/offlimits/?page_id=68', 0, 'page', '', 0),
 (69, 1, '2016-06-09 02:56:43', '2016-06-09 02:56:43', '', 'Festival', '', 'inherit', 'closed', 'closed', '', '68-revision-v1', '', '', '2016-06-09 02:56:43', '2016-06-09 02:56:43', '', 68, 'http://localhost/web/kernspaltung/offlimits/index.php/2016/06/09/68-revision-v1/', 0, 'revision', '', 0),
-(70, 1, '2016-06-10 01:53:09', '2016-06-10 01:53:09', '', 'Portada', '', 'publish', 'closed', 'closed', '', 'portada', '', '', '2016-06-10 01:53:09', '2016-06-10 01:53:09', '', 6, 'http://localhost/web/kernspaltung/offlimits/?page_id=70', 0, 'page', '', 0),
+(70, 1, '2016-06-10 01:53:09', '2016-06-10 01:53:09', '', 'Portada', '', 'publish', 'closed', 'closed', '', 'portada', '', '', '2016-06-11 04:39:58', '2016-06-11 04:39:58', '', 6, 'http://localhost/web/kernspaltung/offlimits/?page_id=70', 0, 'page', '', 0),
 (71, 1, '2016-06-10 01:53:09', '2016-06-10 01:53:09', '', 'Portada', '', 'inherit', 'closed', 'closed', '', '70-revision-v1', '', '', '2016-06-10 01:53:09', '2016-06-10 01:53:09', '', 70, 'http://localhost/web/kernspaltung/offlimits/70-revision-v1/', 0, 'revision', '', 0),
 (72, 1, '2016-06-10 18:12:54', '2016-06-10 18:12:54', '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit</b>.</p>\r\n\r\n<p>Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. <b>Mauris massa</b>. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor.</p>\r\n\r\n', 'Boletos en Preventa', '', 'publish', 'open', 'closed', '', 'boletos-en-preventa', '', '', '2016-06-10 18:13:20', '2016-06-10 18:13:20', '', 0, 'http://localhost/web/kernspaltung/offlimits/?post_type=aviso&#038;p=72', 0, 'aviso', '', 0),
 (73, 1, '2016-06-10 18:12:50', '2016-06-10 18:12:50', '', 'ilustracion', '', 'inherit', 'open', 'closed', '', 'ilustracion-2', '', '', '2016-06-10 18:12:50', '2016-06-10 18:12:50', '', 72, 'http://localhost/web/kernspaltung/offlimits/wp-content/uploads/2016/06/ilustracion.jpeg', 0, 'attachment', 'image/jpeg', 0),
@@ -797,7 +810,13 @@ INSERT INTO `offlmts_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, 
 (86, 1, '2016-06-11 04:18:37', '2016-06-11 04:18:37', '<h1>Festival de hardcore, punk, metal y música extrema.</h1>\r\n\r\n<p>Con la idea de proponer una mezcla de sonidos trascentes en nuestros tiempos, surge Off Limits.</p>\r\n\r\n<p>Este 17 de septiembre se conjuntará talento internacional y local para mostrar la persistencia de la cultura musical.</p>\r\n\r\n<div class="small-6 p3">\r\n<p>Visita la página del Festival para conocer más bandas, horarios, actividades, etc.</p>\r\n<button class="button">Ir a Festival</button>\r\n</div>\r\n\r\n<div class="small-6 p3">\r\n<p>Visita la página de Información para conocer costos, información logística, etc.</p>\r\n<button class="button">Ir a Información</button>\r\n</div>', 'Introducción Festival', '', 'inherit', 'closed', 'closed', '', '76-revision-v1', '', '', '2016-06-11 04:18:37', '2016-06-11 04:18:37', '', 76, 'http://localhost/web/kernspaltung/offlimits/76-revision-v1/', 0, 'revision', '', 0),
 (87, 1, '2016-06-11 04:19:15', '2016-06-11 04:19:15', '<h1>Festival de hardcore, punk, metal y música extrema.</h1>\r\n\r\n<p>Con la idea de proponer una mezcla de sonidos trascentes en nuestros tiempos, surge Off Limits.</p>\r\n\r\n<p>Este 17 de septiembre se conjuntará talento internacional y local para mostrar la persistencia de la cultura musical.</p>\r\n\r\n<div class="small-6 columns p3">\r\n<p>Visita la página del Festival para conocer más bandas, horarios, actividades, etc.</p>\r\n<button class="button">Ir a Festival</button>\r\n</div>\r\n\r\n<div class="small-6 columns p3">\r\n<p>Visita la página de Información para conocer costos, información logística, etc.</p>\r\n<button class="button">Ir a Información</button>\r\n</div>', 'Introducción Festival', '', 'inherit', 'closed', 'closed', '', '76-revision-v1', '', '', '2016-06-11 04:19:15', '2016-06-11 04:19:15', '', 76, 'http://localhost/web/kernspaltung/offlimits/76-revision-v1/', 0, 'revision', '', 0),
 (88, 1, '2016-06-11 04:19:53', '2016-06-11 04:19:53', '<h1>Festival de hardcore, punk, metal y música extrema.</h1>\r\n\r\n<p>Con la idea de proponer una mezcla de sonidos trascentes en nuestros tiempos, surge Off Limits.</p>\r\n\r\n<p>Este 17 de septiembre se conjuntará talento internacional y local para mostrar la persistencia de la cultura musical.</p>\r\n\r\n<div class="small-6 columns p3">\r\n<p>Visita la página del Festival para conocer las bandas, horarios, actividades, etc.</p>\r\n<button class="button">Ir a Festival</button>\r\n</div>\r\n\r\n<div class="small-6 columns p3">\r\n<p>Visita la página de Información para ver costos, información logística, etc.</p>\r\n<button class="button">Ir a Información</button>\r\n</div>', 'Introducción Festival', '', 'inherit', 'closed', 'closed', '', '76-revision-v1', '', '', '2016-06-11 04:19:53', '2016-06-11 04:19:53', '', 76, 'http://localhost/web/kernspaltung/offlimits/76-revision-v1/', 0, 'revision', '', 0),
-(89, 1, '2016-06-11 04:20:02', '2016-06-11 04:20:02', '<h1>Festival de hardcore, punk, metal y música extrema.</h1>\r\n\r\n<p>Con la idea de proponer una mezcla de sonidos trascentes en nuestros tiempos, surge Off Limits.</p>\r\n\r\n<p>Este 17 de septiembre se conjuntará talento internacional y local para mostrar la persistencia de la cultura musical.</p>\r\n\r\n<div class="small-6 columns p3 fontM">\r\n<p>Visita la página del Festival para conocer las bandas, horarios, actividades, etc.</p>\r\n<button class="button">Ir a Festival</button>\r\n</div>\r\n\r\n<div class="small-6 columns p3 fontM">\r\n<p>Visita la página de Información para ver costos, información logística, etc.</p>\r\n<button class="button">Ir a Información</button>\r\n</div>', 'Introducción Festival', '', 'inherit', 'closed', 'closed', '', '76-revision-v1', '', '', '2016-06-11 04:20:02', '2016-06-11 04:20:02', '', 76, 'http://localhost/web/kernspaltung/offlimits/76-revision-v1/', 0, 'revision', '', 0);
+(89, 1, '2016-06-11 04:20:02', '2016-06-11 04:20:02', '<h1>Festival de hardcore, punk, metal y música extrema.</h1>\r\n\r\n<p>Con la idea de proponer una mezcla de sonidos trascentes en nuestros tiempos, surge Off Limits.</p>\r\n\r\n<p>Este 17 de septiembre se conjuntará talento internacional y local para mostrar la persistencia de la cultura musical.</p>\r\n\r\n<div class="small-6 columns p3 fontM">\r\n<p>Visita la página del Festival para conocer las bandas, horarios, actividades, etc.</p>\r\n<button class="button">Ir a Festival</button>\r\n</div>\r\n\r\n<div class="small-6 columns p3 fontM">\r\n<p>Visita la página de Información para ver costos, información logística, etc.</p>\r\n<button class="button">Ir a Información</button>\r\n</div>', 'Introducción Festival', '', 'inherit', 'closed', 'closed', '', '76-revision-v1', '', '', '2016-06-11 04:20:02', '2016-06-11 04:20:02', '', 76, 'http://localhost/web/kernspaltung/offlimits/76-revision-v1/', 0, 'revision', '', 0),
+(90, 1, '2016-06-11 04:40:24', '0000-00-00 00:00:00', '', 'Borrador automático', '', 'auto-draft', 'closed', 'closed', '', '', '', '', '2016-06-11 04:40:24', '0000-00-00 00:00:00', '', 0, 'http://localhost/web/kernspaltung/offlimits/?page_id=90', 0, 'page', '', 0),
+(91, 1, '2016-06-11 04:40:39', '2016-06-11 04:40:39', '', 'Avisos', '', 'publish', 'closed', 'closed', '', 'avisos', '', '', '2016-06-11 04:40:39', '2016-06-11 04:40:39', '', 0, 'http://localhost/web/kernspaltung/offlimits/?page_id=91', 0, 'page', '', 0),
+(92, 1, '2016-06-11 04:40:39', '2016-06-11 04:40:39', '', 'Avisos', '', 'inherit', 'closed', 'closed', '', '91-revision-v1', '', '', '2016-06-11 04:40:39', '2016-06-11 04:40:39', '', 91, 'http://localhost/web/kernspaltung/offlimits/91-revision-v1/', 0, 'revision', '', 0),
+(93, 1, '2016-06-11 04:41:40', '2016-06-11 04:41:40', '', 'Una Banda', '', 'publish', 'open', 'closed', '', 'una-banda', '', '', '2016-06-11 04:41:40', '2016-06-11 04:41:40', '', 0, 'http://localhost/web/kernspaltung/offlimits/?post_type=banda&#038;p=93', 0, 'banda', '', 0),
+(94, 1, '2016-06-11 04:42:00', '2016-06-11 04:42:00', '', 'Otra Banda', '', 'publish', 'open', 'closed', '', 'otra-banda', '', '', '2016-06-11 04:42:00', '2016-06-11 04:42:00', '', 0, 'http://localhost/web/kernspaltung/offlimits/?post_type=banda&#038;p=94', 0, 'banda', '', 0),
+(95, 1, '2016-06-11 04:42:15', '2016-06-11 04:42:15', '', 'Una Banda Más', '', 'publish', 'open', 'closed', '', 'una-banda-mas', '', '', '2016-06-11 04:42:15', '2016-06-11 04:42:15', '', 0, 'http://localhost/web/kernspaltung/offlimits/?post_type=banda&#038;p=95', 0, 'banda', '', 0);
 
 -- --------------------------------------------------------
 

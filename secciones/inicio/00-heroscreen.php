@@ -1,8 +1,9 @@
+<?php $portada = get_page_by_title("Portada"); ?>
 <section id="heroscreen" class="columns p0 m0 h_80vh rel">
 
   <!-- fondo -->
   <div id="heroscreen-imagen-fondo" class="expanded row imgLiquid imgLiquidFill  h_100 w_100 absUpL" >
-    <img class="" src="<?php echo get_stylesheet_directory_uri(); ?>/img/1200x600.png" alt="offlimits MX hardcore festival" />
+     <?php echo get_the_post_thumbnail($portada->ID, 'large'); ?>
   </div>
   <!-- <div class="img-overlay h_100 w_100 absUpL z1"></div> -->
 
