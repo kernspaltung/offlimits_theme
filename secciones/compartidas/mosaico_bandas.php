@@ -1,7 +1,9 @@
 <?php
 
 $html;
-for ($i=0; $i < 16; $i++) {
+$bandas = get_posts(array('post_type'=>'banda','posts_per_page'=>-1));
+
+foreach ( $bandas as $banda ) :
 
   ?>
 
@@ -10,12 +12,12 @@ for ($i=0; $i < 16; $i++) {
      <a href="" class="h_100 w_100 p0">
 
         <div id="template-festival-lineup-banda-imagen" class="expanded row imgLiquidFill imgLiquid h_100 w_100 abs" >
-        <img class="" src="<?php echo get_stylesheet_directory_uri(); ?>/img/1200x600.png" alt="offlimits MX hardcore festival" />
+           <?php echo get_the_post_thumbnail( $banda -> ID, 'large' ); ?>
         </div>
 
         <div id="template-festival-lineup-banda-nombre" class="small-12 p3 text-center fontRXL white h_100 abs z1">
            <div class="vcenter">
-           Banda de Hardcore
+              <?php echo apply_filters( 'the_title', $banda->post_title ); ?>
            </div>
         </div>
 
@@ -25,6 +27,6 @@ for ($i=0; $i < 16; $i++) {
 
   <?php
 
-};
+endforeach;
 
 echo $html;

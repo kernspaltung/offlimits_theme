@@ -1,3 +1,11 @@
+</div>
+
+<?php
+get_template_part('secciones/compartidas/avisos_destacados');
+?>
+
+</div>
+
 </main><!-- #main -->
 
 
