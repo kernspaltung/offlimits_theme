@@ -12,8 +12,10 @@
 
     <div class="small-12 columns p0 m0 h_40vh">
 
-    <div id="merch-img-producto" class="columns h_100 imgLiquid imgLiquidFill cursor-pointer">
-    <img class="" src="http://loremflickr.com/920/480" alt="" />
+    <div id="merch-img-producto" class="columns h_100 imgLiquid imgLiquidFill z1k cursor-pointer">
+
+    <img class="" src="' . get_stylesheet_directory_uri() . '/img/1200x600.png" alt="" />
+
     </div>
 
     </div>
