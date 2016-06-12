@@ -30,7 +30,7 @@ $festival = get_page_by_title("Festival");
             <ul class="small-12 columns p0 m0 h_100 fontRXL text-left no-bullet p3">
                <?php foreach ( $secciones as $seccion ) : ?>
                   <li class=" h_50 f_l w_a end">
-                     <a class="scrollLink p3 pt0 pl0 h_100 white txsh1" data-target="lineup" href="#festival-lineup">
+                     <a class="scrollLink p3 pt0 pl0 h_100 white txsh1" data-target="<?php echo strtolower( $seccion ); ?>" href="#festival-<?php echo strtolower( $seccion ); ?>">
                         <div class="vcenter">
                            <?php echo $seccion; ?>
                         </div>
