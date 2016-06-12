@@ -61,3 +61,10 @@ function registrar_menus() {
   register_nav_menu('menu-principal',__( 'Menú principal' ));
 }
 add_action( 'init', 'registrar_menus' );
+
+
+
+add_action( 'init', 'add_excerpts_to_pages' );
+function add_excerpts_to_pages() {
+     add_post_type_support( 'page', 'excerpt' );
+}
