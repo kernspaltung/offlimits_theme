@@ -1,9 +1,9 @@
 <!-- contenedor actividades -->
-<div id="template-festival-actividades" class="small-12 large-6 columns p0 h_80vh h_md_70vh">
+<div id="festival-actividades" class="small-12 large-6 columns p0 h_80vh h_md_70vh">
 
 
   <!-- header secciones actividades -->
-  <div id="template-festival-header-actividades" class="small-12 columns p0 h_10vh">
+  <div id="festival-header-actividades" class="small-12 columns p0 h_10vh">
 
     <a href="">
 
@@ -30,7 +30,7 @@
   for ($i=0; $i < 3 ; $i++) {
     $html .= '
     <!-- actividad -->
-    <article id="template-festival-contenido-actividades" class="small-12 columns p0 altura-actividad">
+    <article id="festival-contenido-actividades" class="small-12 columns p0 altura-actividad">
 
     <div class="small-12 columns p1 fontRXL h_30">
 
@@ -53,7 +53,7 @@
     <!-- contenido actividades -->
     <div class="small-6 large-4 columns h_70">
 
-    <div id="template-festival-actividad-thumb" class="expanded row imgLiquidFill imgLiquid h_100 w_100" >
+    <div id="festival-actividad-thumb" class="expanded row imgLiquidFill imgLiquid h_100 w_100" >
     <img class="" src="<?php echo get_stylesheet_directory_uri(); ?>/img/1200x600.png" alt="offlimits MX hardcore festival" />
     </div>
 

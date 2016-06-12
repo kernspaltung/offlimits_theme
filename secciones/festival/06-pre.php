@@ -1,9 +1,9 @@
 <!-- contenedor prefest -->
-<div id="template-festival-prefest" class="small-12 large-6 columns p0 h_80vh h_md_70vh">
+<div id="festival-prefest" class="small-12 large-6 columns p0 h_80vh h_md_70vh">
 
 
   <!-- header secciones prefest -->
-  <div id="template-festival-header-prefest" class="small-12 columns p0 h_10vh">
+  <div id="festival-header-prefest" class="small-12 columns p0 h_10vh">
 
     <a href="">
 
@@ -31,12 +31,12 @@
   for ($i=0; $i < 2 ; $i++) {
     $html .= '
     <!-- prefest -->
-    <article id="template-festival-contenido-prefest" class="small-12 columns p0 h_35vh h_md_30vh">
+    <article id="festival-contenido-prefest" class="small-12 columns p0 h_35vh h_md_30vh">
 
 
     <div class="small-12 columns h_60">
 
-    <div id="template-festival-actividad-thumb" class="expanded row imgLiquidFill imgLiquid h_100 w_100" >
+    <div id="festival-actividad-thumb" class="expanded row imgLiquidFill imgLiquid h_100 w_100" >
       <img class="" src="<?php echo get_stylesheet_directory_uri(); ?>/img/1200x600.png" alt="offlimits MX hardcore festival" />
     </div>
 

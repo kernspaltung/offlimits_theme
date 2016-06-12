@@ -6,7 +6,7 @@ get_header();
 
 
 <!-- template lineup -->
-<div id="template-lineup" class="small-12 large-9 columns p0">
+<div id="lineup" class="small-12 large-9 columns p0">
 
 <?php
 

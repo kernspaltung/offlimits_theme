@@ -1,8 +1,8 @@
 <!-- template lineup lineup -->
-<div id="template-lineup-lineup" class="small-12 columns p0">
+<div id="lineup-lineup" class="small-12 columns p0">
 
   <!-- header seccion lineup -->
-  <!-- <div id="template-lineup-lineup-header" class="small-12 columns p0 h_10vh">
+  <!-- <div id="lineup-lineup-header" class="small-12 columns p0 h_10vh">
 
     <a href="">
 

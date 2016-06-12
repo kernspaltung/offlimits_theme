@@ -33,9 +33,10 @@
       <div class="row h_100">
         <!-- <div class="columns align-self-bottom p2"> -->
 
-          <div id="festival-extracto-informacion" class="small-12 columns align-bottom p3 pb4 fontRL">
+          <div id="festival-extracto-informacion" class="small-12 columns align-bottom p3 pb4 fontRM">
              <?php echo apply_filters( 'the_content', $intro_festival->post_content ); ?>
           </div>
+
         <!-- </div> -->
       </div>
 
