@@ -30,7 +30,7 @@ $festival = get_page_by_title("Festival");
             <ul class="small-12 columns p0 m0 h_100 fontRXL text-left no-bullet p3">
                <?php foreach ( $secciones as $seccion ) : ?>
                   <li class=" h_50 f_l w_a end">
-                     <a class="scrollLink p3 pt0 pl0 h_100 white txsh1" data-target="lineup" href="#festival-lineup">
+                     <a class="scrollLink p3 pt0 pl0 h_100 white txsh1" data-target="<?php echo strtolower( $seccion ); ?>" href="#festival-<?php echo strtolower( $seccion ); ?>">
                         <div class="vcenter">
                            <?php echo $seccion; ?>
                         </div>
@@ -47,9 +47,12 @@ $festival = get_page_by_title("Festival");
    <section id="header-portada-introduccion" class="h_55vh p5 rel ">
 
       <?php
-      $enlaces_rapidos = get_page_by_title("Enlaces rápidos");
+      $enlaces_rapidos = array();
 
-      $enlaces_rapidos = get_pages( array( 'child_of' => $enlaces_rapidos->ID, 'parent' => $enlaces_rapidos->ID, 'number' => 2 )  );
+      array_push( $enlaces_rapidos, get_page_by_title("Preventa") );
+      array_push( $enlaces_rapidos, get_page_by_title("Puntos de Venta") );
+
+      // $enlaces_rapidos = get_pages( array( 'child_of' => $enlaces_rapidos->ID, 'parent' => $enlaces_rapidos->ID, 'number' => 2 )  );
 
       $i=0;
       foreach ($enlaces_rapidos as $enlace_rapido ) :
@@ -59,11 +62,15 @@ $festival = get_page_by_title("Festival");
             <div class="button small-12 columns neutral_oscuro2_bg acento_hover_bg black_hover h_100 p0">
                <div class="small-12 <?php echo $i==0 ? 'medium-7 large-6' : 'medium-8 large-7'; ?>  columns h_100 text-left color p4 pb_sm_0">
                   <h5 class="acento sameMaxH mb1">
-                     <?php echo apply_filters( 'the_title', $enlace_rapido->post_title ); ?>
+                     <?php
+
+                        echo apply_filters( 'the_title', $enlace_rapido->post_title );
+
+                     ?>
                   </h5>
                   <div class="fontS text-left">
 
-                     <?php echo apply_filters( 'the_content', $enlace_rapido->post_content ); ?>
+                     <?php echo apply_filters( 'the_excerpt', $enlace_rapido->post_excerpt ); ?>
 
                   </div>
                </div>
