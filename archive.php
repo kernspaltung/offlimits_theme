@@ -44,10 +44,7 @@ get_header();
       </div>
 
 
-
-
     </article>
-
 
     <?php
 
