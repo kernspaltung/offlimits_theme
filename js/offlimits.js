@@ -16,6 +16,8 @@ $(document).ready(function(){
 
    $(window).trigger('resize');
 
+   $('#header nav.menu').addClass('small-9');
+console.log('hey!');
 
 });
 

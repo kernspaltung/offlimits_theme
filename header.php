@@ -50,7 +50,7 @@
         <header id="header" class="columns h_10vh fixed absUpL z1k black_bg">
 
           <!-- logo offlimits -->
-          <a href="<?php echo site_url(); ?>" class="small-5 large-3 columns h_100">
+          <a href="<?php echo site_url(); ?>" class="small-5 large-3 columns h_100 p2">
 
              <div class="h_100 imgLiquid imgLiquidNoFill">
                <img src="<?php echo get_stylesheet_directory_uri() ?>/img/LogoDT.png" alt="" />
