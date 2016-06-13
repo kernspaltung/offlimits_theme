@@ -10,7 +10,7 @@
 </div>
 
 <!-- contenido registro -->
-<div class="small-12 columns minH_50vh">
+<section class="small-12 columns minH_50vh">
 
   <!-- redes -->
   <div class="small-12 columns p0 m0 h_30 ">
@@ -61,27 +61,5 @@
 
     </div>
 
-    <!-- input rigistro form -->
-    <div class="small-12 columns minH_50">
-
-      <form action="" class="small-12 column p3" >
-
-        <div class="row align-center">
-          <div class="columns small-10 large-7 small-centered">
-            <div class="small-12 column p2">
-              <input type="text" class="h_100 m0" placeholder="Correo Electrónico">
-            </div>
-
-            <div class="small-12 column p2">
-              <input type="submit" class="button small-12 h_100" value="Registro">
-            </div>
-          </div>
-
-        </div>
-
-      </form>
-
-    </div>
-
   </div>
-</div>
+</section>
