@@ -8,6 +8,7 @@ var u = new FrontEndUtils();
 $(document).ready(function(){
 
 
+
    setup_utils();
 
    setup_interaccion();
@@ -16,8 +17,8 @@ $(document).ready(function(){
 
    $(window).trigger('resize');
 
-   $('#header nav.menu').addClass('small-9');
-console.log('hey!');
+   // $('#header nav.menu').addClass('small-9');
+
 
 });
 

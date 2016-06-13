@@ -56,7 +56,7 @@
          <?php
          $registro = get_page_by_title("Registro");
          echo apply_filters( 'the_content', $registro -> post_content );
-         ?
+         ?>
       </div>
 
     </div>
