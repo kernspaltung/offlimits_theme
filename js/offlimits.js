@@ -164,6 +164,7 @@ function scrollToTarget() {
       var targetId = '#' + scrollToId;
       var target = $(targetId);
 
+
       if ( target.length > 0 ) {
 
          var offsetY = target.offset().top - $('#header').height();

@@ -5,6 +5,7 @@ add_filter( 'show_admin_bar', '__return_false' );
 
 include_once 'backend/bandas.php';
 include_once 'backend/avisos.php';
+include_once 'backend/url_opcional.php';
 
 add_theme_support('post-thumbnails');
 
@@ -67,4 +68,23 @@ add_action( 'init', 'registrar_menus' );
 add_action( 'init', 'add_excerpts_to_pages' );
 function add_excerpts_to_pages() {
      add_post_type_support( 'page', 'excerpt' );
+}
+
+
+function obtener_link($ID) {
+   $url_opcional = get_post_meta( $ID, 'link-opcional', true );
+
+   if( ! $url_opcional )
+      $url = get_the_permalink( $ID );
+   else
+      $url = $url_opcional;
+
+   if ( strpos( $url, 'http://' ) !== false ) {
+      $target_blank = ' target="blank"';
+   } else {
+      $target_blank = 0;
+      $url = site_url() . "/" . $url;
+   }
+
+   return $url;
 }

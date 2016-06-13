@@ -25,21 +25,7 @@ $avisos = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'aviso', 'orde
 
       <?php
 
-      $link_opcional = get_post_meta( $avisos[0]->ID, 'link-opcional', true );
-      if( ! $link_opcional )
-         $link = get_the_permalink( $avisos[0]->ID );
-      else
-         $link = $link_opcional;
-
-
-
-      if ( strpos( $link, 'http://' ) !== false ) {
-         $target_blank = ' target="blank"';
-      } else {
-         $target_blank = 0;
-         $link = site_url() . "/" . $link;
-
-      }
+      $link = obtener_link( $avisos[0]-> ID );
 
       ?>
 
