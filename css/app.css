@@ -2311,6 +2311,9 @@
 .w_100 {
   width: 100%; }
 
+.w_50 {
+  width: 50%; }
+
 .w_100vw {
   width: 100vw; }
 
@@ -3114,6 +3117,9 @@
 
 .fontXXXL {
   font-size: 50px !important; }
+
+.fontXXXXL {
+  font-size: 75px !important; }
 
 .fontHuge {
   font-size: 100px !important; }
@@ -7984,6 +7990,11 @@ table.hover tr:nth-of-type(even):hover {
 .neutral_oscuro3_hover_bd:hover, .neutral_oscuro3_hover_bd:hover * {
   border-color: #060708 !important; }
 
+.button, .button * {
+  background-color: transparent !important; }
+  .button *, .button * * {
+    background-color: transparent; }
+
 html, body {
   background-color: #060708;
   color: white; }
@@ -8042,25 +8053,34 @@ html, body {
 .color-producto-rojo {
   background-color: red; }
 
-/*
+.font1,
+div, li, p {
+  font-family: 'Sanchez', sans-serif;
+  font-size: 13px; }
 
+.font2,
+h2, h3, .copy {
+  font-family: 'Special Elite', cursive; }
 
-div,li,p {
-   font-family: 'Sanchez', sans-serif;
-   font-size: 13px;
-}
-
-h2,h3,.copy {
-   font-family: 'Special Elite', cursive;
-}
-
+.font3,
 h1 {
-   font-family: 'Permanent Marker', cursive;
-}
+  font-family: 'Permanent Marker', cursive; }
 
-h4,h5,h6 {
-   font-family: 'Averia Sans Libre', cursive;
-}
+.font4,
+h4, h5, h6 {
+  font-family: 'Averia Serif Libre', cursive; }
 
-
-*/
+.imgfx1 {
+  filter: brightness(90%) contrast(115%) grayscale(85%);
+  -webkit-filter: brightness(90%) contrast(115%) grayscale(85%);
+  -moz-filter: brightness(90%) contrast(115%) grayscale(85%);
+  -o-filter: brightness(90%) contrast(115%) grayscale(85%);
+  -ms-filter: brightness(90%) contrast(115%) grayscale(85%);
+  filter: brightness(90%) contrast(115%) grayscale(85%); }
+  .imgfx1:hover {
+    filter: brightness(90%) contrast(115%) grayscale(0%);
+    -webkit-filter: brightness(90%) contrast(115%) grayscale(0%);
+    -moz-filter: brightness(90%) contrast(115%) grayscale(0%);
+    -o-filter: brightness(90%) contrast(115%) grayscale(0%);
+    -ms-filter: brightness(90%) contrast(115%) grayscale(0%);
+    filter: brightness(90%) contrast(115%) grayscale(0%); }

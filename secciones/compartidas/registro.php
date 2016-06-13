@@ -53,10 +53,10 @@
       </a>
       <div class="columns p2 pl6 pr6 fontRM">
 
-        <p class="small-10 large-7 small-centered p2 mb0" >
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Saepe veritatis aspernatur voluptatem tempora.
-
+         <?php
+         $registro = get_page_by_title("Registro");
+         echo apply_filters( 'the_content', $registro -> post_content );
+         ?
       </div>
 
     </div>

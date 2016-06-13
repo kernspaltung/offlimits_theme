@@ -15,7 +15,7 @@ get_template_part('secciones/faqs/pregunta');
 
     ## seccion registro
 
-    get_template_part('secciones/compartidas/footer_registro');
+    get_template_part('secciones/compartidas/registro');
 
     ?>
 

@@ -61,17 +61,19 @@ $festival = get_page_by_title("Festival");
          <div class="small-12 medium-<?php echo $i==0 ? 7 : 5; ?> columns h_45vh h_sm_70vh <?php echo $i==0 ? 'pr0' : ''; ?> p5 p_sm_0 pb_sm_4 rel pt_sm_0">
             <div class="button small-12 columns neutral_oscuro2_bg acento_hover_bg black_hover h_100 p0">
                <div class="small-12 <?php echo $i==0 ? 'medium-7 large-6' : 'medium-8 large-7'; ?>  columns h_100 text-left color p4 pb_sm_0">
-                  <h5 class="acento sameMaxH mb1">
+                  <h5 class="acento sameMaxH mb1 h_20">
                      <?php
 
                         echo apply_filters( 'the_title', $enlace_rapido->post_title );
 
                      ?>
                   </h5>
-                  <div class="fontS text-left">
+                  <div class="fontS text-left h_70">
+                     <div class="vcenter">
 
-                     <?php echo apply_filters( 'the_excerpt', $enlace_rapido->post_excerpt ); ?>
+                        <?php echo apply_filters( 'the_excerpt', $enlace_rapido->post_excerpt ); ?>
 
+                     </div>
                   </div>
                </div>
                <div class="small-12 <?php echo $i==0 ? 'medium-5 large-6' : 'medium-4 large-5'; ?> columns h_100 text-center color p4 pt_sm_0 p_sm_0 ">

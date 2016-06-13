@@ -7,6 +7,7 @@ $fontL:18px;
 $fontXL:25px;
 $fontXXL:36px;
 $fontXXXL:50px;
+$fontXXXXL: 75px;
 $fontHuge:100px;
 //variables texto responsiv0
 $fontRXXXS:0.5vmin;
@@ -160,6 +161,9 @@ $screen-lg-min: 1025px;
 }
 .w_100 {
 	width: 100%;
+}
+.w_50 {
+	width: 50%;
 }
 
 .w_100vw {
@@ -1293,6 +1297,10 @@ $screen-lg-min: 1025px;
 
 .fontXXXL {
 	font-size: $fontXXXL !important;
+}
+
+.fontXXXXL {
+	font-size: $fontXXXXL !important;
 }
 .fontHuge {
 	font-size: $fontHuge !important;
