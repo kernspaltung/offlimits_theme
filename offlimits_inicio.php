@@ -11,6 +11,6 @@
 
       get_template_part('secciones/inicio/04-blog');
 
-      get_template_part('secciones/compartidas/footer_registro');
+      get_template_part('secciones/compartidas/registro');
 
       ?>

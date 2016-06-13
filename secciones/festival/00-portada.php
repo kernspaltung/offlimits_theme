@@ -56,29 +56,39 @@ $festival = get_page_by_title("Festival");
 
       $i=0;
       foreach ($enlaces_rapidos as $enlace_rapido ) :
+
+         $link = obtener_link( $enlace_rapido -> ID );
+
          ?>
 
          <div class="small-12 medium-<?php echo $i==0 ? 7 : 5; ?> columns h_45vh h_sm_70vh <?php echo $i==0 ? 'pr0' : ''; ?> p5 p_sm_0 pb_sm_4 rel pt_sm_0">
             <div class="button small-12 columns neutral_oscuro2_bg acento_hover_bg black_hover h_100 p0">
-               <div class="small-12 <?php echo $i==0 ? 'medium-7 large-6' : 'medium-8 large-7'; ?>  columns h_100 text-left color p4 pb_sm_0">
-                  <h5 class="acento sameMaxH mb1">
-                     <?php
+               <a href="<?php echo $link; ?>" class="w_100 h_100">
 
-                        echo apply_filters( 'the_title', $enlace_rapido->post_title );
+                  <div class="small-12 <?php echo $i==0 ? 'medium-7 large-6' : 'medium-8 large-7'; ?>  columns h_100 text-left color p4 pb_sm_0">
+                     <h5 class="acento sameMaxH mb1 h_20">
+                        <?php
 
-                     ?>
-                  </h5>
-                  <div class="fontS text-left">
+                           echo apply_filters( 'the_title', $enlace_rapido->post_title );
 
-                     <?php echo apply_filters( 'the_excerpt', $enlace_rapido->post_excerpt ); ?>
+                        ?>
+                     </h5>
+                     <div class="fontS text-left h_70">
+                        <div class="vcenter">
 
+                           <?php echo apply_filters( 'the_excerpt', $enlace_rapido->post_excerpt ); ?>
+
+                        </div>
+                     </div>
                   </div>
-               </div>
-               <div class="small-12 <?php echo $i==0 ? 'medium-5 large-6' : 'medium-4 large-5'; ?> columns h_100 text-center color p4 pt_sm_0 p_sm_0 ">
-                  <div class="w_100 h_100 imgLiquid imgLiquidNoFill ">
-                     <?php echo get_the_post_thumbnail( $enlace_rapido->ID ); ?>
+                  <div class="small-12 <?php echo $i==0 ? 'medium-5 large-6' : 'medium-4 large-5'; ?> columns h_100 text-center color p4 pt_sm_0 p_sm_0 ">
+                     <div class="w_100 h_100 imgLiquid imgLiquidNoFill ">
+                        <?php echo get_the_post_thumbnail( $enlace_rapido->ID ); ?>
+                     </div>
                   </div>
-               </div>
+
+               </a>
+
             </div>
          </div>
 

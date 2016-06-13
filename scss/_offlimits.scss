@@ -1,3 +1,25 @@
+//
+// @font-face {
+//    font-family: 'Averia Serif Libre', sans-serif;
+//    src: url('fonts/googlefonts/Averia_Serif_Libre/AveriaSerifLibre-Regular.ttf');
+// }
+//
+// @font-face {
+//    font-family: 'Permanent Marker', sans-serif;
+//    src: url('fonts/googlefonts/Permanent_Marker/PermanentMarker.ttf');
+// }
+//
+// @font-face {
+//    font-family: 'Sanchez', sans-serif;
+//    src: url('fonts/googlefonts/Sanchez/Sanchez-Regular.ttf');
+// }
+//
+// @font-face {
+//    font-family: 'Special Elite', sans-serif;
+//    src: url('fonts/googlefonts/Special_Elite/SpecialElite.ttf');
+// }
+
+
 /*estilos plataforma festival offlimits*/
 * {
   //  outline: 1px solid brown;
@@ -74,6 +96,7 @@ $neutral_oscuro3: #060708;
 }
 
 
+
 .white { color: #fff; }
 .black { color: #000; }
 .acento { color: $acento; }
@@ -126,6 +149,21 @@ $neutral_oscuro3: #060708;
 .neutral_oscuro1_hover_bd:hover { &, * { border-color: $neutral_oscuro1 !important; } }
 .neutral_oscuro2_hover_bd:hover { &, * { border-color: $neutral_oscuro2 !important; } }
 .neutral_oscuro3_hover_bd:hover { &, * { border-color: $neutral_oscuro3 !important; } }
+
+
+
+
+.button {
+   &,* {
+      background-color: transparent !important;
+      // background: none !important;
+      * {
+         background-color: transparent;
+         // background: none !important;
+      }
+   }
+}
+
 
 
 html, body {
@@ -222,25 +260,45 @@ html, body {
 
 
 
-/*
-
-
+.font1,
 div,li,p {
 font-family: 'Sanchez', sans-serif;
 font-size: 13px;
 }
 
+.font2,
 h2,h3,.copy {
 font-family: 'Special Elite', cursive;
 }
 
+.font3,
 h1 {
 font-family: 'Permanent Marker', cursive;
 }
 
+.font4,
 h4,h5,h6 {
-font-family: 'Averia Sans Libre', cursive;
+
+   font-family: 'Averia Serif Libre', cursive;
+
 }
 
 
-*/
+.imgfx1 {
+   filter: brightness(90%) contrast(115%) grayscale(85%);
+	-webkit-filter: brightness(90%) contrast(115%) grayscale(85%);
+	-moz-filter: brightness(90%) contrast(115%) grayscale(85%);
+	-o-filter: brightness(90%) contrast(115%) grayscale(85%);
+	-ms-filter: brightness(90%) contrast(115%) grayscale(85%);
+	filter: brightness(90%) contrast(115%) grayscale(85%);
+
+   &:hover {
+      filter: brightness(90%) contrast(115%) grayscale(0%);
+   	-webkit-filter: brightness(90%) contrast(115%) grayscale(0%);
+   	-moz-filter: brightness(90%) contrast(115%) grayscale(0%);
+   	-o-filter: brightness(90%) contrast(115%) grayscale(0%);
+   	-ms-filter: brightness(90%) contrast(115%) grayscale(0%);
+   	filter: brightness(90%) contrast(115%) grayscale(0%);
+   }
+
+}

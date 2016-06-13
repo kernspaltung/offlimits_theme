@@ -38,7 +38,7 @@ get_template_part('secciones/compartidas/header_seccion');
 
   get_template_part('secciones/inicio/avisos_destacados_movil');
 
-  get_template_part('secciones/compartidas/footer_registro');
+  get_template_part('secciones/compartidas/registro');
 
   ?>
 
