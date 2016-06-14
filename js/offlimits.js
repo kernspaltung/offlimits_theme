@@ -143,6 +143,14 @@ function setup_interaccion() {
 
    });
 
+   $('a').click(function(){
+      var targetID = getParameterByName('scrollTo', $(this).attr('href') );
+      if( targetID && $('#'+targetID ).length ) {
+         scrollToTarget( $(this).attr('href') );
+         return false;
+      }
+   })
+
 }
 
 function getParameterByName(name, url) {
@@ -155,9 +163,9 @@ function getParameterByName(name, url) {
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 
-function scrollToTarget() {
+function scrollToTarget( url ) {
 
-   var scrollToId = getParameterByName( 'scrollTo' );
+   var scrollToId = getParameterByName( 'scrollTo', url );
 
    if( scrollToId != null ) {
 
