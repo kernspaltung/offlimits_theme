@@ -86,13 +86,13 @@ $neutral_oscuro3: #060708;
 
 .button {
 
-   background-color: $neutral_oscuro2;
-   &:hover {
-      background-color: $neutral_oscuro3;
-   }
+  background-color: $neutral_oscuro2;
+  &:hover {
+    background-color: $neutral_oscuro3;
+  }
 }
 .button.claro {
-   background-color: $neutral_oscuro1;
+  background-color: $neutral_oscuro1;
 }
 
 
@@ -154,21 +154,21 @@ $neutral_oscuro3: #060708;
 
 
 .button {
-   &,* {
-      background-color: transparent !important;
+  &,* {
+    background-color: transparent !important;
+    // background: none !important;
+    * {
+      background-color: transparent;
       // background: none !important;
-      * {
-         background-color: transparent;
-         // background: none !important;
-      }
-   }
+    }
+  }
 }
 
 
 
 html, body {
-   background-color: $neutral_oscuro3;
-   color: white;
+  background-color: $neutral_oscuro3;
+  color: white;
 }
 
 
@@ -262,43 +262,57 @@ html, body {
 
 .font1,
 div,li,p {
-font-family: 'Sanchez', sans-serif;
-font-size: 13px;
+  font-family: 'Sanchez', sans-serif;
+  font-size: 13px;
 }
 
 .font2,
 h2,h3,.copy {
-font-family: 'Special Elite', cursive;
+  font-family: 'Special Elite', cursive;
 }
 
 .font3,
 h1 {
-font-family: 'Permanent Marker', cursive;
+  font-family: 'Permanent Marker', cursive;
 }
 
 .font4,
 h4,h5,h6 {
 
-   font-family: 'Averia Serif Libre', cursive;
+  font-family: 'Averia Serif Libre', cursive;
 
 }
 
 
 .imgfx1 {
-   filter: brightness(90%) contrast(115%) grayscale(85%);
-	-webkit-filter: brightness(90%) contrast(115%) grayscale(85%);
-	-moz-filter: brightness(90%) contrast(115%) grayscale(85%);
-	-o-filter: brightness(90%) contrast(115%) grayscale(85%);
-	-ms-filter: brightness(90%) contrast(115%) grayscale(85%);
-	filter: brightness(90%) contrast(115%) grayscale(85%);
+  filter: brightness(90%) contrast(115%) grayscale(85%);
+  -webkit-filter: brightness(90%) contrast(115%) grayscale(85%);
+  -moz-filter: brightness(90%) contrast(115%) grayscale(85%);
+  -o-filter: brightness(90%) contrast(115%) grayscale(85%);
+  -ms-filter: brightness(90%) contrast(115%) grayscale(85%);
+  filter: brightness(90%) contrast(115%) grayscale(85%);
 
-   &:hover {
-      filter: brightness(90%) contrast(115%) grayscale(0%);
-   	-webkit-filter: brightness(90%) contrast(115%) grayscale(0%);
-   	-moz-filter: brightness(90%) contrast(115%) grayscale(0%);
-   	-o-filter: brightness(90%) contrast(115%) grayscale(0%);
-   	-ms-filter: brightness(90%) contrast(115%) grayscale(0%);
-   	filter: brightness(90%) contrast(115%) grayscale(0%);
-   }
+  &:hover {
+    filter: brightness(90%) contrast(115%) grayscale(0%);
+    -webkit-filter: brightness(90%) contrast(115%) grayscale(0%);
+    -moz-filter: brightness(90%) contrast(115%) grayscale(0%);
+    -o-filter: brightness(90%) contrast(115%) grayscale(0%);
+    -ms-filter: brightness(90%) contrast(115%) grayscale(0%);
+    filter: brightness(90%) contrast(115%) grayscale(0%);
+  }
+
+}
+
+
+#boletos-compra {
+
+  &>button {
+    border-color:$acento2;
+  }
+  &>button:hover {
+    border-color: white;
+    color: #ED4000;;
+  }
+
 
 }
