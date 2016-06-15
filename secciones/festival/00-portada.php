@@ -49,7 +49,7 @@ $festival = get_page_by_title("Festival");
       <?php
       $enlaces_rapidos = array();
 
-      array_push( $enlaces_rapidos, get_page_by_title("Preventa") );
+      array_push( $enlaces_rapidos, get_page_by_title("Boletos") );
       array_push( $enlaces_rapidos, get_page_by_title("Puntos de Venta") );
 
       // $enlaces_rapidos = get_pages( array( 'child_of' => $enlaces_rapidos->ID, 'parent' => $enlaces_rapidos->ID, 'number' => 2 )  );

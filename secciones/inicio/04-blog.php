@@ -10,7 +10,9 @@ $blog = get_page_by_title("Blog");
 
       <div class="small-9 columns fontRXL h_100">
         <div class="vcenter">
-          Off Limits Blog
+          <h1 class="white">
+             Blog
+          </h1>
         </div>
       </div>
 

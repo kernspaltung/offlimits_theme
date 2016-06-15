@@ -116,7 +116,7 @@ function setup_utils() {
    });
 
    // mapa
-   initMap();
+   // initMap();
 
 }
 
@@ -192,19 +192,19 @@ function scrollToTarget( url ) {
 //mapa
 var latLong = {lat: 19.4538898, lng: -99.2192209};
 function initMap() {
-   // var mapDiv = document.getElementById('festival-map');
-   // var map = new google.maps.Map(mapDiv, {
-   //    zoom: 14,
-   //    center: latLong,
-   //    // mapTypeId: google.maps.MapTypeId.ROADMAP,
-   //    scrollwheel: false,
-   //    navigationControl: true,
-   //    mapTypeControl: true,
-   //    draggable: true
-   // });
-   // var marker = new google.maps.Marker({
-   //    position: latLong,
-   //    map: map,
-   //    title: 'Off Limits Festival'
-   // });
+   var mapDiv = document.getElementById('festival-map');
+   var map = new google.maps.Map(mapDiv, {
+      zoom: 14,
+      center: latLong,
+      // mapTypeId: google.maps.MapTypeId.ROADMAP,
+      scrollwheel: false,
+      navigationControl: true,
+      mapTypeControl: true,
+      draggable: true
+   });
+   var marker = new google.maps.Marker({
+      position: latLong,
+      map: map,
+      title: 'Off Limits Festival'
+   });
 };

@@ -1,40 +1,26 @@
+<?php
+   $foro = get_page_by_title("Foro");
+?>
 <!-- mapa como llegar -->
-<div id="festival-mapa" class="small-12 large-6 columns p0 h_80vh h_md_70vh">
+<section id="festival-mapa" class="small-12 columns p0 h_80vh h_md_70vh">
 
-  <!-- header seccion lugar mapa -->
-  <div id="festival-header-mapa" class="small-12 columns p0 h_10vh">
 
-    <a href="">
+     <h1>
+        <?php echo apply_filters( 'the_title', $foro -> post_title ); ?>
+     </h1>
 
-      <div class="small-9 columns fontRXL h_100">
-        <div class="vcenter">
-          Lugar / Evento
-        </div>
-      </div>
-
-      <div class="small-3 columns p2 m0 h_100 fontRXL text-center">
-        <div class="vcenter">
-          <i class="fa fa-angle-right"></i>
-        </div>
-      </div>
-
-    </a>
-
-  </div>
 
 <!-- mapa aqui -->
-  <div id="festival-map" class="small-6 columns h_70vh h_md_60vh"></div>
+  <div id="festival-map" class="small-6 columns h_40vh acento_bg"></div>
 
-  <div id="festival-map-info" class="small-6 columns h_70vh p3">
-    <div class="vcenter p0 fontRXL">
+     <div id="festival-map-info" class="small-6 columns h_40vh">
 
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      Consectetur adipisicing elit, Lorem ipsum dolor sit amet.
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      Consectetur adipisicing elit, Lorem ipsum dolor sit amet.
+       <div class="vcenter p0 fontL p5 pt0">
+         <?php echo apply_filters( 'the_content', $foro -> post_content ); ?>
+       </div>
 
-    </div>
+     </div>
 
-  </div>
+   </div>
 
-</div><!-- mapa como llegar -->
+</section>

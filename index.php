@@ -1,6 +1,10 @@
 <?php
+/*
+Template Name: Inicio
+*/
 
 get_header();
+
 
 
 global $mainPages;

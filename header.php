@@ -72,7 +72,7 @@
 
         <!-- main -->
         <main id="main" class="small-12 columns m0 pl0 pr0 pt_10vh">
-           <header id="cabecera_seccion" class="columns p0 h_100 h_sm_a">
+           <header id="cabecera_seccion" class="columns p0 h_100 h_sm_a mb2">
               <?php get_template_part('secciones/compartidas/header_seccion'); ?>
            </header>
            <div id="contenido-general" class="columns ha">

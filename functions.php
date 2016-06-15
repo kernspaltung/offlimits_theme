@@ -38,7 +38,7 @@ function ol_enqueue_scripts() {
 
   // para el mapa cambiar api key
    // wp_enqueue_script( 'maps-js', 'https://maps.googleapis.com/maps/api/js', array(), '1', false );
-  //  wp_enqueue_script( 'maps-js', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBpQxyk-9VglJzuX10s8PFkufhjRPpsqy8&callback=initMap', array(), '1', true );
+   // wp_enqueue_script( 'maps-js', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBpQxyk-9VglJzuX10s8PFkufhjRPpsqy8&callback=initMap', array(), '1', true );
 
   //
   if ( is_singular() AND comments_open() AND (get_option('thread_comments') == 1)) {

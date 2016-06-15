@@ -1,6 +1,85 @@
-<section id="festival-boletos" class="small-12 h_80vh columns p0">
+<section id="festival-boletos" class="small-12 columns p0">
+
+
+   <?php
+   $boletos = get_page_by_title("Boletos");
+   ?>
+
    <h1>
-      Boletos
+      <?php echo apply_filters( 'the_title', $boletos->post_title ); ?>
    </h1>
+
+
+   <div id="festival-boletos-contenedor" class="small-12 columns p0">
+
+      <div class="medium-6 columns p0">
+
+         <div id="festival-boletos-texto" class="small-12 large-7 columns p0 pr3 pt1   ">
+
+               <?php echo apply_filters( 'the_content', $boletos->post_content ); ?>
+
+         </div>
+
+         <div id="festival-boletos-imagen" class="small-12 large-5 columns p0 fontRL h_50vh">
+
+            <div class="w_100 h_100 imgLiquid imgLiquidNoFill">
+               <?php echo get_the_post_thumbnail( $boletos->ID ); ?>
+            </div>
+
+         </div>
+
+      </div>
+
+      <div class="medium-6 columns p0">
+
+         <section id="festival-boletos-compra"class="small-12 medium-10 medium-offset-1 large-8 large-offset-2 end columns mt2">
+
+            <div class="titulo text-center">
+               <h2>
+                  Compra tus boletos:
+               </h2>
+            </div>
+            <div class="small-12">
+               <input class="small-4 columns h_10vh small-center  text-center fontRXXL" type="number" name="numero-boletos" min="0" max="10" placeholder="10">
+               <button class="button hollow small-8 columns fontRXL white h_10vh">
+                  Compra 1
+               </button>
+            </div>
+
+
+         </section>
+
+      </div>
+
+
+   </div><!-- contenedor -->
+
+
+   <?php
+   //    endwhile;
+   // endif;
+   ?>
+
+
+</section>
+
+
+<section id="festival-puntos_de_venta" class="columns p0">
+
+   <?php
+   $puntos_de_venta = get_page_by_title("Puntos de Venta");
+   ?>
+
+   <h1>
+      <?php echo apply_filters( 'the_title', $puntos_de_venta->post_title ); ?>
+   </h1>
+
+
+   <div id="festival-puntos_de_venta-contenido" class="columns p3">
+      <div class="vcenter fontRL">
+         <?php echo apply_filters( 'the_content', $puntos_de_venta->post_content ); ?>
+      </div>
+   </div>
+
 
 </section>

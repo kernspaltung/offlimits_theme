@@ -1,0 +1,8 @@
+o mejorar estructura compra preventa
+- aumentar tamaños flechas
+- cambiar formatos fechas
+- arreglar color botones
+- vcenter texto festival
+- compactar blog en inicio
+- compactar horizontalmente hotlinks contacto
+- reducir peso de color naranja

@@ -20,10 +20,10 @@ get_header();
    get_template_part('secciones/festival/03-mapa');
 
 
-   get_template_part('secciones/festival/04-servicios');
+   // get_template_part('secciones/festival/04-servicios');
 
 
-   get_template_part('secciones/festival/05-actividades');
+   // get_template_part('secciones/festival/05-actividades');
 
 
 // get_template_part('secciones/festival/06-pre');

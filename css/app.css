@@ -7819,17 +7819,18 @@ table.hover tr:nth-of-type(even):hover {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%); }
 
-.colorhvr {
+.colorhvr, .colorhvr * {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   transition: -webkit-filter 0.35s ease-in-out;
   transition: filter 0.35s ease-in-out;
   transition: filter 0.35s ease-in-out, -webkit-filter 0.35s ease-in-out; }
-  .colorhvr:hover {
-    filter: grayscale(0%);
-    -webkit-filter: grayscale(0%);
-    -moz-filter: grayscale(0%); }
+
+.colorhvr:hover, .colorhvr:hover *:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%); }
 
 .img-overlay {
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAEklEQVQImWNgIBmcOnXKl3RdAI02Aqx7ujt2AAAAAElFTkSuQmCC) repeat; }
@@ -7854,6 +7855,19 @@ table.hover tr:nth-of-type(even):hover {
 @media screen and (max-width: 640px) {
   #festival-portada {
     height: 160vh !important; } }
+
+#area_contenidos > section, #area_contenidos > section > section {
+  margin-bottom: 60px; }
+  #area_contenidos > section h1, #area_contenidos > section > section h1 {
+    color: white;
+    margin-bottom: 15px !important; }
+
+#festival-puntos_de_venta-contenido li {
+  list-style: none;
+  width: 33%;
+  float: left;
+  text-align: center;
+  padding: 45px; }
 
 /****** COLORES ******/
 .button {
@@ -8059,31 +8073,31 @@ div, li, p {
   font-size: 13px; }
 
 .font2,
-h2, h3, .copy {
+h2, h3, h4, h5, h6, .copy {
   font-family: 'Special Elite', cursive; }
 
 .font3,
+button, .button div, .button,
 h1 {
   font-family: 'Permanent Marker', cursive; }
 
-.font4,
-h4, h5, h6 {
+.font4 {
   font-family: 'Averia Serif Libre', cursive; }
 
 .imgfx1 {
-  filter: brightness(90%) contrast(115%) grayscale(85%);
-  -webkit-filter: brightness(90%) contrast(115%) grayscale(85%);
-  -moz-filter: brightness(90%) contrast(115%) grayscale(85%);
-  -o-filter: brightness(90%) contrast(115%) grayscale(85%);
-  -ms-filter: brightness(90%) contrast(115%) grayscale(85%);
-  filter: brightness(90%) contrast(115%) grayscale(85%); }
+  filter: brightness(80%) contrast(115%) grayscale(85%);
+  -webkit-filter: brightness(80%) contrast(115%) grayscale(85%);
+  -moz-filter: brightness(80%) contrast(115%) grayscale(85%);
+  -o-filter: brightness(80%) contrast(115%) grayscale(85%);
+  -ms-filter: brightness(80%) contrast(115%) grayscale(85%);
+  filter: brightness(80%) contrast(115%) grayscale(85%); }
   .imgfx1:hover {
-    filter: brightness(90%) contrast(115%) grayscale(0%);
-    -webkit-filter: brightness(90%) contrast(115%) grayscale(0%);
-    -moz-filter: brightness(90%) contrast(115%) grayscale(0%);
-    -o-filter: brightness(90%) contrast(115%) grayscale(0%);
-    -ms-filter: brightness(90%) contrast(115%) grayscale(0%);
-    filter: brightness(90%) contrast(115%) grayscale(0%); }
+    filter: brightness(100%) contrast(115%) grayscale(0%);
+    -webkit-filter: brightness(100%) contrast(115%) grayscale(0%);
+    -moz-filter: brightness(100%) contrast(115%) grayscale(0%);
+    -o-filter: brightness(100%) contrast(115%) grayscale(0%);
+    -ms-filter: brightness(100%) contrast(115%) grayscale(0%);
+    filter: brightness(100%) contrast(115%) grayscale(0%); }
 
 .accordion-content {
   padding: 0; }
@@ -8094,3 +8108,7 @@ h4, h5, h6 {
 #boletos-compra > button:hover {
   border-color: white;
   color: #ED4000; }
+
+.slick-slide {
+  margin-right: 0px;
+  margin-left: 0px; }

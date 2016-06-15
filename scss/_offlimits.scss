@@ -72,6 +72,35 @@ header {
   }
 }
 
+
+
+#area_contenidos {
+   &>section,&>section>section {
+      margin-bottom: $spacing * 4;
+      h1 {
+         color: white;
+         margin-bottom: $spacing * 1 !important;
+      }
+   }
+
+}
+
+
+#festival-puntos_de_venta-contenido {
+   li {
+      list-style:none;
+
+      width: 33%;
+      float: left;
+      text-align: center;
+      padding: $spacing * 3;
+         
+   }
+}
+
+
+
+
 /****** COLORES ******/
 
 $acento: #FE5000;
@@ -267,17 +296,17 @@ div,li,p {
 }
 
 .font2,
-h2,h3,.copy {
+h2,h3,h4,h5,h6,.copy {
   font-family: 'Special Elite', cursive;
 }
 
 .font3,
+button, .button div, .button,
 h1 {
   font-family: 'Permanent Marker', cursive;
 }
 
-.font4,
-h4,h5,h6 {
+.font4 {
 
   font-family: 'Averia Serif Libre', cursive;
 
@@ -285,20 +314,20 @@ h4,h5,h6 {
 
 
 .imgfx1 {
-  filter: brightness(90%) contrast(115%) grayscale(85%);
-  -webkit-filter: brightness(90%) contrast(115%) grayscale(85%);
-  -moz-filter: brightness(90%) contrast(115%) grayscale(85%);
-  -o-filter: brightness(90%) contrast(115%) grayscale(85%);
-  -ms-filter: brightness(90%) contrast(115%) grayscale(85%);
-  filter: brightness(90%) contrast(115%) grayscale(85%);
+  filter: brightness(80%) contrast(115%) grayscale(85%);
+  -webkit-filter: brightness(80%) contrast(115%) grayscale(85%);
+  -moz-filter: brightness(80%) contrast(115%) grayscale(85%);
+  -o-filter: brightness(80%) contrast(115%) grayscale(85%);
+  -ms-filter: brightness(80%) contrast(115%) grayscale(85%);
+  filter: brightness(80%) contrast(115%) grayscale(85%);
 
   &:hover {
-    filter: brightness(90%) contrast(115%) grayscale(0%);
-    -webkit-filter: brightness(90%) contrast(115%) grayscale(0%);
-    -moz-filter: brightness(90%) contrast(115%) grayscale(0%);
-    -o-filter: brightness(90%) contrast(115%) grayscale(0%);
-    -ms-filter: brightness(90%) contrast(115%) grayscale(0%);
-    filter: brightness(90%) contrast(115%) grayscale(0%);
+    filter: brightness(100%) contrast(115%) grayscale(0%);
+    -webkit-filter: brightness(100%) contrast(115%) grayscale(0%);
+    -moz-filter: brightness(100%) contrast(115%) grayscale(0%);
+    -o-filter: brightness(100%) contrast(115%) grayscale(0%);
+    -ms-filter: brightness(100%) contrast(115%) grayscale(0%);
+    filter: brightness(100%) contrast(115%) grayscale(0%);
   }
 
 }
@@ -320,4 +349,11 @@ h4,h5,h6 {
   }
 
 
+}
+
+
+.slick-slide {
+
+    margin-right:0px;
+    margin-left:0px;
 }

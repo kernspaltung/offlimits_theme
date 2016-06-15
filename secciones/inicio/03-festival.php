@@ -1,4 +1,4 @@
-<div id="festival" class="small-12 columns p0 h_100">
+<div id="festival" class="small-12 columns p0 h_100 mt2">
 
    <?php
 
@@ -13,7 +13,11 @@
 
          <div class="small-9 columns fontRXL h_100">
             <div class="vcenter">
-               <?php echo apply_filters('the_title',$festival->post_title); ?>
+
+               <h1 class="white">
+                  <?php echo apply_filters('the_title',$festival->post_title); ?>
+               </h1>
+
             </div>
          </div>
 

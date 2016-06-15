@@ -8,7 +8,9 @@
 
          <div class="small-9 columns fontRXL h_100">
            <div class="vcenter">
-             Line Up
+             <h1>
+                Bandas
+             </h1>
            </div>
          </div>
 
