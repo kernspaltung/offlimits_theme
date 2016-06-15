@@ -88,3 +88,6 @@ function obtener_link($ID) {
 
    return $url;
 }
+
+
+include_once 'functions_ajax.php';
