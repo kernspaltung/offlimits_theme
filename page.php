@@ -3,19 +3,19 @@
 get_header();
 ?>
 
-<?php woocommerce_content(); ?>
+<?php #woocommerce_content(); ?>
 
-<div id="single-blog-offlimits" class="small-12 columns pl0">
+<div id="page-offlimits" class="small-12 columns pl0">
 
     <article class="small-12 columns p0">
 
-      <div id="single-blog-offlimits-thumb" class="expanded row imgLiquidFill imgLiquid h_50vh w_100" >
+      <div id="page-offlimits-thumb" class="expanded row imgLiquidFill imgLiquid h_50vh w_100" >
 
         <img class="" src="<?php echo get_stylesheet_directory_uri(); ?>/img/1200x600.png" alt="offlimits MX hardcore festival" />
 
       </div>
 
-      <div id="single-blog-offlimits-titlulo-fecha" class="small-12 columns p0 h_15vh">
+      <div id="page-offlimits-titlulo-fecha" class="small-12 columns p0 h_15vh">
 
         <div class="small-7 columns p2 text-left fontRXXL vcenter">
 
@@ -31,7 +31,7 @@ get_header();
 
       </div>
 
-      <div id="single-blog-offlimits-contenido" class="small-12 columns fontRL text-left p3">
+      <div id="page-offlimits-contenido" class="small-12 columns fontRL text-left p3">
 
         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Quidem, repellendus dignissimos doloremque itaque neque maiores corrupti,
@@ -48,7 +48,7 @@ get_header();
       </div>
 
 
-      <div id="single-blog-offlimits-compartir" class="small-12 columns p0 mb3">
+      <div id="page-offlimits-compartir" class="small-12 columns p0 mb3">
 
         <ul id="merch-colores" class="menu horizontal small-12 columns mt2" end>
 
