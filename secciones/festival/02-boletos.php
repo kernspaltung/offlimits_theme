@@ -76,9 +76,7 @@
 
 
    <div id="festival-puntos_de_venta-contenido" class="columns p3">
-      <div class="vcenter fontRL">
-         <?php echo apply_filters( 'the_content', $puntos_de_venta->post_content ); ?>
-      </div>
+      <?php echo apply_filters( 'the_content', $puntos_de_venta->post_content ); ?>
    </div>
 
 

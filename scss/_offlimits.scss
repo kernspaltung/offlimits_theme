@@ -94,7 +94,7 @@ header {
       float: left;
       text-align: center;
       padding: $spacing * 3;
-         
+
    }
 }
 
@@ -314,20 +314,25 @@ h1 {
 
 
 .imgfx1 {
-  filter: brightness(80%) contrast(115%) grayscale(85%);
-  -webkit-filter: brightness(80%) contrast(115%) grayscale(85%);
-  -moz-filter: brightness(80%) contrast(115%) grayscale(85%);
-  -o-filter: brightness(80%) contrast(115%) grayscale(85%);
-  -ms-filter: brightness(80%) contrast(115%) grayscale(85%);
-  filter: brightness(80%) contrast(115%) grayscale(85%);
+   .imgLiquid {
 
+     filter: brightness(60%) contrast(115%) grayscale(85%);
+     -webkit-filter: brightness(60%) contrast(115%) grayscale(85%);
+     -moz-filter: brightness(60%) contrast(115%) grayscale(85%);
+     -o-filter: brightness(60%) contrast(115%) grayscale(85%);
+     -ms-filter: brightness(60%) contrast(115%) grayscale(85%);
+     filter: brightness(60%) contrast(115%) grayscale(85%);
+
+   }
   &:hover {
-    filter: brightness(100%) contrast(115%) grayscale(0%);
-    -webkit-filter: brightness(100%) contrast(115%) grayscale(0%);
-    -moz-filter: brightness(100%) contrast(115%) grayscale(0%);
-    -o-filter: brightness(100%) contrast(115%) grayscale(0%);
-    -ms-filter: brightness(100%) contrast(115%) grayscale(0%);
-    filter: brightness(100%) contrast(115%) grayscale(0%);
+     .imgLiquid {
+       filter: brightness(100%) contrast(115%) grayscale(0%);
+       -webkit-filter: brightness(100%) contrast(115%) grayscale(0%);
+       -moz-filter: brightness(100%) contrast(115%) grayscale(0%);
+       -o-filter: brightness(100%) contrast(115%) grayscale(0%);
+       -ms-filter: brightness(100%) contrast(115%) grayscale(0%);
+       filter: brightness(100%) contrast(115%) grayscale(0%);
+   }
   }
 
 }
