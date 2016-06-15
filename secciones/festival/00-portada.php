@@ -24,13 +24,18 @@ $festival = get_page_by_title("Festival");
             </div>
          </div>
 
-         <?php $secciones = array( 'Lineup', 'Boletos', 'Puntos de Venta', 'Venue', 'Información', 'Actividades', 'Servicios' ); ?>
+         <?php $secciones = array( 'Lineup', 'Boletos', 'Puntos de Venta', 'Foro' ); ?>
 
          <nav id="festival-header-menu" class="menu horizontal small-12 columns h_50 p0">
             <ul class="small-12 columns p0 m0 h_100 fontRXL text-left no-bullet p3">
-               <?php foreach ( $secciones as $seccion ) : ?>
+               <?php
+                  foreach ( $secciones as $seccion ) :
+
+                  $link_seccion = "#festival-" . str_replace( " ", "_", strtolower( $seccion ) );
+
+                  ?>
                   <li class=" h_50 f_l w_a end">
-                     <a class="scrollLink p3 pt0 pl0 h_100 white txsh1" data-target="<?php echo strtolower( $seccion ); ?>" href="#festival-<?php echo strtolower( $seccion ); ?>">
+                     <a class="scrollLink p3 pt0 pl0 h_100 white txsh1" data-target="<?php echo $link_seccion; ?>" href="<?php echo $link_seccion; ?>">
                         <div class="vcenter">
                            <?php echo $seccion; ?>
                         </div>
@@ -41,10 +46,9 @@ $festival = get_page_by_title("Festival");
          </nav>
       </div>
 
-      _
    </header>
 
-   <section id="header-portada-introduccion" class="h_55vh p5 rel ">
+   <section id="header-portada-introduccion" class="large-10 large-offset-1 columns end h_55vh p5 rel ">
 
       <?php
       $enlaces_rapidos = array();
@@ -61,7 +65,7 @@ $festival = get_page_by_title("Festival");
 
          ?>
 
-         <div class="small-12 medium-<?php echo $i==0 ? 7 : 5; ?> columns h_45vh h_sm_70vh <?php echo $i==0 ? 'pr0' : ''; ?> p5 p_sm_0 pb_sm_4 rel pt_sm_0">
+         <div class="small-12 medium-<?php echo $i==0 ? 7 : 5; ?> columns h_35vh h_sm_50vh <?php echo $i==0 ? 'pr0' : ''; ?> p5 p_sm_0 pb_sm_4 rel pt_sm_0">
             <div class="button small-12 columns neutral_oscuro2_bg acento_hover_bg black_hover h_100 p0">
                <a href="<?php echo $link; ?>" class="w_100 h_100">
 
