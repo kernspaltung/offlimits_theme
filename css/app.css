@@ -8084,3 +8084,13 @@ h4, h5, h6 {
     -o-filter: brightness(90%) contrast(115%) grayscale(0%);
     -ms-filter: brightness(90%) contrast(115%) grayscale(0%);
     filter: brightness(90%) contrast(115%) grayscale(0%); }
+
+.accordion-content {
+  padding: 0; }
+
+#boletos-compra > button {
+  border-color: #ED4000; }
+
+#boletos-compra > button:hover {
+  border-color: white;
+  color: #ED4000; }

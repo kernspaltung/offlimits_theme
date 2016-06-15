@@ -11,7 +11,7 @@ get_template_part('secciones/compartidas/header_seccion');
 
 
 <!-- template informacion -->
-<div id="informacion" class="small-12 large-9 columns p0">
+<div id="informacion" class="small-12 columns p0">
 
   <ul class="accordion" data-accordion data-multi-expand="true">
 
