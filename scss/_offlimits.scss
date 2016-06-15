@@ -303,7 +303,12 @@ h4,h5,h6 {
 
 }
 
+// override padding del acordion
+.accordion-content {
+    padding: 0;
+}
 
+// estilos template boletos
 #boletos-compra {
 
   &>button {
