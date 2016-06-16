@@ -1,7 +1,7 @@
 <?php
 $blog = get_page_by_title("Blog");
 ?>
-<div id="blog" class="small-12 columns p0 h_100">
+<section id="blog" class="small-12 columns p0 h_100 mb3">
 
   <!-- header secciones home -->
   <div id="blog-header" class="small-12 columns p0 h_10vh">
@@ -122,4 +122,4 @@ $entradas = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'post' ) );
 
 
 
-</div>
+</section>
