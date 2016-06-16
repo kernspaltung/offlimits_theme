@@ -2,30 +2,30 @@
 <section class="small-12 columns minH_50vh">
 
   <!-- redes -->
-  <div class="small-12 columns p0 m0 h_30 ">
+  <div class="small-12 medium-10 large-8 medium-offset-1 large-offset-2 end columns p0 mt2 mb2 h_30 ">
     <div class="small-4 columns text-center h_100">
-      <a href="#">
+      <a href="#" class="white">
         <div class="vcenter">
-          <i class="fa fa-facebook fontRXXL"></i>
-          <p class="fontRL">offlimitsmx</p>
+          <i class="fa fa-facebook fontRL p3"></i>
+          <p class="fontRM">offlimitsmx</p>
         </div>
       </a>
     </div>
 
     <div class="small-4 columns text-center h_100">
-      <a href="#">
+      <a href="#" class="white">
         <div class="vcenter">
-          <i class="fa fa-instagram fontRXXL"></i>
+          <i class="fa fa-instagram fontRL p3"></i>
           <p class="fontRM">@offlimitsmx</p>
         </div>
       </a>
     </div>
 
     <div class="small-4 columns text-center h_100">
-      <a href="#">
+      <a href="#" class="white">
         <div class="vcenter">
-          <i class="fa fa-twitter fontRXXL"></i>
-          <p class="fontRM">@OfflimitsMx</p>
+          <i class="fa fa-twitter fontRL p3"></i>
+          <p class=MfontRM">@OfflimitsMx</p>
         </div>
       </a>
     </div>

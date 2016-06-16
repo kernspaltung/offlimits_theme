@@ -8158,6 +8158,15 @@ h1 {
     border: 1px solid #FE5000 !important;
     color: #FE5000; }
 
+.wpcf7-form-control {
+  background-color: #FE5000 !important;
+  background: #FE5000 !important;
+  border-radius: 0; }
+  .wpcf7-form-control:hover {
+    background-color: black !important;
+    border: 1px solid #FE5000 !important;
+    color: #FE5000; }
+
 .black_tapes * {
   background-color: #000;
   padding: 7.5px 22.5px; }

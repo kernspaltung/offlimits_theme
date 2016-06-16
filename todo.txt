@@ -1,10 +1,16 @@
-- agrandar iconos menu festival
-X resolver checkout
-X mejorar estructura compra preventa
+- agregar leyendas "ver mas"
 - aumentar tamaños flechas
-o cambiar formatos fechas
 - arreglar color botones
 - vcenter texto festival
 - compactar blog en inicio
 - compactar horizontalmente hotlinks contacto
 - reducir peso de color naranja
+
+
+
+
+
+X resolver checkout
+X mejorar estructura compra preventa
+X agrandar iconos menu festival
+X cambiar formatos fechas
