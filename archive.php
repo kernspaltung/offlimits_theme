@@ -12,7 +12,7 @@ get_header();
    $args = array( 'category__not_in' => $prefiesta -> term_id, 'number_of_posts' => -1 );
    $q = new WP_Query( $args );
    if( $q -> have_posts() ) :
-      endwhile( $q -> have_posts() ) :
+      while( $q -> have_posts() ) :
          $q -> the_post();
          ?>
 
