@@ -57,10 +57,10 @@ $lista_de_correos = get_page_by_title("Lista de Correos");
     <!-- contacto -->
     <div class="small-12 columns h_50 p2 text-center">
 
-      <div class="small-12 medium-8 large-6 medium-offset-2 large-offset-3 end columns p2 pl6 pr6 fontRM black_tapes">
-         <h1>
-            <?php echo apply_filters( 'the_title', $lista_de_correos -> post_title ); ?>
-         </h1>
+      <h1 class="black_bg">
+         <?php echo apply_filters( 'the_title', $lista_de_correos -> post_title ); ?>
+      </h1>
+      <div class="small-12 medium-8 large-6 medium-offset-2 large-offset-3 end columns p2 pl6 pr6 fontRM">
          <?php echo apply_filters( 'the_content', $lista_de_correos -> post_content ); ?>
       </div>
 
