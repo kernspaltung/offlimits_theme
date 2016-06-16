@@ -10,10 +10,10 @@ $lista_de_correos = get_page_by_title("Lista de Correos");
    </div>
    <div class="w_100 h_100 abs z1">
 
-  <section id="redes" class="small-12 medium-10 large-8 medium-offset-1 large-offset-2 end columns p0 mt2 mb2 h_30 ">
+  <section id="redes" class="small-12 medium-10 large-8 medium-offset-1 large-offset-2 end columns p0 mt2 mb2 h_30 black_tapes">
 
     <div class="small-3 columns text-center h_100">
-      <a href="http://facebook.com/offlimitsmx" class="black">
+      <a href="http://facebook.com/offlimitsmx" class="white">
         <div class="vcenter">
           <i class="fa fa-facebook fontRL p3"></i>
           <p class="fontRS">offlimitsmx</p>
@@ -22,7 +22,7 @@ $lista_de_correos = get_page_by_title("Lista de Correos");
     </div>
 
     <div class="small-3 columns text-center h_100">
-      <a href="http://instagram.com/offlimitsmx" class="black">
+      <a href="http://instagram.com/offlimitsmx" class="white">
         <div class="vcenter">
           <i class="fa fa-instagram fontRL p3"></i>
           <p class="fontRS">@offlimitsmx</p>
@@ -31,7 +31,7 @@ $lista_de_correos = get_page_by_title("Lista de Correos");
     </div>
 
     <div class="small-3 columns text-center h_100">
-      <a href="http://twitter.com/offlimitsmx" class="black">
+      <a href="http://twitter.com/offlimitsmx" class="white">
         <div class="vcenter">
           <i class="fa fa-twitter fontRL p3"></i>
           <p class="fontRS">@OfflimitsMx</p>
@@ -40,7 +40,7 @@ $lista_de_correos = get_page_by_title("Lista de Correos");
     </div>
 
     <div class="small-3 columns text-center h_100">
-      <a href="<?php echo get_the_permalink( get_page_by_title("Contacto") ); ?>" class="black">
+      <a href="<?php echo get_the_permalink( get_page_by_title("Contacto") ); ?>" class="white">
         <div class="vcenter">
           <i class="fa fa-envelope fontRL p3"></i>
           <p class="fontRS">Contacto</p>
