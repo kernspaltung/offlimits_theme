@@ -16,19 +16,16 @@ get_header();
          <div id="page-offlimits-titlulo-fecha" class="small-12 columns p0 h_15vh">
 
             <div class="small-7 columns p2 text-left fontRXXL vcenter">
-
                <h1>
                   <?php echo apply_filters('the_title', get_the_title()); ?>
                </h1>
-
             </div>
+
             <?php
             $img = get_the_post_thumbnail();
             if( $img ) : ?>
             <div id="page-offlimits-thumb" class="expanded row imgLiquidFill imgLiquid h_50vh w_100" >
-
                <?php echo $img; ?>
-
             </div>
 
          <?php endif; ?>
