@@ -78,5 +78,5 @@
                   </header>
                <?php endif; ?>
 
-               <div id="contenido-general" class="columns ha">
+               <div id="contenido-general" class="columns ha p0">
                   <div id="area_contenidos" class="small-12 small-pull-12 large-<?php echo ! is_page('Festival') ? 9 : 12; ?> p0 columns ha pb5">
