@@ -98,7 +98,7 @@ function setup_utils() {
       speed: 500,
       // fade: true,
       centerMode: true,
-      centerPadding: '10vw',
+      centerPadding: '7vw',
       autoplay: true,
       autoplaySpeed: 3000,
       // cssEase: 'swing',

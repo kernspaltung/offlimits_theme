@@ -1,11 +1,17 @@
 <!-- contenido registro -->
-<section class="small-12 columns minH_50vh">
+<section class="small-12 columns h_60vh rel">
 
-  <!-- redes -->
-  <div class="small-12 medium-10 large-8 medium-offset-1 large-offset-2 end columns p0 mt2 mb2 h_30 ">
+   <div class="w_100 h_100 abs z0 imgLiquid imgLiquidFill">
+      <?php
+      echo get_the_permalink( $lista_de_correos -> ID, 'large' );
+      ?>
+   </div>
+   <div class="w_100 h_100 abs z1">
+
+  <section id="redes" class="small-12 medium-10 large-8 medium-offset-1 large-offset-2 end columns p0 mt2 mb2 h_30 ">
 
     <div class="small-3 columns text-center h_100">
-      <a href="#" class="white">
+      <a href="http://facebook.com/offlimitsmx" class="white">
         <div class="vcenter">
           <i class="fa fa-facebook fontRL p3"></i>
           <p class="fontRS">offlimitsmx</p>
@@ -14,7 +20,7 @@
     </div>
 
     <div class="small-3 columns text-center h_100">
-      <a href="#" class="white">
+      <a href="http://instagram.com/offlimitsmx" class="white">
         <div class="vcenter">
           <i class="fa fa-instagram fontRL p3"></i>
           <p class="fontRS">@offlimitsmx</p>
@@ -23,7 +29,7 @@
     </div>
 
     <div class="small-3 columns text-center h_100">
-      <a href="#" class="white">
+      <a href="http://twitter.com/offlimitsmx" class="white">
         <div class="vcenter">
           <i class="fa fa-twitter fontRL p3"></i>
           <p class="fontRS">@OfflimitsMx</p>
@@ -32,15 +38,15 @@
     </div>
 
     <div class="small-3 columns text-center h_100">
-      <a href="#" class="white">
+      <a href="<?php echo get_the_permalink( get_page_by_title("Contacto") ); ?>" class="white">
         <div class="vcenter">
           <i class="fa fa-envelope fontRL p3"></i>
-          <p class="fontRS">contacto@offlimits.mx</p>
+          <p class="fontRS">Contacto</p>
         </div>
       </a>
     </div>
 
-  </div>
+</section>
   <!-- fin redes egistro -->
 
   <!-- registro -->
@@ -52,12 +58,15 @@
       <div class="small-12 medium-8 large-6 medium-offset-2 large-offset-3 end columns p2 pl6 pr6 fontRM">
 
          <?php
-         $registro = get_page_by_title("Registro");
-         echo apply_filters( 'the_content', $registro -> post_content );
+         $lista_de_correos = get_page_by_title("Lista de Correos");
+         echo apply_filters( 'the_title', $lista_de_correos -> post_title );
+         echo apply_filters( 'the_content', $lista_de_correos -> post_content );
          ?>
       </div>
 
     </div>
 
   </div>
+
+  </div><!-- .abs -->
 </section>
