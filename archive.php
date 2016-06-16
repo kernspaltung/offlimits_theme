@@ -5,7 +5,7 @@ get_header();
 
 
 <section id="archive-offlimits" class="small-12 columns pl0">
-   <h1>Blog</h1>
+   <h1 class="p3 black_bg">Blog</h1>
 
 
    <?php
@@ -62,7 +62,23 @@ get_header();
 
    ?>
    <section id="blog-prefiesta" class="small-12 columns p0">
-   <h1>Prefiesta</h1>
+
+   <div class="small-12 columns mr1">
+      <div class="h_15vh m0 p3 black_bg w_a f_l">
+         <div class="vcenter">
+            <h1 class="m0 p0">
+                  Prefiesta
+            </h1>
+         </div>
+      </div>
+      <div class="h_15vh m0 p3 black_bg w_a f_l ml1">
+         <div class="vcenter">
+         <h4 class="m0 pt1">
+               15 de abril, 2016
+         </h4>
+         </div>
+      </div>
+   </div>
    <?php
 
 
