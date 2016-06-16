@@ -1,49 +1,33 @@
 <?php
 
 get_header();
-?>
 
+if( have_posts() ) : while( have_posts() ) : the_post();
+
+?>
 
 <div id="single-blog-offlimits" class="small-12 columns pl0">
 
     <article class="small-12 columns p0">
 
-      <div id="single-blog-offlimits-thumb" class="expanded row imgLiquidFill imgLiquid h_50vh w_100" >
-
-        <img class="" src="<?php echo get_stylesheet_directory_uri(); ?>/img/1200x600.png" alt="offlimits MX hardcore festival" />
-
+      <div id="single-blog-offlimits-thumb" class="expanded row imgLiquidFill imgLiquid h_50vh w_100 mb1" >
+         <?php echo get_the_post_thumbnail(); ?>
       </div>
 
       <div id="single-blog-offlimits-titlulo-fecha" class="small-12 columns p0 h_15vh">
 
-        <div class="small-7 columns p2 text-left fontRXXL vcenter">
-
-          Lorem ipsum dolor sit amet.
-
+        <div class="small-12 columns p2 text-left fontRXXL">
+           <?php echo apply_filters('the_title', get_the_title() ); ?>
         </div>
 
-        <div class="small-5 columns p2 text-right fontRM vcenter">
-
-          1 enero 1979
-
+        <div class="small-12 columns pt1 text-left fontL">
+           <?php echo get_the_date('d\.m\.Y', get_the_ID() ); ?>
         </div>
 
       </div>
 
-      <div id="single-blog-offlimits-contenido" class="small-12 columns fontRL text-left p3">
-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Quidem, repellendus dignissimos doloremque itaque neque maiores corrupti,
-        quos adipisci earum est cumque, natus veniam in labore laboriosam possimus
-        nam dolores delectus.
-        consectetur adipisicing elit. Quidem, repellendus dignissimos doloremque itaque
-        neque maiores corrupti, quos adipisci earum est cumque, natus veniam in labore
-        laboriosam possimus nam dolores delectus.
-        t. Quidem, repellendus dignissimos doloremque itaque neque maiores corrupti,
-        quos adipisci earum est cumque, natus veniam in labore laboriosam possimus
-        nam dolores delectus.
-
-
+      <div id="single-blog-offlimits-contenido" class="small-12 medium-11 large-10 columns end columns fontRL text-left pt2">
+        <?php echo apply_filters('the_content', get_the_content() ); ?>
       </div>
 
 
@@ -81,6 +65,7 @@ get_header();
 
 
 <?php
+endwhile; endif;
 
 get_footer();
 ?>
