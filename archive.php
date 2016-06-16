@@ -24,7 +24,7 @@ get_header();
                   <?php echo get_the_post_thumbnail(); ?>
                </div>
 
-               <div id="archive-offlimits-titlulo-fecha" class="small-12 columns p0 mb1">
+               <div id="archive-offlimits-titulo-fecha" class="small-12 columns p0 mb1">
 
                   <div class="small-9 columns p0 text-left fontL">
                      <?php echo apply_filters( 'the_title', get_the_title()); ?>
