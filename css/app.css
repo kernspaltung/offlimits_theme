@@ -7955,10 +7955,10 @@ button *,
   border: 1px solid #060708; }
 
 .white_hover_bg:hover, .white_hover_bg:hover * {
-  background-color: #FE5000 #fff; }
+  background-color: #fff !important; }
 
 .black_hover_bg:hover, .black_hover_bg:hover * {
-  background-color: #FE5000 #000; }
+  background-color: #000 !important; }
 
 .acento_hover_bg:hover, .acento_hover_bg:hover * {
   background-color: #FE5000 !important; }

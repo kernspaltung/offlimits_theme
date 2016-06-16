@@ -17,10 +17,15 @@ get_header();
          $q -> the_post();
          ?>
 
-         <article class="small-12 medium-6 columns p0 h_55vh h_sm_80vh p4">
-            <a href="<?php echo get_the_permalink(get_the_ID()); ?>" class="white acento_hover">
+         <article class="small-12 medium-6 columns p0 h_55vh h_sm_80vh p4 black_hover_bg acento_hover_bd">
+            <a href="<?php echo get_the_permalink(get_the_ID()); ?>" class="white ">
 
-               <div id="archive-offlimits-thumb" class="expanded row imgLiquidFill imgLiquid h_20vh w_100 mb2" >
+               <div class="small-12 columns pt0 text-right fontXS p0">
+                  <div class="small-3 small-offset-9 columns black_bg p1 fontXS">
+                     <?php echo get_the_date('d\.m\.Y', get_the_ID() ); ?>
+                  </div>
+               </div>
+               <div id="archive-offlimits-thumb" class="small-12 columns imgLiquidFill imgLiquid h_20vh w_100 mb2" >
                   <?php echo get_the_post_thumbnail(get_the_ID(),'thumb'); ?>
                </div>
 
@@ -30,9 +35,6 @@ get_header();
                      <?php echo apply_filters( 'the_title', get_the_title()); ?>
                   </div>
 
-                  <div class="small-3 columns p4 pt0  text-right fontRM">
-                     <?php echo get_the_date('d\.m\.Y', $avisos[0]->ID ); ?>
-                  </div>
 
                </div>
 
@@ -59,6 +61,7 @@ get_header();
    // prefiesta
 
    ?>
+   <section id="blog-prefiesta" class="small-12 columns p0">
    <h1>Prefiesta</h1>
    <?php
 
@@ -71,22 +74,24 @@ get_header();
          $q -> the_post();
          ?>
 
-         <article class="small-12 medium-6 large-4 columns p0 h_40vh h_sm_80vh p4">
-            <a href="<?php echo get_the_permalink(get_the_ID()); ?>" class="white acento_hover">
+         <article class="small-12 medium-6 large-4 columns p0 h_50vh h_sm_80vh p4 black_hover_bg acento_hover_bd">
+            <a href="<?php echo get_the_permalink(get_the_ID()); ?>" class="white">
 
-               <div id="archive-offlimits-thumb" class="expanded row imgLiquidNoFill imgLiquid h_20vh w_100 mb2" >
+               <div class="small-12 columns pt0  text-right  p0">
+                  <div class="small-3 small-offset-9 columns black_bg p1 fontXS">
+                     <?php echo get_the_date('d\.m\.Y', get_the_ID() ); ?>
+                  </div>
+               </div>
+               <div id="archive-offlimits-thumb" class="small-12 columns imgLiquidFill imgLiquid h_25vh mb2" >
                   <?php echo get_the_post_thumbnail(get_the_ID(),'thumb'); ?>
                </div>
 
                <div id="archive-offlimits-titulo-fecha" class="small-12 columns p0 mb1">
 
-                  <div class="small-9 columns p0 text-left fontL">
+                  <div class="small-12 columns text-center fontL">
                      <?php echo apply_filters( 'the_title', get_the_title()); ?>
                   </div>
 
-                  <div class="small-3 columns p4 pt0  text-right fontRM">
-                     <?php echo get_the_date('d\.m\.Y', $avisos[0]->ID ); ?>
-                  </div>
 
                </div>
 
@@ -99,9 +104,10 @@ get_header();
       endwhile;
    endif;
    ?>
+   </section>
+
 
 </section>
-
 
 <?php
 
