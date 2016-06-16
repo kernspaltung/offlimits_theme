@@ -1,6 +1,5 @@
 <?php
 
-$html;
 $bandas = get_posts(array('post_type'=>'banda','posts_per_page'=>-1, 'orderby'=>'menu_order', 'order' => 'ASC' ));
 
 foreach ( $bandas as $banda ) :

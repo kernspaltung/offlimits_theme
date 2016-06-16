@@ -51,7 +51,7 @@
 
                   <a href="<?php echo get_the_permalink( $festival -> ID ); ?>" class="w_50 button h_10vh">
                      <div class="vcenter">
-                        Ir a <?php echo apply_filters( 'the_title', $festival->post_title ); ?>
+                        Más información
                      </div>
                   </a>
 

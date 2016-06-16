@@ -1,29 +1,10 @@
 <!-- template festival lineup -->
 <section id="festival-lineup" class="small-12 columns p0">
 
-  <!-- header seccion lineup -->
-  <header id="festival-lineup-header" class="small-12 columns p0 h_10vh">
-
-       <a href="">
-
-         <div class="small-9 columns fontRXL h_100">
-           <div class="vcenter">
-             <h1>
-                Bandas
-             </h1>
-           </div>
-         </div>
-
-         <div class="small-3 columns p2 m0 h_100 fontRXL text-center">
-           <div class="vcenter">
-             <i class="fa fa-angle-right"></i>
-           </div>
-         </div>
-
-       </a>
-
-   </header>
-
+   <h1>
+      Bandas
+   </h1>
+  
 
 
   <?php
