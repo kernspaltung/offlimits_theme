@@ -3,7 +3,7 @@
 
    <div class="w_100 h_100 abs z0 imgLiquid imgLiquidFill">
       <?php
-      echo get_the_permalink( $lista_de_correos -> ID, 'large' );
+      echo get_the_post_thumbnail( $lista_de_correos -> ID, 'large' );
       ?>
    </div>
    <div class="w_100 h_100 abs z1">
