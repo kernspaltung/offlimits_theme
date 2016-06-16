@@ -20,7 +20,7 @@ endif;
 <footer class="w_100 expanded neutral_oscuro3_bg h_10vh h_md_20vh p0 absDownL fixed z1k1">
 
    <!-- player -->
-   <div class="small-12 large-5 columns h_100 h_md_50">
+   <div class="small-12 large-5 columns h_100 h_md_50 hidden">
 
       <div class="shareW columns end p1 black_hover text-center">
          <i class="button fa fa-fast-backward neutral_oscuro3_bg acento_hover_bg black_hover p3"></i>
@@ -47,21 +47,21 @@ endif;
    </div>
 
    <!-- redes footer -->
-   <div class="small-12 large-5 large-2 columns fontRXXL h_100 h_md_50">
+   <div class="small-12 large-5 large-2 columns h_100 h_md_50">
       <div class="small-3 columns h_100 text-center">
-         <i class="fa fa-facebook vcenter"></i>
+         <i class="fa fa-facebook vcenter fontRXL white acento_hover"></i>
+      </div>
+
+      <div class="small-3 columns h_100 text-center fontRXL white acento_hover">
+         <i class="fa fa-instagram vcenter fontRXL white acento_hover"></i>
       </div>
 
       <div class="small-3 columns h_100 text-center">
-         <i class="fa fa-instagram vcenter"></i>
+         <i class="fa fa-twitter vcenter fontRXL white acento_hover"></i>
       </div>
 
       <div class="small-3 columns h_100 text-center">
-         <i class="fa fa-twitter vcenter"></i>
-      </div>
-
-      <div class="small-3 columns h_100 text-center">
-         <i class="fa fa-envelope vcenter"></i>
+         <i class="fa fa-envelope vcenter fontRXL white acento_hover"></i>
       </div>
 
    </div>

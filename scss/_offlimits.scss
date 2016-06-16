@@ -107,6 +107,7 @@ header {
 $acento: #FE5000;
 $acento2: #ED4000;
 
+$neutral: #888;
 $neutral_oscuro1: #333;
 $neutral_oscuro2: #222;
 $neutral_oscuro3: #060708;
@@ -141,9 +142,10 @@ button,
 .black { color: #000; }
 .acento { color: $acento; }
 .acento2 { color: $acento2; }
-.neutral_oscuro1 { color: $neutral_oscuro1; }
-.neutral_oscuro2 { color: $neutral_oscuro2; }
-.neutral_oscuro3 { color: $neutral_oscuro3; }
+.neutral { color: $neutral !important; }
+.neutral_oscuro1 { color: $neutral_oscuro1 !important; }
+.neutral_oscuro2 { color: $neutral_oscuro2 !important; }
+.neutral_oscuro3 { color: $neutral_oscuro3 !important; }
 
 
 .white_bg { background-color: #fff; }

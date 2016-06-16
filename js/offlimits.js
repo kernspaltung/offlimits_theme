@@ -116,7 +116,8 @@ function setup_utils() {
    });
 
    // mapa
-   initMap();
+   if( $('#festival-map').length > 0 )
+      initMap();
 
 }
 
@@ -158,21 +159,24 @@ function setup_interaccion() {
       $('#festival-boletos-compra button').html("Compra "+$(this).val());
    });
 
-   $('#festival-boletos-compra button').click(function(){
+   $('#festival-boletos-compra a').click(function(e){
       var preventa_id = "56";
       var cantidad = $('#festival-boletos-compra input').val();
 
       // clear_cart();
       add_to_cart( preventa_id, function( key ){
-         console.log( "key", key )
+
          currentKey = key;
          set_cart_item_quantity( key, cantidad , function( result ) {
 
             setTimeout(function(){
-               window.location = 'http://localhost/web/kernspaltung/offlimits/checkout';
+               window.location = $(this).attr('href');
             },1000)
          } );
        })
+
+       e.preventDefault();
+       e.stopPropagation();
    })
 
 }
@@ -217,20 +221,24 @@ function scrollToTarget( url ) {
 var latLong = {lat: 19.4538898, lng: -99.2192209};
 function initMap() {
    var mapDiv = document.getElementById('festival-map');
-   var map = new google.maps.Map(mapDiv, {
-      zoom: 14,
-      center: latLong,
-      // mapTypeId: google.maps.MapTypeId.ROADMAP,
-      scrollwheel: false,
-      navigationControl: true,
-      mapTypeControl: true,
-      draggable: true
-   });
-   var marker = new google.maps.Marker({
-      position: latLong,
-      map: map,
-      title: 'Off Limits Festival'
-   });
+
+      // if ( mapDiv.length > 0 ) {
+
+      var map = new google.maps.Map(mapDiv, {
+         zoom: 14,
+         center: latLong,
+         // mapTypeId: google.maps.MapTypeId.ROADMAP,
+         scrollwheel: false,
+         navigationControl: true,
+         mapTypeControl: true,
+         draggable: true
+      });
+      var marker = new google.maps.Marker({
+         position: latLong,
+         map: map,
+         title: 'Off Limits Festival'
+      });
+   // }
 };
 
 

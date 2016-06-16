@@ -7900,14 +7900,17 @@ button *,
 .acento2 {
   color: #ED4000; }
 
+.neutral {
+  color: #888 !important; }
+
 .neutral_oscuro1 {
-  color: #333; }
+  color: #333 !important; }
 
 .neutral_oscuro2 {
-  color: #222; }
+  color: #222 !important; }
 
 .neutral_oscuro3 {
-  color: #060708; }
+  color: #060708 !important; }
 
 .white_bg {
   background-color: #fff; }
