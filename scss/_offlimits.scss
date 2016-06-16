@@ -418,10 +418,11 @@ h1 {
 
 
 
-.wpcf7-form-control {
+.wpcf7-form-control.wpcf7-submit {
    background-color: $acento !important;
    background: $acento !important;
    border-radius: 0;
+   border: none;
    &:hover {
       background-color: black !important;
       border: 1px solid $acento !important;
