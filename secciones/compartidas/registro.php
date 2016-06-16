@@ -59,7 +59,7 @@ $lista_de_correos = get_page_by_title("Lista de Correos");
             <h1 class="black_bg mt0">
                <?php echo apply_filters( 'the_title', $lista_de_correos -> post_title ); ?>
             </h1>
-            <div class="small-12 medium-10 large-8 medium-offset-1 large-offset-2 end columns p2 pl6 pr6 fontRL black acento2_bg p2">
+            <div class="small-12 medium-10 large-8 medium-offset-1 large-offset-2 end columns fontL black acento2_bg p5">
                <?php echo apply_filters( 'the_content', $lista_de_correos -> post_content ); ?>
             </div>
 
