@@ -35,7 +35,7 @@ $entradas = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'post' ) );
 ?>
 
   <a href="<?php echo get_the_permalink( $entradas[0] -> ID ); ?>">
-    <article id="blog-principal" class="large-12 columns p0 m0 minH_50vh white">
+    <article id="blog-principal" class="large-12 columns p0 m0 minH_50vh white mb2">
 
       <div id="blog-principal-header" class="small-12 p2 m0 rel">
         <div id="blog-principal-titulo" class="small-8 columns p2 m0 minH_10vh fontRL">
@@ -62,7 +62,7 @@ $entradas = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'post' ) );
 
       <div class="small-9 columns p2 m0 h_10vh fontRS">
         <div class="vcenter">
-           <?php echo apply_filters('the_excerpt',wp_trim_words($entradas[0]->post_excerpt,22)); ?>
+           <?php echo apply_filters('the_excerpt',$entradas[0]->post_excerpt); ?>
         </div>
       </div>
 
