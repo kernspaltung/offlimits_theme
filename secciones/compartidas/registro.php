@@ -56,7 +56,7 @@ $lista_de_correos = get_page_by_title("Lista de Correos");
          <!-- contacto -->
          <div class="small-12 columns h_50 p2 text-center">
 
-            <h1 class="black_bg">
+            <h1 class="black_bg mt0">
                <?php echo apply_filters( 'the_title', $lista_de_correos -> post_title ); ?>
             </h1>
             <div class="small-12 medium-10 large-8 medium-offset-1 large-offset-2 end columns p2 pl6 pr6 fontRM neutral_oscuro2_bg p5">
