@@ -148,13 +148,13 @@ button,
 .neutral_oscuro3 { color: $neutral_oscuro3 !important; }
 
 
-.white_bg { background-color: #fff; }
-.black_bg { background-color: #000; }
-.acento_bg { background-color: $acento; }
-.acento2_bg { background-color: $acento2; }
-.neutral_oscuro1_bg { background-color: $neutral_oscuro1; }
-.neutral_oscuro2_bg { background-color: $neutral_oscuro2; }
-.neutral_oscuro3_bg { background-color: $neutral_oscuro3; }
+.white_bg { background-color: #fff !important; }
+.black_bg { background-color: #000 !important; }
+.acento_bg { background-color: $acento !important; }
+.acento2_bg { background-color: $acento2 !important; }
+.neutral_oscuro1_bg { background-color: $neutral_oscuro1 !important; }
+.neutral_oscuro2_bg { background-color: $neutral_oscuro2 !important; }
+.neutral_oscuro3_bg { background-color: $neutral_oscuro3 !important; }
 
 
 .white_bd { border: 1px solid #fff; }
@@ -443,7 +443,7 @@ h1 {
    }
 }
 
-
+textarea,
 input {
    background-color: #fff !important;
 }
