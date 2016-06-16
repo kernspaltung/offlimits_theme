@@ -90,11 +90,6 @@ get_header();
 
                </div>
 
-               <div class="small-12 columns p0">
-                  <div id="archive-offlimits-contenido" class="small-3 columns fontRM text-right p0 ">
-                     <span class="pr1">Ver más</span><i class="fa fa-plus"></i>
-                  </div>
-               </div>
 
             </a>
          </article>
