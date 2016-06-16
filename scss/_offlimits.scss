@@ -433,7 +433,7 @@ h1 {
 
 
 .black_tapes {
-   * {
+   & > * {
       background-color: #000;
       padding: $spacing / 2 $spacing * 1.5;
       * {
