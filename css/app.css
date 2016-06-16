@@ -8162,7 +8162,8 @@ h1 {
   background-color: #FE5000 !important;
   background: #FE5000 !important;
   border-radius: 0;
-  border: none; }
+  border: none;
+  padding: 15px; }
   .wpcf7-form-control.wpcf7-submit:hover {
     background-color: black !important;
     border: 1px solid #FE5000 !important;

@@ -423,6 +423,7 @@ h1 {
    background: $acento !important;
    border-radius: 0;
    border: none;
+   padding: $spacing;
    &:hover {
       background-color: black !important;
       border: 1px solid $acento !important;
