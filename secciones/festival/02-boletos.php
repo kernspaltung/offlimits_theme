@@ -14,7 +14,7 @@
 
       <div class="medium-6 columns p0">
 
-         <div id="festival-boletos-texto" class="small-12 large-7 columns p0 pr3 pt1   ">
+         <div id="festival-boletos-texto" class="small-12 large-7 columns p0 pr3 pt1 black_tapes">
 
                <?php echo apply_filters( 'the_content', $boletos->post_content ); ?>
 
@@ -34,7 +34,7 @@
 
          <section id="festival-boletos-compra"class="small-12 medium-10 medium-offset-1 large-8 large-offset-2 end columns mt2">
 
-            <div class="titulo text-center">
+            <div class="titulo text-center black_tapes">
                <h2>
                   Compra tus boletos:
                </h2>

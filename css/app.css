@@ -7859,8 +7859,9 @@ table.hover tr:nth-of-type(even):hover {
 #area_contenidos > section, #area_contenidos > section > section {
   margin-bottom: 60px; }
   #area_contenidos > section h1, #area_contenidos > section > section h1 {
-    color: white;
-    margin-bottom: 15px !important; }
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white; }
 
 #festival-puntos_de_venta-contenido li {
   list-style: none;
@@ -8153,3 +8154,10 @@ h1 {
     background-color: black !important;
     border: 1px solid #FE5000 !important;
     color: #FE5000; }
+
+.black_tapes * {
+  background-color: #000;
+  padding: 7.5px 22.5px; }
+  .black_tapes * * {
+    padding: 0;
+    background-color: transparent; }

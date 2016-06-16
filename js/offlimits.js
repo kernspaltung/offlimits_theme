@@ -116,7 +116,7 @@ function setup_utils() {
    });
 
    // mapa
-   // initMap();
+   initMap();
 
 }
 

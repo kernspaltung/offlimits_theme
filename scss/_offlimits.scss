@@ -78,8 +78,9 @@ header {
    &>section,&>section>section {
       margin-bottom: $spacing * 4;
       h1 {
+         margin-top: $spacing * 2;
+         margin-bottom: $spacing * 2;
          color: white;
-         margin-bottom: $spacing * 1 !important;
       }
    }
 
@@ -409,6 +410,20 @@ h1 {
          background-color: black !important;
          border: 1px solid $acento !important;
          color: $acento;
+      }
+   }
+}
+
+
+
+
+.black_tapes {
+   * {
+      background-color: #000;
+      padding: $spacing / 2 $spacing * 1.5;
+      * {
+         padding: 0;
+         background-color: transparent;
       }
    }
 }
