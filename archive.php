@@ -74,7 +74,7 @@ get_header();
          <article class="small-12 medium-6 large-4 columns p0 h_55vh h_sm_80vh p4">
             <a href="<?php echo get_the_permalink(get_the_ID()); ?>" class="white acento_hover">
 
-               <div id="archive-offlimits-thumb" class="expanded row imgLiquidFill imgLiquid h_20vh w_100 mb2" >
+               <div id="archive-offlimits-thumb" class="expanded row imgLiquidNoFill imgLiquid h_20vh w_100 mb2" >
                   <?php echo get_the_post_thumbnail(); ?>
                </div>
 
