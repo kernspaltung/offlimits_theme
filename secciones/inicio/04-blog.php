@@ -40,7 +40,9 @@ $entradas = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'post' ) );
       <div id="blog-principal-header" class="small-12 p2 m0 rel">
         <div id="blog-principal-titulo" class="small-8 columns p2 m0 minH_10vh fontRL">
           <div class="vcenter">
-          <?php echo apply_filters( 'the_title', get_the_title( $entradas[0] -> ID )); ?>
+          <h4>
+             <?php echo apply_filters( 'the_title', get_the_title( $entradas[0] -> ID )); ?>
+          </h4>
           </div>
         </div>
 
@@ -91,7 +93,9 @@ $entradas = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'post' ) );
 
            <div id="blog-secundario-header" class="small-9 columns p2 m0 minH_10vh fontRM">
              <div class="vcenter">
-                <?php echo apply_filters( 'the_title', get_the_title( $entradas[$i+1] -> ID )); ?>
+                <h5>
+                   <?php echo apply_filters( 'the_title', get_the_title( $entradas[$i+1] -> ID )); ?>
+                </h5>
              </div>
            </div>
            <div id="blog-secundario-header-fecha" class="small-3 columns p2 pl2 minH_10vh fontRS">
