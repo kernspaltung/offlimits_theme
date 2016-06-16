@@ -360,3 +360,17 @@ h1 {
     margin-right:0px;
     margin-left:0px;
 }
+
+
+
+#checkout {
+   label {
+      color: white;
+   }
+
+   table {
+      &, * {
+         color: black;
+      }
+   }
+}

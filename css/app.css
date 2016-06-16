@@ -8117,3 +8117,9 @@ h1 {
 .slick-slide {
   margin-right: 0px;
   margin-left: 0px; }
+
+#checkout label {
+  color: white; }
+
+#checkout table, #checkout table * {
+  color: black; }

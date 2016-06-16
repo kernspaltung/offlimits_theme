@@ -40,7 +40,7 @@
                </h2>
             </div>
             <div class="small-12">
-               <input class="small-4 columns h_10vh small-center  text-center fontRXXL" type="number" name="numero-boletos" min="0" max="10" placeholder="10">
+               <input class="small-4 columns h_10vh small-center  text-center fontRXXL" type="number" min="1" max="10" name="numero-boletos" placeholder="1">
                <button class="button acento_bg black white_hover small-8 columns fontRXL white h_10vh">
                   Compra 1
                </button>

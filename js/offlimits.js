@@ -152,10 +152,17 @@ function setup_interaccion() {
       }
    })
 
-   $('#festival-boletos-compra').click(function(){
+   $('#festival-boletos-compra input').val(1);
+
+   $('#festival-boletos-compra input').change(function(){
+      $('#festival-boletos-compra button').html("Compra "+$(this).val());
+   });
+
+   $('#festival-boletos-compra button').click(function(){
       var preventa_id = "56";
-      var cantidad = 3;
-      console.log( "compr")
+      var cantidad = $('#festival-boletos-compra input').val();
+
+      // clear_cart();
       add_to_cart( preventa_id, function( key ){
          console.log( "key", key )
          currentKey = key;
@@ -283,6 +290,27 @@ function set_cart_item_quantity( key, quantity, callback ) {
 
 	$.ajax( ajaxData );
 
+
+
+}
+
+function clear_cart() {
+
+	var ajaxData = {
+
+		type: 'post',
+		url: ol_ajax.ajaxurl,
+		dataType: 'json',
+		data: {
+			action: 'clear_cart'
+		},
+		success: function() {
+
+		}
+
+	};
+
+	$.ajax(ajaxData);
 
 
 }

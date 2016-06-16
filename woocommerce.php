@@ -4,7 +4,12 @@ get_header();
 ?>
 
 <h1>Checkout</h1>
+
+<section id="checkout">
 <?php
+
+
+$checkout = WC()->checkout;
 
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -22,6 +27,7 @@ if ( ! $checkout->enable_signup && ! $checkout->enable_guest_checkout && ! is_us
 }
 
 ?>
+
 
 <form name="checkout" method="post" class="checkout woocommerce-checkout" action="<?php echo esc_url( wc_get_checkout_url() ); ?>" enctype="multipart/form-data">
 
@@ -43,7 +49,7 @@ if ( ! $checkout->enable_signup && ! $checkout->enable_guest_checkout && ! is_us
 
 	<?php endif; ?>
 
-	<h3 id="order_review_heading"><?php _e( 'Your order', 'woocommerce' ); ?></h3>
+	<h3 id="order_review_heading"><?php _e( 'Tu orden', 'woocommerce' ); ?></h3>
 
 	<?php do_action( 'woocommerce_checkout_before_order_review' ); ?>
 
@@ -57,6 +63,7 @@ if ( ! $checkout->enable_signup && ! $checkout->enable_guest_checkout && ! is_us
 
 <?php do_action( 'woocommerce_after_checkout_form', $checkout ); ?>
 
+</section>
 
 <?php
 
