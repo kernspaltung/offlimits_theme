@@ -1,7 +1,7 @@
 <?php
 $lista_de_correos = get_page_by_title("Lista de Correos");
 ?>
-<section id="inicio-redes" class="small-12 columns h_100vh rel">
+<section id="inicio-redes" class="row expanded h_100vh rel">
 
    <div class="w_100 h_100 abs z0 imgLiquid imgLiquidFill">
       <?php
