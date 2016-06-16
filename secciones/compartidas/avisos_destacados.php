@@ -94,7 +94,7 @@ $avisos = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'aviso', 'orde
 
 
                <div class="small-12 columns p0 m0 h_12vh">
-                  <div id="avisos-destacados-thumb" class="columns h_100 imgLiquid imgLiquidFill cursor-pointer">
+                  <div id="avisos-destacados-thumb" class="columns h_100 imgLiquid imgLiquidNoFill cursor-pointer">
                      <?php echo get_the_post_thumbnail($avisos[$i+1]->ID,'thumb'); ?>
                   </div>
                </div>
