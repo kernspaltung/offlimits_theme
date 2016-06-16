@@ -41,7 +41,7 @@
             </div>
             <div class="small-12">
                <input class="small-4 columns h_10vh small-center  text-center fontRXXL" type="number" name="numero-boletos" min="0" max="10" placeholder="10">
-               <button class="button hollow small-8 columns fontRXL white h_10vh">
+               <button class="button acento_bg black white_hover small-8 columns fontRXL white h_10vh">
                   Compra 1
                </button>
             </div>

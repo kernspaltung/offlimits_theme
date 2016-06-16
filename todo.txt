@@ -1,4 +1,5 @@
-o mejorar estructura compra preventa
+- agrandar iconos menu festival
+X mejorar estructura compra preventa
 - aumentar tamaños flechas
 - cambiar formatos fechas
 - arreglar color botones

@@ -143,12 +143,29 @@ function setup_interaccion() {
 
    });
 
+
    $('a').click(function(){
       var targetID = getParameterByName('scrollTo', $(this).attr('href') );
       if( targetID && $('#'+targetID ).length ) {
          scrollToTarget( $(this).attr('href') );
          return false;
       }
+   })
+
+   $('#festival-boletos-compra').click(function(){
+      var preventa_id = "56";
+      var cantidad = 3;
+      console.log( "compr")
+      add_to_cart( preventa_id, function( key ){
+         console.log( "key", key )
+         currentKey = key;
+         set_cart_item_quantity( key, cantidad , function( result ) {
+
+            setTimeout(function(){
+               window.location = 'http://localhost/web/kernspaltung/offlimits/checkout';
+            },1000)
+         } );
+       })
    })
 
 }
@@ -208,3 +225,64 @@ function initMap() {
       title: 'Off Limits Festival'
    });
 };
+
+
+
+
+
+
+function add_to_cart( id, callback ) {
+	var ajaxData = {
+
+		type: 'post',
+		url: ol_ajax.ajaxurl,
+		dataType: 'json',
+		data: {
+			action: 'add_to_cart',
+			id: id
+		},
+		success: function(key){
+
+         if( typeof(callback) != "undefined" ) {
+				callback( key );
+			}
+
+		}
+
+
+	};
+
+
+	$.ajax(ajaxData);
+
+}
+
+
+function set_cart_item_quantity( key, quantity, callback ) {
+
+	var ajaxData = {
+
+		type: 'post',
+		url: ol_ajax.ajaxurl,
+		dataType: 'json',
+		data: {
+			action: 'set_cart_item_quantity',
+			key: key,
+			quantity: parseInt( quantity )
+		},
+		success: function(result){
+
+			if( typeof(callback) != "undefined" )
+				callback( result )
+
+		}
+
+
+	};
+
+
+	$.ajax( ajaxData );
+
+
+
+}

@@ -17,7 +17,7 @@ endif;
 
 <!-- footer + player -->
 
-<footer class="w_100 expanded neutral_oscuro3_bg h_10vh h_md_20vh p0 absDownL fixed">
+<footer class="w_100 expanded neutral_oscuro3_bg h_10vh h_md_20vh p0 absDownL fixed z1k1">
 
    <!-- player -->
    <div class="small-12 large-5 columns h_100 h_md_50">

@@ -7870,13 +7870,22 @@ table.hover tr:nth-of-type(even):hover {
   padding: 45px; }
 
 /****** COLORES ******/
-.button {
+button, button:focus,
+.button,
+.button:focus {
   background-color: #222; }
-  .button:hover {
-    background-color: #060708; }
 
-.button.claro {
-  background-color: #333; }
+button:hover,
+.button:hover {
+  border-color: #FE5000;
+  background-color: black; }
+
+button *,
+.button * {
+  background-color: transparent !important; }
+  button * *,
+  .button * * {
+    background-color: transparent; }
 
 .white {
   color: #fff; }
@@ -8003,11 +8012,6 @@ table.hover tr:nth-of-type(even):hover {
 
 .neutral_oscuro3_hover_bd:hover, .neutral_oscuro3_hover_bd:hover * {
   border-color: #060708 !important; }
-
-.button, .button * {
-  background-color: transparent !important; }
-  .button *, .button * * {
-    background-color: transparent; }
 
 html, body {
   background-color: #060708;

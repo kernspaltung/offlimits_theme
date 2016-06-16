@@ -15,26 +15,7 @@ function add_to_cart() {
 
 	$add = WC()->cart->add_to_cart( $id );
 
-//	$key = WC() -> cart -> generate_cart_id( $id );
-
 	die( json_encode( $add ) );
-
-}
-
-
-add_action( 'wp_ajax_remove_from_cart', 'remove_from_cart' );
-add_action( 'wp_ajax_nopriv_remove_from_cart', 'remove_from_cart' );
-
-function remove_from_cart() {
-
-//$key = WC()->cart->find_product_in_cart( (int) $_POST['id'] );
-
-	$key = $_POST[ 'key' ];
-
-	$rmv = WC()->cart->remove_cart_item( $key );
-
-	die( json_encode( $rmv ) );
-
 
 }
 

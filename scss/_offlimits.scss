@@ -113,17 +113,27 @@ $neutral_oscuro3: #060708;
 
 
 
-.button {
 
-  background-color: $neutral_oscuro2;
-  &:hover {
-    background-color: $neutral_oscuro3;
+
+button,
+.button {
+   &,&:focus {
+      background-color: $neutral_oscuro2;
+   }
+   &:hover {
+      border-color: $acento;
+      background-color: black;
+   }
+
+  * {
+    background-color: transparent !important;
+    // background: none !important;
+    * {
+      background-color: transparent;
+      // background: none !important;
+    }
   }
 }
-.button.claro {
-  background-color: $neutral_oscuro1;
-}
-
 
 
 .white { color: #fff; }
@@ -180,18 +190,6 @@ $neutral_oscuro3: #060708;
 .neutral_oscuro3_hover_bd:hover { &, * { border-color: $neutral_oscuro3 !important; } }
 
 
-
-
-.button {
-  &,* {
-    background-color: transparent !important;
-    // background: none !important;
-    * {
-      background-color: transparent;
-      // background: none !important;
-    }
-  }
-}
 
 
 

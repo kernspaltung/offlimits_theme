@@ -11,7 +11,7 @@
 
 
 <!-- mapa aqui -->
-  <div id="festival-map" class="small-6 columns h_40vh acento_bg"></div>
+  <div id="festival-map" class="small-6 columns h_40vh neutral_oscuro1_bg"></div>
 
      <div id="festival-map-info" class="small-6 columns h_40vh">
 

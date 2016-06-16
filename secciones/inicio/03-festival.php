@@ -33,7 +33,7 @@
 
 
 
-   <div id="festival-contenido" class="large-12 columns p0 h_80vh">
+   <div id="festival-contenido" class="large-12 columns p0 h_70vh">
       <a href="<?php echo get_the_permalink( $festival -> ID ); ?>" class="white">
 
          <div class="small-5 medium-7 columns h_100 p0">
@@ -45,25 +45,25 @@
                   <?php echo apply_filters( 'the_content', $intro_festival->post_content ); ?>
                </div>
 
-               <div class="small-6 columns text-center fontM">
+               <div class="small-6 columns text-center fontM small-offset-3 end">
 
-                  <a href="<?php echo get_the_permalink( $festival -> ID ); ?>" class="w_50 button acento_hover_bg black_hover h_10vh">
+                  <a href="<?php echo get_the_permalink( $festival -> ID ); ?>" class="w_50 button h_10vh">
                      <div class="vcenter">
-                        <?php echo apply_filters( 'the_title', $festival->post_title ); ?>
+                        Ir a <?php echo apply_filters( 'the_title', $festival->post_title ); ?>
                      </div>
                   </a>
 
                </div>
-               <div class="small-6 columns text-center fontM">
+               <!-- <div class="small-6 columns text-center fontM">
 
-                  <a href="<?php echo get_the_permalink( $informacion_general -> ID ); ?>" class="w_50 button acento_hover_bg black_hover h_10vh">
+                  <a href="<?php echo get_the_permalink( $informacion_general -> ID ); ?>" class="w_50 button h_10vh">
                      <div class="vcenter">
                         <?php echo apply_filters( 'the_title', $informacion_general->post_title ); ?>
                      </div>
                   </a>
 
 
-               </div>
+               </div> -->
 
                <!-- </div> -->
             </div>
@@ -71,7 +71,7 @@
          </div>
 
          <!-- poster evento -->
-         <div class="small-7 medium-5 columns p5 h_100">
+         <div class="small-7 medium-5 columns h_100">
 
             <!-- fondo -->
             <div id="festival-imagen-poster" class="row imgLiquid imgLiquidNoFill h_100 p3" >

@@ -35,8 +35,8 @@ $festival = get_page_by_title("Festival");
 
                   ?>
                   <li class=" h_50 f_l w_a end">
-                     <a class="scrollLink p3 pt0 pl0 h_100 white txsh1" data-target="<?php echo $link_seccion; ?>" href="<?php echo $link_seccion; ?>">
-                        <div class="vcenter">
+                     <a class="scrollLink p3 pt0 pl0 h_100  white txsh1" data-target="<?php echo $link_seccion; ?>" href="<?php echo $link_seccion; ?>">
+                        <div class="vcenter fontL font_sm_M">
                            <?php echo $seccion; ?>
                         </div>
                      </a>
@@ -66,7 +66,7 @@ $festival = get_page_by_title("Festival");
          ?>
 
          <div class="small-12 medium-<?php echo $i==0 ? 7 : 5; ?> columns h_35vh h_sm_50vh <?php echo $i==0 ? 'pr0' : ''; ?> p5 p_sm_0 pb_sm_4 rel pt_sm_0">
-            <div class="button small-12 columns neutral_oscuro2_bg acento_hover_bg black_hover h_100 p0">
+            <div class="button small-12 columns neutral_oscuro2_bg h_100 p0">
                <a href="<?php echo $link; ?>" class="w_100 h_100">
 
                   <div class="small-12 <?php echo $i==0 ? 'medium-7 large-6' : 'medium-8 large-7'; ?>  columns h_100 text-left color p4 pb_sm_0">

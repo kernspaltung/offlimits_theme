@@ -7,6 +7,9 @@ include_once 'backend/bandas.php';
 include_once 'backend/avisos.php';
 include_once 'backend/url_opcional.php';
 
+include_once 'functions_ajax.php';
+
+
 add_theme_support('post-thumbnails');
 
 // estilos
@@ -32,6 +35,12 @@ function ol_enqueue_scripts() {
   wp_enqueue_script( 'slick-js', get_stylesheet_directory_uri() . '/bower_components/slick-carousel/slick/slick.js',array(),'0.99', true );
   wp_enqueue_script( 'front-js', get_stylesheet_directory_uri() . '/js/frontendutils.js',array(),'0.1', true );
   wp_enqueue_script( 'offlimits-js', get_stylesheet_directory_uri() . '/js/offlimits.js',array('jquery'),'0.01', true );
+
+  wp_localize_script( 'offlimits-js', 'ol_ajax',
+      array(
+           'ajaxurl' => admin_url( 'admin-ajax.php' ),
+      )
+  );
 
   if( is_page("Inicio") )
    wp_enqueue_script( 'tiempo_faltante', get_stylesheet_directory_uri() . '/js/tiempo_faltante.js',array('offlimits-js'),'0.01', true );
@@ -91,8 +100,6 @@ function obtener_link($ID) {
 
 
 
-include_once 'functions_ajax.php';
-
 
 // woocommerce supoprt
 // remove_action( 'woocommerce_before_main_content', 'woocommerce_output_content_wrapper', 10);
@@ -110,6 +117,6 @@ include_once 'functions_ajax.php';
 //   echo '</section>';
 // }
 
-add_action( 'after_setup_theme', 'woocommerce_support' );
+add_action( 'init', 'woocommerce_support' );
 function woocommerce_support() {
 add_theme_support( 'woocommerce' ); }
