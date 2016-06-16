@@ -77,7 +77,7 @@ $festival = get_page_by_title("Festival");
 
                         ?>
                      </h5>
-                     <div class="fontS text-left h_70">
+                     <div class="fontS text-left h_70 pt1">
                         <div class="vcenter">
 
                            <?php echo apply_filters( 'the_excerpt', $enlace_rapido->post_excerpt ); ?>
