@@ -35,14 +35,14 @@ get_header();
 
          </div>
 
-         <div id="page-offlimits-contenido" class="small-12 columns fontRL text-left p3">
+         <div id="page-offlimits-contenido" class="small-12 columns fontRL text-left p3 black_tapes">
 
             <?php echo apply_filters('the_content', get_the_content()); ?>
 
          </div>
 
 
-         
+
 
 
       </article>
