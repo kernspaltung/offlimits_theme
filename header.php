@@ -6,7 +6,7 @@
    <meta http-equiv="x-ua-compatible" content="ie=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-   <title><?php wp_title(); ?> - <?php bloginfo( 'name' ); ?></title>
+   <title><?php bloginfo( 'name' ); ?> - <?php the_title(); ?></title>
    <!-- <link rel="stylesheet" href="css/app.css"> -->
    <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS2 Feed" href="<?php bloginfo('rss2_url'); ?>" />
    <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
