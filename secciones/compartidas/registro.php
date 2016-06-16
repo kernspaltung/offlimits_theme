@@ -1,4 +1,6 @@
-<!-- contenido registro -->
+<?php
+$lista_de_correos = get_page_by_title("Lista de Correos");
+?>
 <section class="small-12 columns h_60vh rel">
 
    <div class="w_100 h_100 abs z0 imgLiquid imgLiquidFill">
@@ -58,7 +60,6 @@
       <div class="small-12 medium-8 large-6 medium-offset-2 large-offset-3 end columns p2 pl6 pr6 fontRM">
 
          <?php
-         $lista_de_correos = get_page_by_title("Lista de Correos");
          echo apply_filters( 'the_title', $lista_de_correos -> post_title );
          echo apply_filters( 'the_content', $lista_de_correos -> post_content );
          ?>
