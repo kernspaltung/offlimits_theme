@@ -21,7 +21,7 @@ get_header();
             <a href="<?php echo get_the_permalink(get_the_ID()); ?>" class="white acento_hover">
 
                <div id="archive-offlimits-thumb" class="expanded row imgLiquidFill imgLiquid h_20vh w_100 mb2" >
-                  <?php echo get_the_post_thumbnail(); ?>
+                  <?php echo get_the_post_thumbnail(get_the_ID(),'thumb'); ?>
                </div>
 
                <div id="archive-offlimits-titulo-fecha" class="small-12 columns p0 mb1">
@@ -75,7 +75,7 @@ get_header();
             <a href="<?php echo get_the_permalink(get_the_ID()); ?>" class="white acento_hover">
 
                <div id="archive-offlimits-thumb" class="expanded row imgLiquidNoFill imgLiquid h_20vh w_100 mb2" >
-                  <?php echo get_the_post_thumbnail(); ?>
+                  <?php echo get_the_post_thumbnail(get_the_ID(),'thumb'); ?>
                </div>
 
                <div id="archive-offlimits-titulo-fecha" class="small-12 columns p0 mb1">
