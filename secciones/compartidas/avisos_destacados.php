@@ -34,16 +34,16 @@ $avisos = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'aviso', 'orde
       <a href="<?php echo $link; ?>" <?php echo $target_blank; ?>>
          <article id="avisos-destacados-principal" class="large-12 columns p0 m0 min_20vh white">
 
-            <div id="avisos-destacados-principal-header" class="large-8 columns p1 m0 ha fontRL">
+            <div id="avisos-destacados-principal-header" class="small-8 columns p1 m0 ha fontRL">
                <div class="vcenter ">
                   <?php echo apply_filters('the_title',$avisos[0]->post_title); ?>
                </div>
             </div>
-            <div id="avisos-destacados-principal-header-fecha" class="large-4 columns text-center pt1 fontRM">
+            <div id="avisos-destacados-principal-header-fecha" class="small-4 columns text-center  fontRS">
                <?php echo get_the_date('d\.m\.Y', $avisos[0]->ID ); ?>
             </div>
 
-            <div class="small-12 columns p0 m0 h_22vh">
+            <div class="small-12 columns p0 m0 h_22vh pt1">
                <div id="avisos-destacados-thumb" class="columns h_100 imgLiquid imgLiquidNoFill cursor-pointer">
                   <?php echo get_the_post_thumbnail($avisos[0]->ID,'thumb'); ?>
                </div>
@@ -51,15 +51,13 @@ $avisos = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'aviso', 'orde
             </div>
 
             <div class="large-10 columns p2 m0 h_10vh fontRM">
-               <div class="vcenter">
+               <div class="vcenter fontS">
                   <?php echo apply_filters('the_excerpt',$avisos[0]->post_excerpt); ?>
                </div>
             </div>
 
-            <div class="large-2 columns p2 m0 minH_10vh fontRM bold text-center">
-               <div class="vcenter">
-                  <i class="fa fa-plus"></i>
-               </div>
+            <div class="large-12 columns  bold text-right">
+                  <span class="pr1 fontXS">Ir</span><i class="fa fa-plus"></i>
             </div>
 
          </article>
@@ -103,7 +101,7 @@ $avisos = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'aviso', 'orde
                   <div class="vcenter">
                      <?php echo apply_filters('the_title',$avisos[$i+1]->post_title); ?>
                   </div>
-                  <div id="avisos-destacados-principal-header-fecha" class="large-12 columns p1 pl2 fontRS">
+                  <div id="avisos-destacados-principal-header-fecha" class="large-12 columns p1 fontRS">
                      <?php echo date_i18n('d\.m\.Y', strtotime(get_the_date( array('post' => $avisos[$i+1]->ID )) ) ); ?>
                   </div>
 
@@ -115,9 +113,9 @@ $avisos = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'aviso', 'orde
             </div>
          </div> -->
 
-         <div class="large-12 columns p2 m0 fontRM bold text-center">
+         <div class="large-12 columns p2 m0 fontRM bold text-right">
             <div class="vcenter">
-               <i class="fa fa-plus"></i>
+               <span class="pr1 fontXS">Ir</span><i class="fa fa-plus"></i>
             </div>
          </div>
       </article>

@@ -44,12 +44,12 @@
   <!-- fin redes egistro -->
 
   <!-- registro -->
-  <div class="small-12 columns p0 m0 h_70">
+  <div class="small-12 columns p0 m0 h_70 pb4 mb4">
 
     <!-- contacto -->
     <div class="small-12 columns h_50 p2 text-center">
 
-      <div class="columns p2 pl6 pr6 fontRM">
+      <div class="small-12 medium-8 large-6 medium-offset-2 large-offset-3 end columns p2 pl6 pr6 fontRM">
 
          <?php
          $registro = get_page_by_title("Registro");

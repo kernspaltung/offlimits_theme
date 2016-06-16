@@ -69,7 +69,7 @@ $entradas = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'post' ) );
 
       <div class="small-3 columns p2 m0 minH_10vh fontRM bold text-center">
         <div class="vcenter">
-          <i class="fa fa-plus"></i>
+          <span class="pr2">Ver más</span><i class="fa fa-plus"></i>
         </div>
       </div>
 
@@ -109,7 +109,7 @@ $entradas = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'post' ) );
 
            <div class="small-3 columns p2 m0 minH_10vh fontRM bold text-center">
              <div class="vcenter">
-               <i class="fa fa-plus"></i>
+               <span class="pr2">Ver más</span><i class="fa fa-plus"></i>
              </div>
            </div>
 
