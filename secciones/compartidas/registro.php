@@ -16,7 +16,7 @@ $lista_de_correos = get_page_by_title("Lista de Correos");
             <a href="http://facebook.com/offlimitsmx" class="white">
                <div class="vcenter">
                   <i class="fa fa-facebook fontRXL p3"></i>
-                  <p class="fontRS p1 black_bg white">offlimitsmx</p>
+                  <p class="fontRS p1 black_bg white acento_hover_bg black_hover">offlimitsmx</p>
                </div>
             </a>
          </div>
@@ -25,7 +25,7 @@ $lista_de_correos = get_page_by_title("Lista de Correos");
             <a href="http://instagram.com/offlimitsmx" class="white">
                <div class="vcenter">
                   <i class="fa fa-instagram fontRXL p3"></i>
-                  <p class="fontRS p1 black_bg white">@offlimitsmx</p>
+                  <p class="fontRS p1 black_bg white acento_hover_bg black_hover">@offlimitsmx</p>
                </div>
             </a>
          </div>
@@ -34,7 +34,7 @@ $lista_de_correos = get_page_by_title("Lista de Correos");
             <a href="http://twitter.com/offlimitsmx" class="white">
                <div class="vcenter">
                   <i class="fa fa-twitter fontXL p3"></i>
-                  <p class="fontRS p1 black_bg white">@OfflimitsMx</p>
+                  <p class="fontRS p1 black_bg white acento_hover_bg black_hover">@OfflimitsMx</p>
                </div>
             </a>
          </div>
@@ -43,7 +43,7 @@ $lista_de_correos = get_page_by_title("Lista de Correos");
             <a href="<?php echo get_the_permalink( get_page_by_title("Contacto") ); ?>" class="white">
                <div class="vcenter">
                   <i class="fa fa-envelope fontRXL p3"></i>
-                  <p class="fontRS p1 black_bg white">Contacto</p>
+                  <p class="fontRS p1 black_bg white acento_hover_bg black_hover">Contacto</p>
                </div>
             </a>
          </div>
