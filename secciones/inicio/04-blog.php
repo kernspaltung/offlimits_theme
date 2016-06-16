@@ -63,7 +63,7 @@ $entradas = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'post' ) );
 
       <div class="small-9 columns p2 m0 h_10vh fontRS">
         <div class="vcenter">
-           <?php echo apply_filters('the_excerpt',$entradas[0]->post_excerpt); ?>
+           <?php echo apply_filters('the_excerpt',wp_trim_words($entradas[0]->post_excerpt,18)); ?>
         </div>
       </div>
 
@@ -103,7 +103,7 @@ $entradas = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'post' ) );
 
            <div class="small-9 columns p2 m0 ha fontRS">
              <div class="vcenter">
-                <?php echo apply_filters('the_excerpt',$entradas[$i+1]->post_excerpt); ?>
+                <?php echo apply_filters('the_excerpt',wp_trim_words($entradas[$i+1]->post_excerpt,18)); ?>
              </div>
            </div>
 
