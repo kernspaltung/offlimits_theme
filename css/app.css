@@ -8175,3 +8175,6 @@ h1 {
   .black_tapes > * * {
     padding: 0;
     background-color: transparent; }
+
+input {
+  background-color: #fff !important; }
