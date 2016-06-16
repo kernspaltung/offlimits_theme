@@ -6,14 +6,16 @@ $avisos = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'aviso', 'orde
 
 <div id="avisos-destacados" class="small-12 small-pull-12 large-3 columns p0" data-sticky-container>
 
-   <div id="avisos-destacados-sticky" class="sticky" data-sticky data-margin-top="3" data-anchor="area_contenidos" data-sticky-on="large">
+   <div id="avisos-destacados-sticky" class="sticky" data-sticky data-margin-top="5" data-anchor="area_contenidos" data-sticky-on="large">
 
 
       <!-- noticia destacada principal -->
       <a href="<?php echo get_the_permalink( $avisos_pagina -> ID ); ?>">
          <div id="avisos-destacados-header" class="large-9 columns p2 m0 h_10vh fontRXL text-left">
-            <div class="vcenter">
-               Avisos
+            <div class="vcenter white">
+               <h1>
+                  Avisos
+               </h1>
             </div>
          </div>
          <div id="avisos-destacados-header" class="large-3 columns p2 m0 h_10vh fontRXL bold text-center">
@@ -30,15 +32,15 @@ $avisos = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'aviso', 'orde
       ?>
 
       <a href="<?php echo $link; ?>" <?php echo $target_blank; ?>>
-         <article id="avisos-destacados-principal" class="large-12 columns p0 m0 min_20vh">
+         <article id="avisos-destacados-principal" class="large-12 columns p0 m0 min_20vh white">
 
             <div id="avisos-destacados-principal-header" class="large-8 columns p1 m0 ha fontRL">
-               <div class="vcenter">
+               <div class="vcenter ">
                   <?php echo apply_filters('the_title',$avisos[0]->post_title); ?>
                </div>
             </div>
             <div id="avisos-destacados-principal-header-fecha" class="large-4 columns text-center pt1 fontRM">
-               <?php echo get_the_date('d \d\e F, Y', $avisos[0]->ID ); ?>
+               <?php echo get_the_date('d\.m\.Y', $avisos[0]->ID ); ?>
             </div>
 
             <div class="small-12 columns p0 m0 h_22vh">
@@ -88,7 +90,7 @@ $avisos = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'aviso', 'orde
          ?>
 
          <a href="<?php echo $link; ?>" <?php echo $target_blank; ?>>
-            <article id="avisos-destacados-secundario" class="large-6 columns p0 m0" <?php echo $target_blank; ?>>
+            <article id="avisos-destacados-secundario_"<?php echo $i+1; ?> class="large-6 columns p0 m0 white" <?php echo $target_blank; ?>>
 
 
                <div class="small-12 columns p0 m0 h_12vh">
@@ -102,7 +104,7 @@ $avisos = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'aviso', 'orde
                      <?php echo apply_filters('the_title',$avisos[$i+1]->post_title); ?>
                   </div>
                   <div id="avisos-destacados-principal-header-fecha" class="large-12 columns p1 pl2 fontRS">
-                     <?php echo date_i18n('d \d\e F, Y', strtotime(get_the_date( array('post' => $avisos[$i+1]->ID )) ) ); ?>
+                     <?php echo date_i18n('d\.m\.Y', strtotime(get_the_date( array('post' => $avisos[$i+1]->ID )) ) ); ?>
                   </div>
 
                </div>

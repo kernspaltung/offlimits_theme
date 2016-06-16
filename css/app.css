@@ -8123,3 +8123,33 @@ h1 {
 
 #checkout table, #checkout table * {
   color: black; }
+
+.woocommerce label {
+  color: white; }
+
+.woocommerce .woocommerce-checkout-payment *,
+.woocommerce table * {
+  background-color: #222;
+  color: white; }
+
+.woocommerce .payment_box, .woocommerce .payment_box * {
+  background: #dfdcde !important;
+  background-color: #dfdcde !important;
+  color: black; }
+
+.woocommerce input#place_order,
+.woocommerce .woocommerce #respond input#submit,
+.woocommerce .woocommerce #respond input#submit.alt,
+.woocommerce .woocommerce a.button, .woocommerce .woocommerce button.button, .woocommerce .woocommerce input.button,
+.woocommerce .woocommerce a.button.alt:hover, .woocommerce .woocommerce button.button.alt:hover, .woocommerce .woocommerce input.button.alt:hover {
+  background-color: #FE5000 !important;
+  background: #FE5000 !important;
+  border-radius: 0; }
+  .woocommerce input#place_order:hover,
+  .woocommerce .woocommerce #respond input#submit:hover,
+  .woocommerce .woocommerce #respond input#submit.alt:hover,
+  .woocommerce .woocommerce a.button:hover, .woocommerce .woocommerce button.button:hover, .woocommerce .woocommerce input.button:hover,
+  .woocommerce .woocommerce a.button.alt:hover:hover, .woocommerce .woocommerce button.button.alt:hover:hover, .woocommerce .woocommerce input.button.alt:hover:hover {
+    background-color: black !important;
+    border: 1px solid #FE5000 !important;
+    color: #FE5000; }

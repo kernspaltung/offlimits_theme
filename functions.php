@@ -120,3 +120,7 @@ function obtener_link($ID) {
 add_action( 'init', 'woocommerce_support' );
 function woocommerce_support() {
 add_theme_support( 'woocommerce' ); }
+
+
+
+add_filter('woocommerce_enable_order_notes_field', '__return_false');

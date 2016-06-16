@@ -35,7 +35,7 @@ $entradas = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'post' ) );
 ?>
 
   <a href="<?php echo get_the_permalink( $entradas[0] -> ID ); ?>">
-    <article id="blog-principal" class="large-12 columns p0 m0 minH_50vh">
+    <article id="blog-principal" class="large-12 columns p0 m0 minH_50vh white">
 
       <div id="blog-principal-header" class="small-12 p2 m0 rel">
         <div id="blog-principal-titulo" class="small-8 columns p2 m0 minH_10vh fontRL">
@@ -46,7 +46,7 @@ $entradas = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'post' ) );
 
         <div id="blog-principal-header-fecha" class="small-4 columns text-center p2 m0 minH_10vh fontRS">
           <div class="vcenter">
-            <?php echo get_the_date('d \d\e F, Y', $entradas[0]->ID ); ?>
+            <?php echo get_the_date('d\.m\.Y', $entradas[0]->ID ); ?>
           </div>
         </div>
       </div>
@@ -82,7 +82,7 @@ $entradas = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'post' ) );
   for ($i=0; $i < 2; $i++) {
      ?>
        <a href="<?php echo get_the_permalink( $entradas[$i+1]->ID ); ?>">
-         <article id="blog-secundario" class="large-6 columns p0 m0 minH_10vh">
+         <article id="blog-secundario_"<?php echo $i+1; ?> class="large-6 columns p0 m0 minH_10vh white">
 
            <div class="small-12 columns p0 m0 minH_20vh">
              <div id="blog-thumb" class="columns h_30vh imgLiquid imgLiquidFill cursor-pointer">
@@ -97,7 +97,7 @@ $entradas = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'post' ) );
            </div>
            <div id="blog-secundario-header-fecha" class="small-3 columns p2 pl2 minH_10vh fontRS">
              <div class="vcenter">
-               <?php echo get_the_date('d \d\e F, Y', $entradas[$i+1]->ID ); ?>
+               <?php echo get_the_date('d\.m\.Y', $entradas[$i+1]->ID ); ?>
              </div>
            </div>
 

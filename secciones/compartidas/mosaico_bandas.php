@@ -28,5 +28,3 @@ foreach ( $bandas as $banda ) :
   <?php
 
 endforeach;
-
-echo $html;

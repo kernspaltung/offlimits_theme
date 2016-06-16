@@ -374,3 +374,41 @@ h1 {
       }
    }
 }
+
+
+
+.woocommerce {
+   label {
+      color: white;
+   }
+
+   .woocommerce-checkout-payment,
+   table {
+      * {
+         background-color: $neutral_oscuro2;
+         color: white;
+      }
+   }
+   .payment_box {
+      &, * {
+         background: #dfdcde !important;
+         background-color: #dfdcde !important;
+         color: black;
+      }
+   }
+   input#place_order,
+   .woocommerce #respond input#submit,
+   .woocommerce #respond input#submit.alt,
+   .woocommerce a.button, .woocommerce button.button, .woocommerce input.button,
+   .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover
+   {
+      background-color: $acento !important;
+      background: $acento !important;
+      border-radius: 0;
+      &:hover {
+         background-color: black !important;
+         border: 1px solid $acento !important;
+         color: $acento;
+      }
+   }
+}

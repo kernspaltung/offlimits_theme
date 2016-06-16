@@ -37,35 +37,12 @@ get_header();
 
          <div id="page-offlimits-contenido" class="small-12 columns fontRL text-left p3">
 
-            <?php echo apply_filters('the_content', get_the_content()); ?>            
+            <?php echo apply_filters('the_content', get_the_content()); ?>
 
          </div>
 
 
-         <div id="page-offlimits-compartir" class="small-12 columns p0 mb3">
-
-            <ul id="merch-colores" class="menu horizontal small-12 columns mt2" end>
-
-               <a href="">
-                  <li class="small-12 columns p2 text-left fontRL bold p0">Comparte:&nbsp;</li>
-               </a>
-               <a href="">
-                  <li class="small-3 columns p3 text-center "><i class="fa fa-facebook text-center vcenter fontRXL"></i></li>
-               </a>
-               <a href="">
-                  <li class="small-3 columns p3 text-center "><i class="fa fa-twitter text-center vcenter fontRXL"></i></li>
-               </a>
-               <a href="">
-                  <li class="small-3 columns p3 text-center"><i class="fa fa-instagram text-center vcenter fontRXL"></i></li>
-               </a>
-               <a href="">
-                  <li class="small-3 columns p3 text-center "><i class="fa fa-reddit text-center vcenter fontRXL"></i></li>
-               </a>
-
-            </ul>
-
-
-         </div>
+         
 
 
       </article>

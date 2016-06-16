@@ -41,8 +41,10 @@
             <div class="row h_100">
                <!-- <div class="columns align-self-bottom p2"> -->
 
-               <div id="festival-extracto-informacion" class="small-12 columns align-bottom p3 fontRM">
-                  <?php echo apply_filters( 'the_content', $intro_festival->post_content ); ?>
+               <div id="festival-extracto-informacion" class="small-12 columns align-bottom p3 fontRM h_40vh">
+                  <div class="vcenter">
+                     <?php echo apply_filters( 'the_content', $intro_festival->post_content ); ?>
+                  </div>
                </div>
 
                <div class="small-6 columns text-center fontM small-offset-3 end">
