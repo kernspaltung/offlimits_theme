@@ -56,14 +56,13 @@ $entradas = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'post' ) );
 
         <div id="blog-thumb" class="columns h_50vh imgLiquid imgLiquidFill cursor-pointer">
            <?php echo get_the_post_thumbnail($entradas[0]->ID,'thumb'); ?>
-
         </div>
 
       </div>
 
       <div class="small-9 columns p2 m0 h_10vh fontRS">
         <div class="vcenter">
-           <?php echo apply_filters('the_excerpt',wp_trim_words($entradas[0]->post_excerpt,18)); ?>
+           <?php echo apply_filters('the_excerpt',wp_trim_words($entradas[0]->post_excerpt,22)); ?>
         </div>
       </div>
 
@@ -103,7 +102,7 @@ $entradas = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'post' ) );
 
            <div class="small-9 columns p2 m0 ha fontRS">
              <div class="vcenter">
-                <?php echo apply_filters('the_excerpt',wp_trim_words($entradas[$i+1]->post_excerpt,18)); ?>
+                <?php echo apply_filters('the_excerpt',wp_trim_words($entradas[$i+1]->post_excerpt,14)); ?>
              </div>
            </div>
 
