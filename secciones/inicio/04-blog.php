@@ -54,7 +54,7 @@ $entradas = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'post' ) );
 
       <div class="small-12 columns p0 m0 minH_50vh">
 
-        <div id="blog-thumb" class="columns h_50vh imgLiquid imgLiquidFill cursor-pointer">
+        <div id="blog-thumb" class="columns h_50vh imgLiquid imgLiquidFill cursor-pointer mb1">
            <?php echo get_the_post_thumbnail($entradas[0]->ID,'thumb'); ?>
         </div>
 
