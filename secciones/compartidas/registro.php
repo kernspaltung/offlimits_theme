@@ -15,7 +15,7 @@ $lista_de_correos = get_page_by_title("Lista de Correos");
     <div class="small-3 columns text-center h_100">
       <a href="http://facebook.com/offlimitsmx" class="white">
         <div class="vcenter">
-          <i class="fa fa-facebook fontRL p3"></i>
+          <i class="fa fa-facebook fontRXL p3 txsh1"></i>
           <p class="fontRS p1 black_bg white">offlimitsmx</p>
         </div>
       </a>
@@ -24,7 +24,7 @@ $lista_de_correos = get_page_by_title("Lista de Correos");
     <div class="small-3 columns text-center h_100">
       <a href="http://instagram.com/offlimitsmx" class="white">
         <div class="vcenter">
-          <i class="fa fa-instagram fontRL p3"></i>
+          <i class="fa fa-instagram fontRXL p3 txsh1"></i>
           <p class="fontRS p1 black_bg white">@offlimitsmx</p>
         </div>
       </a>
@@ -33,7 +33,7 @@ $lista_de_correos = get_page_by_title("Lista de Correos");
     <div class="small-3 columns text-center h_100">
       <a href="http://twitter.com/offlimitsmx" class="white">
         <div class="vcenter">
-          <i class="fa fa-twitter fontRL p3"></i>
+          <i class="fa fa-twitter fontRXL p3 txsh1"></i>
           <p class="fontRS p1 black_bg white">@OfflimitsMx</p>
         </div>
       </a>
@@ -42,7 +42,7 @@ $lista_de_correos = get_page_by_title("Lista de Correos");
     <div class="small-3 columns text-center h_100">
       <a href="<?php echo get_the_permalink( get_page_by_title("Contacto") ); ?>" class="white">
         <div class="vcenter">
-          <i class="fa fa-envelope fontRL p3"></i>
+          <i class="fa fa-envelope fontRXL p3 txsh1"></i>
           <p class="fontRS p1 black_bg white">Contacto</p>
         </div>
       </a>
@@ -57,12 +57,11 @@ $lista_de_correos = get_page_by_title("Lista de Correos");
     <!-- contacto -->
     <div class="small-12 columns h_50 p2 text-center">
 
-      <div class="small-12 medium-8 large-6 medium-offset-2 large-offset-3 end columns p2 pl6 pr6 fontRM">
-
-         <?php
-         echo apply_filters( 'the_title', $lista_de_correos -> post_title );
-         echo apply_filters( 'the_content', $lista_de_correos -> post_content );
-         ?>
+      <div class="small-12 medium-8 large-6 medium-offset-2 large-offset-3 end columns p2 pl6 pr6 fontRM black_tapes">
+         <h1>
+            <?php echo apply_filters( 'the_title', $lista_de_correos -> post_title ); ?>
+         </h1>
+         <?php echo apply_filters( 'the_content', $lista_de_correos -> post_content ); ?>
       </div>
 
     </div>
