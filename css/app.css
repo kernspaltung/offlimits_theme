@@ -7699,22 +7699,6 @@ table.hover tr:nth-of-type(even):hover {
 .fontXXL {
   font-size: 36px !important; }
 
-@media (max-width: 768px) {
-  .font_sm_XXL {
-    font-size: 25px !important; }
-  .font_sm_XL {
-    font-size: 25px !important; }
-  .font_sm_L {
-    font-size: 18px !important; }
-  .font_sm_M {
-    font-size: 14px !important; }
-  .font_sm_S {
-    font-size: 12px !important; }
-  .font_sm_XS {
-    font-size: 10px !important; }
-  .font_sm_XXS {
-    font-size: 9px !important; } }
-
 .fontXXXL {
   font-size: 50px !important; }
 
@@ -7756,6 +7740,24 @@ table.hover tr:nth-of-type(even):hover {
 
 .fontRHuge {
   font-size: 30vmin !important; }
+
+@media (max-width: 768px) {
+  .font_sm_XXXL {
+    font-size: 50px !important; }
+  .font_sm_XXL {
+    font-size: 36px !important; }
+  .font_sm_XL {
+    font-size: 25px !important; }
+  .font_sm_L {
+    font-size: 18px !important; }
+  .font_sm_M {
+    font-size: 14px !important; }
+  .font_sm_S {
+    font-size: 12px !important; }
+  .font_sm_XS {
+    font-size: 10px !important; }
+  .font_sm_XXS {
+    font-size: 9px !important; } }
 
 .op0 {
   opacity: 0; }
@@ -8179,3 +8181,6 @@ h1 {
 textarea,
 input {
   background-color: #fff !important; }
+
+.is-off-canvas-open {
+  position: fixed; }

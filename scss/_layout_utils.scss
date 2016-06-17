@@ -1271,29 +1271,6 @@ $screen-lg-min: 1025px;
 }
 
 
-@media (max-width:768px) {
-	.font_sm_XXL {
-		font-size: $fontXL !important;
-	}
-	.font_sm_XL {
-		font-size: $fontXL !important;
-	}
-	.font_sm_L {
-		font-size: $fontL !important;
-	}
-	.font_sm_M {
-		font-size: $fontM !important;
-	}
-	.font_sm_S {
-		font-size: $fontS !important;
-	}
-	.font_sm_XS {
-		font-size: $fontXS !important;
-	}
-	.font_sm_XXS {
-		font-size: $fontXXS !important;
-	}
-}
 
 .fontXXXL {
 	font-size: $fontXXXL !important;
@@ -1340,6 +1317,39 @@ $screen-lg-min: 1025px;
 	font-size: $fontRHuge !important;
 }
 //
+
+
+
+@media (max-width:768px) {
+	.font_sm_XXXL {
+		font-size: $fontXXXL !important;
+	}
+	.font_sm_XXL {
+		font-size: $fontXXL !important;
+	}
+	.font_sm_XL {
+		font-size: $fontXL !important;
+	}
+	.font_sm_L {
+		font-size: $fontL !important;
+	}
+	.font_sm_M {
+		font-size: $fontM !important;
+	}
+	.font_sm_S {
+		font-size: $fontS !important;
+	}
+	.font_sm_XS {
+		font-size: $fontXS !important;
+	}
+	.font_sm_XXS {
+		font-size: $fontXXS !important;
+	}
+}
+
+
+
+
 .op0 {
 	opacity: 0;
 }
@@ -1422,7 +1432,7 @@ $screen-lg-min: 1025px;
 		-webkit-filter: grayscale(100%);
 		-moz-filter: grayscale(100%);
 		transition: filter 0.35s ease-in-out;
-		
+
 	}
 
 	&:hover {

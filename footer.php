@@ -17,7 +17,7 @@ endif;
 
 <!-- footer + player -->
 
-<footer class="w_100 expanded neutral_oscuro3_bg h_10vh h_md_20vh p0 absDownL fixed z1k1">
+<footer class="w_100 expanded neutral_oscuro3_bg h_10vh p0 absDownL fixed z1k1">
 
    <!-- player -->
    <div class="small-12 large-5 columns h_100 h_md_50 hidden">
@@ -49,19 +49,19 @@ endif;
    <!-- redes footer -->
    <div class="small-12 large-5 large-2 columns h_100 h_md_50">
       <div class="small-3 columns h_100 text-center">
-         <i class="fa fa-facebook vcenter fontRXL white acento_hover"></i>
+         <i class="fa fa-facebook vcenter fontXL white acento_hover"></i>
       </div>
 
       <div class="small-3 columns h_100 text-center fontRXL white acento_hover">
-         <i class="fa fa-instagram vcenter fontRXL white acento_hover"></i>
+         <i class="fa fa-instagram vcenter fontXL white acento_hover"></i>
       </div>
 
       <div class="small-3 columns h_100 text-center">
-         <i class="fa fa-twitter vcenter fontRXL white acento_hover"></i>
+         <i class="fa fa-twitter vcenter fontXL white acento_hover"></i>
       </div>
 
       <div class="small-3 columns h_100 text-center">
-         <i class="fa fa-envelope vcenter fontRXL white acento_hover"></i>
+         <i class="fa fa-envelope vcenter fontXL white acento_hover"></i>
       </div>
 
    </div>

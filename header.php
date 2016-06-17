@@ -21,20 +21,24 @@
 <body>
 
    <!-- off-canvas menu solo para movil-->
-   <div class="off-canvas-wrapper minH_100vh"><!-- cierra en el footer -->
+   <div class="off-canvas-wrapper"><!-- cierra en el footer -->
 
-      <div class="off-canvas-wrapper-inner " data-off-canvas-wrapper><!-- cierra en el footer -->
+      <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper><!-- cierra en el footer -->
 
-         <div class="off-canvas position-right align-center h_100vh" id="offCanvasRight" data-off-canvas data-position="right">
+         <div class="off-canvas position-right align-center h_100vh neutral_oscuro2_bg white" id="offCanvasRight" data-off-canvas data-position="right">
 
 
             <!-- menu movil aqui -->
-            <div id="titulo_menu" class="small-12 columns h_10vh fontRXXL pointer" aria-label="Close menu" data-close="">
+            <div id="titulo_menu" class="small-12 columns h_10vh fontRXXL pointer mb2" aria-label="Cerrar menú" data-close="">
 
-               <div class="small-9 columns text-center p2 pointer black vcenter" >Menú</div>
+               <div class="small-9 columns text-center p2 pointer white vcenter" >
+                  <h1>
+                     Menú
+                  </h1>
+               </div>
 
                <div class="small-3 columns p2 text-center vcenter" type="button">
-                  <span aria-hidden="true"><i class="fa fa-angle-right fontRXXXL"></i></span>
+                  <span aria-hidden="true"><i class="fa fa-close fontRXXXL"></i></span>
                </div>
 
             </div>
@@ -50,7 +54,7 @@
             <header id="header" class="columns h_10vh fixed absUpL z1k black_bg">
 
                <!-- logo offlimits -->
-               <a href="<?php echo site_url(); ?>" class="small-5 large-3 columns h_100 p2">
+               <a href="<?php echo site_url(); ?>" class="small-7 large-3 columns h_100 p2">
 
                   <div class="h_100 imgLiquid imgLiquidNoFill">
                      <img src="<?php echo get_stylesheet_directory_uri() ?>/img/LogoDT.png" alt="" />
@@ -59,10 +63,10 @@
                </a>
 
                <!-- Este solo aparece en movil -->
-               <div id="header-icono-menu-movil" class="small-7 hide-for-large columns p0 text-right p0 h_100 pointer" data-toggle="offCanvasRight">
-                  <button type="button" class="button black_bg boton-menu-movil vcenter mb0 p0 h_100" >
-                     <i class="fa fa-bars fontRXXXL"></i>
-                  </button>
+               <div id="header-icono-menu-movil" class="small-5 hide-for-large columns p0 text-right p0 h_100 pointer" data-toggle="offCanvasRight">
+                  <div class="button black_bg boton-menu-movil vcenter mb0 p0 h_a w_a pr1 black_hover_bd" >
+                     <i class="fa fa-bars fontRXXXL text-right"></i>
+                  </div>
                   <!-- <a class="button hollow boton-menu-movil vcenter mb0 p0 h_100" data-toggle="offCanvasRight"><i class="fa fa-bars fontRXXXL"></i></a> -->
                </div>
 

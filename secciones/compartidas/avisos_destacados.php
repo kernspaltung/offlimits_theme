@@ -10,20 +10,20 @@ $avisos = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'aviso', 'orde
 
 
       <!-- noticia destacada principal -->
-      <a href="<?php echo get_the_permalink( $avisos_pagina -> ID ); ?>">
-         <div id="avisos-destacados-header" class="large-9 columns p2 m0 h_10vh fontRXL text-left">
+         <div id="avisos-destacados-header" class="large-9 columns p2 m0 h_10vh fontRXL text-left show-for-large">
             <div class="vcenter white">
                <h1>
                   Avisos
                </h1>
             </div>
          </div>
-         <div id="avisos-destacados-header" class="large-3 columns p2 m0 h_10vh fontRXL bold text-center">
+         <div id="avisos-destacados-header" class="large-3 columns p2 m0 h_10vh fontRXL bold text-center show-for-large">
             <div class="vcenter">
                <i class="fa fa-angle-right"></i>
             </div>
          </div>
-      </a> <!-- temrina header destacados sticky -->
+
+      <!-- temrina header destacados sticky -->
 
       <?php
 
@@ -32,33 +32,41 @@ $avisos = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'aviso', 'orde
       ?>
 
       <a href="<?php echo $link; ?>" <?php echo $target_blank; ?>>
-         <article id="avisos-destacados-principal" class="large-12 columns p0 m0 min_20vh white">
+         <article id="avisos-destacados-principal" class="small-12 columns p2 m0 min_20vh white">
 
-            <div id="avisos-destacados-principal-header" class="small-8 columns p1 m0 ha fontRL">
-               <div class="vcenter ">
-                  <?php echo apply_filters('the_title',$avisos[0]->post_title); ?>
+            <div class="small-7 small-push-5 large-12 large-push-0 columns p0 h_sm_15vh">
+               <div id="avisos-destacados-principal-header" class="small-8 columns h_sm_15vh p2 m0 ha fontRL">
+                  <div class="vcenter p0">
+                     <h6 class="p0 m0">
+                        <?php echo apply_filters('the_title',$avisos[0]->post_title); ?>
+                     </h6>
+                  </div>
+               </div>
+               <div id="avisos-destacados-principal-header-fecha" class="small-4 columns text-center fontS show-for-large-only show-for-xlarge-only">
+                  <?php echo get_the_date('d\.m\.Y', $avisos[0]->ID ); ?>
                </div>
             </div>
-            <div id="avisos-destacados-principal-header-fecha" class="small-4 columns text-center  fontRS">
-               <?php echo get_the_date('d\.m\.Y', $avisos[0]->ID ); ?>
-            </div>
 
-            <div class="small-12 columns p0 m0 h_22vh pt1">
-               <div id="avisos-destacados-thumb" class="columns h_100 imgLiquid imgLiquidNoFill cursor-pointer">
+
+            <div class="small-5 small-pull-7 large-12 large-pull-0 columns p0 m0 h_22vh h_sm_15vh">
+               <div id="avisos-destacados-thumb" class="w_100 h_100 imgLiquid imgLiquidNoFill cursor-pointer p0">
                   <?php echo get_the_post_thumbnail($avisos[0]->ID,'thumb'); ?>
                </div>
-
             </div>
 
-            <div class="large-10 columns p2 m0 h_10vh fontRM">
-               <div class="vcenter fontS">
+            <div class="large-9 columns p2 pl0 m0 fontRM show-for-large">
                   <?php echo apply_filters('the_excerpt',$avisos[0]->post_excerpt); ?>
+            </div>
+
+
+            <div class="large-3 columns p3 pl0 pr0 bold text-right show-for-large">
+               <div class="vcenter">
+                  <span class="pr1 fontXS">Ir</span>
+                  <i class="fa fa-plus"></i>
                </div>
             </div>
 
-            <div class="large-12 columns  bold text-right">
-                  <span class="pr1 fontXS">Ir</span><i class="fa fa-plus"></i>
-            </div>
+
 
          </article>
       </a>
@@ -91,17 +99,19 @@ $avisos = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'aviso', 'orde
             <article id="avisos-destacados-secundario_"<?php echo $i+1; ?> class="large-6 columns p0 m0 white" <?php echo $target_blank; ?>>
 
 
-               <div class="small-12 columns p0 m0 h_12vh">
-                  <div id="avisos-destacados-thumb" class="columns h_100 imgLiquid imgLiquidNoFill cursor-pointer">
+               <div class="small-5 large-12 columns p0 m0 h_12vh">
+                  <div id="avisos-destacados-thumb" class="columns h_100 imgLiquid imgLiquidNoFill cursor-pointer h_sm_10vh">
                      <?php echo get_the_post_thumbnail($avisos[$i+1]->ID,'thumb'); ?>
                   </div>
                </div>
 
-               <div id="avisos-destacados-principal-header" class="small-12 columns p1 m0 ha fontRM">
-                  <div class="vcenter">
-                     <?php echo apply_filters('the_title',$avisos[$i+1]->post_title); ?>
+               <div id="avisos-destacados-principal-header" class="small-7 medium-12 columns p2 m0 ha fontRM h_sm_10vh">
+                  <div class="vcenter p0">
+                     <h6>
+                        <?php echo apply_filters('the_title',$avisos[$i+1]->post_title); ?>
+                     </h6>
                   </div>
-                  <div id="avisos-destacados-principal-header-fecha" class="large-12 columns p1 fontRS">
+                  <div id="avisos-destacados-principal-header-fecha" class="large-12 columns p1 fontRS show-for-large-only show-for-xlarge-only">
                      <?php echo date_i18n('d\.m\.Y', strtotime(get_the_date( array('post' => $avisos[$i+1]->ID )) ) ); ?>
                   </div>
 
@@ -113,7 +123,7 @@ $avisos = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'aviso', 'orde
             </div>
          </div> -->
 
-         <div class="large-12 columns p2 m0 fontRM bold text-right">
+         <div class="large-12 columns p2 m0 fontRM bold text-right show-for-large-only show-for-xlarge-only">
             <div class="vcenter">
                <span class="pr1 fontXS">Ir</span><i class="fa fa-plus"></i>
             </div>

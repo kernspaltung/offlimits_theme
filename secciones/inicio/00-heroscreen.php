@@ -2,7 +2,7 @@
 <section id="heroscreen" class="columns p0 m0 h_80vh rel">
 
   <!-- fondo -->
-  <div id="heroscreen-imagen-fondo" class="expanded row imgLiquid imgLiquidFill  h_100 w_100 absUpL" >
+  <div id="heroscreen-imagen-fondo" class="expanded row imgLiquid imgLiquidFill h_100 w_100 absUpL" >
      <?php echo get_the_post_thumbnail($portada->ID, 'large'); ?>
   </div>
   <!-- <div id="heroscreen-imagen-fondo" class="expanded row h_100 w_100 absUpL">
@@ -14,14 +14,14 @@
 
 
     <div id="heroscreen-contador" class="columns h_50 text-center">
-      <div class="small-12 medium-10 medium-centered large-8 large-centered columns fontHuge  white">
+      <div class="small-12 medium-10 medium-centered large-8 large-centered columns fontHuge  font_sm_XXL white">
 
-         <span id="heroscreen-contador-dias" class="contador small-2 columns text-left font3 txsh1">00</span>
-         <span class="separador f_l small-1 columns text-right font3 txsh1">:</span>
-         <span id="heroscreen-contador-horas" class="contador small-2 columns text-left font3 txsh1">00</span>
-         <span class="separador f_l small-1 columns text-right font3 txsh1">:</span>
-         <span id="heroscreen-contador-minutos" class="contador small-2 columns text-left font3 txsh1">00</span>
-         <span class="separador f_l small-1 columns text-right font3 txsh1">:</span>
+         <span id="heroscreen-contador-dias" class="contador small-3 medium-2 columns text-left font3 txsh1">00</span>
+         <span class="separador f_l small-1 columns text-right font3 txsh1 hide-for-small-only">:</span>
+         <span id="heroscreen-contador-horas" class="contador small-3 medium-2 columns text-left font3 txsh1">00</span>
+         <span class="separador f_l small-1 columns text-right font3 txsh1 hide-for-small-only">:</span>
+         <span id="heroscreen-contador-minutos" class="contador small-3 medium-2 columns text-left font3 txsh1">00</span>
+         <span class="separador f_l small-1 columns text-right font3 txsh1 hide-for-small-only">:</span>
          <span id="heroscreen-contador-segundos" class="contador small-2 columns text-left font3 txsh1 end">00</span>
 
 

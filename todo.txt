@@ -1,3 +1,28 @@
+RESPONSIVO
+
+general
+
+- icono menu debe ir a la derecha
+- menu offcanvas debe ser fixed
+- reducir temporalmente altura footer
+- colores menu offCanvas
+- tamaños iconos seccion contacto
+
+
+Inicio
+
+- tamaños indicadores
+- reducir tamaño avisos
+- imagen portada
+- inicio:festival reestructurar todo a 12
+- inicio: blog, eliminar extracto
+
+Festival
+
+
+
+
+
 - agregar leyendas "ver mas"
 - aumentar tamaños flechas
 - arreglar color botones
