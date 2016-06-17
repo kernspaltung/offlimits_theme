@@ -1,3 +1,15 @@
+- integrar enlaces redes sociales
+- agregar leyendas "ver mas"
+- aumentar tamaños flechas
+- arreglar color botones
+- vcenter texto festival
+- compactar blog en inicio
+- compactar horizontalmente hotlinks contacto
+- reducir peso de color naranja
+- integrar player
+
+
+
 RESPONSIVO
 
 general
@@ -21,15 +33,6 @@ Festival
 
 
 
-
-
-- agregar leyendas "ver mas"
-- aumentar tamaños flechas
-- arreglar color botones
-- vcenter texto festival
-- compactar blog en inicio
-- compactar horizontalmente hotlinks contacto
-- reducir peso de color naranja
 
 
 

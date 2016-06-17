@@ -47,7 +47,7 @@ endif;
    </div>
 
    <!-- redes footer -->
-   <div class="small-12 large-5 large-2 columns h_100 h_md_50">
+   <div class="small-12 large-5 large-2 columns h_100">
       <div class="small-3 columns h_100 text-center">
          <i class="fa fa-facebook vcenter fontXL white acento_hover"></i>
       </div>

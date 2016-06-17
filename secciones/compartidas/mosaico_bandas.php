@@ -6,7 +6,7 @@ foreach ( $bandas as $banda ) :
 
   ?>
 
-  <article id="festival-lineup-banda" class="small-6 medium-3 columns p0 h_20vh end rel imgfx1 ">
+  <article id="festival-lineup-banda" class="medium-6 large-3 columns p0 h_20vh end rel imgfx1 ">
 
      <a href="" class="h_100 w_100 p0">
 

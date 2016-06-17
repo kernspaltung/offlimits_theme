@@ -77,7 +77,7 @@
    </h1>
 
 
-   <div id="festival-puntos_de_venta-contenido" class="columns p3">
+   <div id="festival-puntos_de_venta-contenido" class="columns p3 p_sm_0">
       <?php echo apply_filters( 'the_content', $puntos_de_venta->post_content ); ?>
    </div>
 

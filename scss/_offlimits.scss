@@ -88,13 +88,18 @@ header {
 
 
 #festival-puntos_de_venta-contenido {
+
+   ul {
+      margin: 0;
+      padding: 0;
+   }
    li {
       list-style:none;
 
-      width: 33%;
+      // width: 33%;
       float: left;
       text-align: center;
-      padding: $spacing * 3;
+      // padding: $spacing * 3;
 
    }
 }

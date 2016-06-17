@@ -7865,12 +7865,14 @@ table.hover tr:nth-of-type(even):hover {
     margin-bottom: 30px;
     color: white; }
 
+#festival-puntos_de_venta-contenido ul {
+  margin: 0;
+  padding: 0; }
+
 #festival-puntos_de_venta-contenido li {
   list-style: none;
-  width: 33%;
   float: left;
-  text-align: center;
-  padding: 45px; }
+  text-align: center; }
 
 /****** COLORES ******/
 button, button:focus,

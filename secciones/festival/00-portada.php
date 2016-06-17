@@ -65,12 +65,12 @@ $festival = get_page_by_title("Festival");
 
          ?>
 
-         <div class="small-12 medium-<?php echo $i==0 ? 7 : 5; ?> columns h_35vh h_sm_50vh <?php echo $i==0 ? 'pr0' : ''; ?> p5 p_sm_0 pb_sm_4 rel pt_sm_0">
-            <div class="button small-12 columns neutral_oscuro2_bg h_100 p0">
+         <div class="small-12 medium-<?php echo $i==0 ? 7 : 5; ?> columns h_35vh h_sm_65vh <?php echo $i==0 ? 'pr0' : ''; ?> p5 p_sm_0 pb_sm_4 rel pt_sm_0">
+            <div class="button small-12 columns neutral_oscuro2_bg black_hover_bg h_100 p0">
                <a href="<?php echo $link; ?>" class="w_100 h_100">
 
-                  <div class="small-12 <?php echo $i==0 ? 'medium-7 large-6' : 'medium-8 large-7'; ?>  columns h_100 text-left color p4 pb_sm_0">
-                     <h5 class="acento sameMaxH mb1 h_20">
+                  <div class="small-12 <?php echo $i==0 ? 'medium-7 large-6' : 'medium-8 large-7'; ?>  columns h_100 h_sm_50 text-left color p4 pb_sm_0">
+                     <h5 class="acento sameMaxH mb1 h_20 mb_sm_0">
                         <?php
 
                            echo apply_filters( 'the_title', $enlace_rapido->post_title );
@@ -85,7 +85,7 @@ $festival = get_page_by_title("Festival");
                         </div>
                      </div>
                   </div>
-                  <div class="small-12 <?php echo $i==0 ? 'medium-5 large-6' : 'medium-4 large-5'; ?> columns h_100 text-center color p4 pt_sm_0 p_sm_0 ">
+                  <div class="small-12 <?php echo $i==0 ? 'medium-5 large-6' : 'medium-4 large-5'; ?> columns h_100 h_sm_50 p_sm_4 text-center color p4 pt_sm_0 p_sm_0 ">
                      <div class="w_100 h_100 imgLiquid imgLiquidNoFill ">
                         <?php echo get_the_post_thumbnail( $enlace_rapido->ID ); ?>
                      </div>

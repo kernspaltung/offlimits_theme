@@ -11,9 +11,9 @@
 
 
 <!-- mapa aqui -->
-  <div id="festival-map" class="small-6 columns h_40vh neutral_oscuro1_bg"></div>
+  <div id="festival-map" class="medium-6 columns h_40vh h_sm_30vh neutral_oscuro1_bg"></div>
 
-     <div id="festival-map-info" class="small-6 columns h_40vh">
+     <div id="festival-map-info" class="medium-6 columns h_40vh h_sm_60vh mt_sm_3">
 
        <div class="vcenter p0 fontL p5 pt0">
          <?php echo apply_filters( 'the_content', $foro -> post_content ); ?>
