@@ -61,7 +61,7 @@ get_header();
    // prefiesta
 
    ?>
-   <section id="blog-prefiesta" class="small-12 columns p0">
+   <section id="blog-prefiesta" class="small-12 columns p0 mt2">
 
    <div class="small-12 columns mr1 mb2">
       <div class="h_15vh m0 p3 black_bg w_a f_l">
