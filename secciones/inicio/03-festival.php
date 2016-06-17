@@ -33,7 +33,7 @@
 
 
 
-   <div id="festival-contenido" class="large-12 columns p0 h_70vh">
+   <div id="festival-contenido" class="large-12 columns p0 h_70vh h_sm_100vh h_md_90vh">
       <a href="<?php echo get_the_permalink( $festival -> ID ); ?>" class="white">
 
          <div class="small-12 medium-7 columns h_100 p0">
@@ -41,7 +41,7 @@
             <div class="row h_100">
                <!-- <div class="columns align-self-bottom p2"> -->
 
-               <div id="festival-extracto-informacion" class="small-12 columns align-bottom p3 fontRM h_40vh h_sm_70vh">
+               <div id="festival-extracto-informacion" class="small-12 columns align-bottom p3 fontRM h_40vh h_md_60vh h_sm_70vh">
                   <div class="vcenter">
                      <?php echo apply_filters( 'the_content', $intro_festival->post_content ); ?>
                   </div>
@@ -73,7 +73,7 @@
          </div>
 
          <!-- poster evento -->
-         <div class="large-5 show-for-large columns h_100 ">
+         <div class="medium-5 show-for-medium columns h_100 ">
 
             <!-- fondo -->
             <div id="festival-imagen-poster" class="row imgLiquid imgLiquidNoFill h_100 p3" >

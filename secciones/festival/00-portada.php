@@ -9,7 +9,7 @@ $festival = get_page_by_title("Festival");
       <!-- festival-fondo header -->
       <div id="festival-header-fondo" class="columns imgLiquid imgLiquidFill h_100 w_100 absUpL z1" >
          <?php echo get_the_post_thumbnail( $festival -> ID, 'full' ); ?>
-         <!-- <img class="" src="http://fakeimg.pl/420x380" alt="" /> -->
+         <!-- <img class="" src="data:application/octet-stream;base64,PCFET0NUWVBFIEhUTUwgUFVCTElDICItLy9XM0MvL0RURCBIVE1MIDMuMiBGaW5hbC8vRU4iPgo8dGl0bGU+UmVkaXJlY3RpbmcuLi48L3RpdGxlPgo8aDE+UmVkaXJlY3RpbmcuLi48L2gxPgo8cD5Zb3Ugc2hvdWxkIGJlIHJlZGlyZWN0ZWQgYXV0b21hdGljYWxseSB0byB0YXJnZXQgVVJMOiA8YSBocmVmPSJodHRwOi8vZmFrZWltZy5wbC80MjB4MzgwLyI+aHR0cDovL2Zha2VpbWcucGwvNDIweDM4MC88L2E+LiBJZiBub3QgY2xpY2sgdGhlIGxpbmsu" alt="" /> -->
       </div>
 
 
@@ -65,11 +65,11 @@ $festival = get_page_by_title("Festival");
 
          ?>
 
-         <div class="small-12 medium-<?php echo $i==0 ? 7 : 5; ?> columns h_35vh h_sm_65vh <?php echo $i==0 ? 'pr0' : ''; ?> p5 p_sm_0 pb_sm_4 rel pt_sm_0">
+         <div class="small-12 medium-6 large-<?php echo $i==0 ? 7 : 5; ?> columns h_35vh h_md_50vh h_sm_65vh <?php echo $i==0 ? 'pr0' : ''; ?> p5 p_sm_0 pb_sm_4 rel pt_sm_0">
             <div class="button small-12 columns neutral_oscuro2_bg black_hover_bg h_100 p0">
                <a href="<?php echo $link; ?>" class="w_100 h_100">
 
-                  <div class="small-12 <?php echo $i==0 ? 'medium-7 large-6' : 'medium-8 large-7'; ?>  columns h_100 h_sm_50 text-left color p4 pb_sm_0">
+                  <div class="small-12 medium-6  columns h_100 h_sm_50 text-left color p4 pb_sm_0">
                      <h5 class="acento sameMaxH mb1 h_20 mb_sm_0">
                         <?php
 
@@ -85,7 +85,7 @@ $festival = get_page_by_title("Festival");
                         </div>
                      </div>
                   </div>
-                  <div class="small-12 <?php echo $i==0 ? 'medium-5 large-6' : 'medium-4 large-5'; ?> columns h_100 h_sm_50 p_sm_4 text-center color p4 pt_sm_0 p_sm_0 ">
+                  <div class="small-12 medium-6 columns h_100 h_sm_50 p_sm_4 text-center color p4 pt_sm_0 p_sm_0 ">
                      <div class="w_100 h_100 imgLiquid imgLiquidNoFill ">
                         <?php echo get_the_post_thumbnail( $enlace_rapido->ID ); ?>
                      </div>

@@ -4,7 +4,7 @@
 - arreglar color botones
 - vcenter texto festival
 - compactar blog en inicio
-- compactar horizontalmente hotlinks contacto
+X compactar horizontalmente hotlinks contacto
 - reducir peso de color naranja
 - integrar player
 
@@ -14,20 +14,20 @@ RESPONSIVO
 
 general
 
-- icono menu debe ir a la derecha
-- menu offcanvas debe ser fixed
-- reducir temporalmente altura footer
-- colores menu offCanvas
-- tamaños iconos seccion contacto
+X icono menu debe ir a la derecha
+X menu offcanvas debe ser fixed
+X reducir temporalmente altura footer
+X colores menu offCanvas
+X tamaños iconos seccion contacto
 
 
 Inicio
 
 - tamaños indicadores
-- reducir tamaño avisos
 - imagen portada
-- inicio:festival reestructurar todo a 12
-- inicio: blog, eliminar extracto
+X reducir tamaño avisos
+X inicio:festival reestructurar todo a 12
+X inicio: blog, eliminar extracto
 
 Festival
 

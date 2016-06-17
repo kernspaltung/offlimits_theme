@@ -15,7 +15,7 @@ foreach ( $bandas as $banda ) :
         </div>
 
         <div id="festival-lineup-banda-nombre" class="small-12 p3 text-center fontRXL  white h_100 abs z1">
-           <div class="vcenter fontXXL font2 txsh1">
+           <div class="vcenter fontXXL font_sm_XL font2 txsh1">
               <?php echo apply_filters( 'the_title', $banda->post_title ); ?>
            </div>
         </div>

@@ -1,19 +1,17 @@
 <?php
 $blog = get_page_by_title("Blog");
 ?>
-<section id="blog" class="small-12 columns p0 h_100 mb3 mt_sm_4">
+<section id="blog" class="small-12 columns p0 h_100 mb3 mt2 mt_sm_4">
 
   <!-- header secciones home -->
-  <div id="blog-header" class="small-12 columns p0 h_10vh mb_sm_2">
+  <div id="blog-header" class="small-12 columns p0 h_10vh mb_sm_2 mb2">
 
     <a href="<?php echo get_the_permalink($blog->ID); ?>">
 
       <div class="small-9 columns fontRXL h_100">
-        <div class="vcenter">
-          <h1 class="white">
+          <h1 class="white m0">
              Blog
           </h1>
-        </div>
       </div>
 
       <div class="small-3 columns p2 m0 h_100 fontRXL text-center">

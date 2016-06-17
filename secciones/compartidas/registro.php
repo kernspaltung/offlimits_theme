@@ -12,38 +12,38 @@ $lista_de_correos = get_page_by_title("Lista de Correos");
 
       <section id="inico-redes-ligas" class="small-12 medium-10 large-8 medium-offset-1 large-offset-2 end columns p0 mt2 mb1">
 
-         <div class="small-3 columns text-center h_100">
+         <div class="small-6 medium-3 columns text-center h_100">
             <a href="http://facebook.com/offlimitsmx" class="white">
                <div class="vcenter">
-                  <i class="fa fa-facebook fontRXL p3"></i>
-                  <p class="fontRS p1 black_bg white acento_hover_bg black_hover">offlimitsmx</p>
+                  <i class="fa fa-facebook fontXXL p3"></i>
+                  <p class="fontS font_sm_M p1 black_bg white acento_hover_bg black_hover">offlimitsmx</p>
                </div>
             </a>
          </div>
 
-         <div class="small-3 columns text-center h_100">
+         <div class="small-6 medium-3 columns text-center h_100">
             <a href="http://instagram.com/offlimitsmx" class="white">
                <div class="vcenter">
-                  <i class="fa fa-instagram fontRXL p3"></i>
-                  <p class="fontRS p1 black_bg white acento_hover_bg black_hover">@offlimitsmx</p>
+                  <i class="fa fa-instagram fontXXL p3"></i>
+                  <p class="fontS font_sm_M p1 black_bg white acento_hover_bg black_hover">@offlimitsmx</p>
                </div>
             </a>
          </div>
 
-         <div class="small-3 columns text-center h_100">
+         <div class="small-6 medium-3 columns text-center h_100">
             <a href="http://twitter.com/offlimitsmx" class="white">
                <div class="vcenter">
-                  <i class="fa fa-twitter fontXL p3"></i>
-                  <p class="fontRS p1 black_bg white acento_hover_bg black_hover">@OfflimitsMx</p>
+                  <i class="fa fa-twitter fontXXL p3"></i>                  
+                  <p class="fontS font_sm_M p1 black_bg white acento_hover_bg black_hover">@OfflimitsMx</p>
                </div>
             </a>
          </div>
 
-         <div class="small-3 columns text-center h_100">
+         <div class="small-6 medium-3 columns text-center h_100">
             <a href="<?php echo get_the_permalink( get_page_by_title("Contacto") ); ?>" class="white">
                <div class="vcenter">
-                  <i class="fa fa-envelope fontRXL p3"></i>
-                  <p class="fontRS p1 black_bg white acento_hover_bg black_hover">Contacto</p>
+                  <i class="fa fa-envelope fontXXL p3"></i>
+                  <p class="fontS font_sm_M p1 black_bg white acento_hover_bg black_hover">Contacto</p>
                </div>
             </a>
          </div>

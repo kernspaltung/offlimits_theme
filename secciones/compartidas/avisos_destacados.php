@@ -105,7 +105,7 @@ $avisos = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'aviso', 'orde
                   </div>
                </div>
 
-               <div id="avisos-destacados-principal-header" class="small-7 medium-12 columns p2 m0 ha fontRM h_sm_10vh">
+               <div id="avisos-destacados-principal-header" class="small-7 large-12 columns p2 m0 ha fontRM h_sm_10vh">
                   <div class="vcenter p0">
                      <h6>
                         <?php echo apply_filters('the_title',$avisos[$i+1]->post_title); ?>
