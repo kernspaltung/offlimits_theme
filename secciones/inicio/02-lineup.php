@@ -43,6 +43,8 @@
             <div class="banda h_60vh m0 p0 z0 rel">
                <div class="small-12 columns p5 h_60vh imgLiquid imgLiquidFill z0">
                   <?php echo get_the_post_thumbnail($banda->ID,'large'); ?>
+                  <?php $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large' ); ?>
+                  <img data-lazy="<?php echo $thumb; ?>" />
                </div>
                <div id="img-caption" class="small-12 text-center absDownR fontRXXXL p2 pb6 z1k">
                   <div class="vcenter">

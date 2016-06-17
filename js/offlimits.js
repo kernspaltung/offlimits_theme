@@ -104,6 +104,7 @@ function setup_utils() {
       // cssEase: 'swing',
       slidesToShow: 1,
       slidesToScroll: 1,
+      lazyLoad: 'ondemand',
       responsive: [
 
          {
