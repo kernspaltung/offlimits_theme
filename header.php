@@ -30,6 +30,7 @@
             $thumb_url = wp_get_attachment_image_src($thumb_id,'large', true);
 
          } else {
+            $name = $name . ': ' . get_the_title();
 
             $description = get_bloginfo('description');
             $url = get_bloginfo('url');
