@@ -163,7 +163,7 @@ function setup_interaccion() {
    $('#festival-boletos-compra a').click(function(e){
       var preventa_id = "56";
       var cantidad = $('#festival-boletos-compra input').val();
-
+      var link = $(this);
       // clear_cart();
       add_to_cart( preventa_id, function( key ){
 
@@ -171,7 +171,7 @@ function setup_interaccion() {
          set_cart_item_quantity( key, cantidad , function( result ) {
 
             setTimeout(function(){
-               window.location = $(this).attr('href');
+               window.location = link.attr('href');
             },1000)
          } );
        })
