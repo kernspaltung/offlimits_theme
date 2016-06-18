@@ -36,7 +36,8 @@
             $name = $name . ': ' . get_the_title();
 
             $description = get_bloginfo('description');
-            $url = get_bloginfo('url');
+            // $url = get_bloginfo('url');
+            $url = get_the_permalink( get_the_ID() );
 
             $thumb_url = wp_get_attachment_image_src( get_post_thumbnail_id(get_page_by_title("Inicio")->ID), 'thumbnail_size' );
          }
