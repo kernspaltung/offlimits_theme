@@ -26,16 +26,17 @@
             $name = $name . ': ' . get_the_title();
             $description = apply_filters( 'the_excerpt', get_the_excerpt() );
             $url = get_the_permalink( get_the_ID() );
+            $thumb_id = get_post_thumbnail_id();
+            $thumb_url = wp_get_attachment_image_src($thumb_id,'large', true);
 
          } else {
 
             $description = get_bloginfo('description');
             $url = get_bloginfo('url');
 
+            $thumb_url = wp_get_attachment_image_src( get_post_thumbnail_id(get_page_by_title("Inicio")->ID), 'thumbnail_size' );
          }
 
-         $thumb_id = get_post_thumbnail_id();
-         $thumb_url = wp_get_attachment_image_src($thumb_id,'large', true);
          $image = $thumb_url[0];
 
 
