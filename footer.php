@@ -49,19 +49,29 @@ endif;
    <!-- redes footer -->
    <div class="small-12 large-5 large-2 columns h_100">
       <div class="small-3 columns h_100 text-center">
-         <i class="fa fa-facebook vcenter fontXL white acento_hover"></i>
+         <a href="https://es-la.facebook.com/offlimitsmx">
+            <i class="fa fa-facebook vcenter fontXL white acento_hover"></i>
+         </a>
       </div>
 
       <div class="small-3 columns h_100 text-center fontRXL white acento_hover">
-         <i class="fa fa-instagram vcenter fontXL white acento_hover"></i>
+         <a href="https://www.instagram.com/offlimitsmx">
+            <i class="fa fa-instagram vcenter fontXL white acento_hover"></i>
+         </a>
       </div>
 
       <div class="small-3 columns h_100 text-center">
-         <i class="fa fa-twitter vcenter fontXL white acento_hover"></i>
+         <a href="https://twitter.com/offlimitsmx">
+            <i class="fa fa-twitter vcenter fontXL white acento_hover"></i>
+         </a>
       </div>
 
       <div class="small-3 columns h_100 text-center">
-         <i class="fa fa-envelope vcenter fontXL white acento_hover"></i>
+
+         <a href="<?php echo get_the_permalink(get_page_by_title('Contacto')->ID); ?>">
+            <i class="fa fa-envelope vcenter fontXL white acento_hover"></i>
+         </a>
+
       </div>
 
    </div>

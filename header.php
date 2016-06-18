@@ -47,7 +47,7 @@
          <title><?php echo $name; ?></title>
 
 
-         <?php include_once 'favicons.php'; ?>
+         <?php //include_once 'favicons.php'; ?>
 
 
          <meta name="description" content="<?php echo $description; ?>" />
