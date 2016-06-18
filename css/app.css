@@ -7394,6 +7394,9 @@ table.hover tr:nth-of-type(even):hover {
   .h_sm_40 {
     display: block;
     height: 40% !important; }
+  .h_sm_100 {
+    display: block;
+    height: 100% !important; }
   .h_sm_3vh {
     display: block;
     height: 3vh !important; }
@@ -7582,6 +7585,9 @@ table.hover tr:nth-of-type(even):hover {
   .h_md_50 {
     display: block;
     height: 50% !important; }
+  .h_md_100 {
+    display: block;
+    height: 100% !important; }
   .h_md_3vh {
     display: block;
     height: 3vh !important; }

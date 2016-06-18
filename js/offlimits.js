@@ -230,7 +230,7 @@ function do_subsection_scroll( url ) {
       if( siguiente_parte != "" ) {
          num_partes_revisadas++;
          if( string_final != "" )
-            string_final = "-" + string_final;
+            string_final = "-" + string_final.replace( " ", "_" );
          string_final = siguiente_parte + string_final;
       }
    }

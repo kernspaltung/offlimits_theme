@@ -31,7 +31,7 @@
 
    </div>
 
-   <div id="lineup_galeria" class="small-12 columns p0 h_60vh">
+   <div id="lineup_galeria" class="small-12 columns p0 h_60vh h_sm_40vh">
 
       <?php
       $bandas = get_posts(array('post_type'=>'banda','posts_per_page'=>-1));
@@ -40,7 +40,7 @@
       ?>
          <a href="<?php echo $link_lineup; ?>">
 
-            <div class="banda h_60vh m0 p0 z0 rel">
+            <div class="banda h_60vh h_sm_40vh m0 p0 z0 rel">
                <div class="small-12 columns p0 h_60vh  z0">
                   <?php $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($banda->ID), 'large' ); ?>
 

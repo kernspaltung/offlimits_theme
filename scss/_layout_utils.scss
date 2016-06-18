@@ -787,6 +787,10 @@ $screen-lg-min: 1025px;
 		display: block;
 		height: 40% !important;
 	}
+	.h_sm_100 {
+		display: block;
+		height: 100% !important;
+	}
 
 	.h_sm_3vh {
 		display: block;
@@ -1080,6 +1084,10 @@ $screen-lg-min: 1025px;
 	.h_md_50 {
 		display: block;
 		height: 50% !important;
+	}
+	.h_md_100 {
+		display: block;
+		height: 100% !important;
 	}
 
 	.h_md_3vh {

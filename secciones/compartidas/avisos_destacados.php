@@ -32,10 +32,10 @@ $avisos = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'aviso', 'orde
       ?>
 
       <a href="<?php echo $link; ?>" <?php echo $target_blank; ?>>
-         <article id="avisos-destacados-principal" class="small-12 columns p2 m0 min_20vh white">
+         <article id="avisos-destacados-principal" class="small-12 columns p2 m0 h_35vh h_sm_15vh h_md_15vh  white mb1">
 
-            <div class="small-7 small-push-5 large-12 large-push-0 columns p0 h_sm_15vh">
-               <div id="avisos-destacados-principal-header" class="small-8 columns h_sm_15vh p2 m0 ha fontRL">
+            <div class="small-7 small-push-5 large-12 large-push-0 columns p0 ha h_sm_100 h_md_100">
+               <div id="avisos-destacados-principal-header" class="small-8 columns ha h_sm_100 h_md_100 p2 m0 fontRL">
                   <div class="vcenter p0">
                      <h6 class="p0 m0">
                         <?php echo apply_filters('the_title',$avisos[0]->post_title); ?>
@@ -48,7 +48,7 @@ $avisos = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'aviso', 'orde
             </div>
 
 
-            <div class="small-5 small-pull-7 large-12 large-pull-0 columns p0 m0 h_22vh h_sm_15vh">
+            <div class="small-5 small-pull-7 large-12 large-pull-0 columns p0 m0 h_50 h_sm_100 h_md_100">
                <div id="avisos-destacados-thumb" class="w_100 h_100 imgLiquid imgLiquidNoFill cursor-pointer p0">
                   <?php echo get_the_post_thumbnail($avisos[0]->ID,'thumb'); ?>
                </div>
@@ -96,16 +96,16 @@ $avisos = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'aviso', 'orde
          ?>
 
          <a href="<?php echo $link; ?>" <?php echo $target_blank; ?>>
-            <article id="avisos-destacados-secundario_"<?php echo $i+1; ?> class="large-6 columns p0 m0 white" <?php echo $target_blank; ?>>
+            <article id="avisos-destacados-secundario_"<?php echo $i+1; ?> class="large-6 columns p0 m0 white h_10vh mb1" <?php echo $target_blank; ?>>
 
 
-               <div class="small-5 large-12 columns p0 m0 h_12vh">
-                  <div id="avisos-destacados-thumb" class="columns h_100 imgLiquid imgLiquidNoFill cursor-pointer h_sm_10vh">
+               <div class="small-5 large-12 columns p0 m0 h_100">
+                  <div id="avisos-destacados-thumb" class="columns imgLiquid imgLiquidNoFill cursor-pointer h_100">
                      <?php echo get_the_post_thumbnail($avisos[$i+1]->ID,'thumb'); ?>
                   </div>
                </div>
 
-               <div id="avisos-destacados-principal-header" class="small-7 large-12 columns p2 m0 ha fontRM h_sm_10vh">
+               <div id="avisos-destacados-principal-header" class="small-7 large-12 columns p2 m0 fontRM h_100 ">
                   <div class="vcenter p0">
                      <h6>
                         <?php echo apply_filters('the_title',$avisos[$i+1]->post_title); ?>
