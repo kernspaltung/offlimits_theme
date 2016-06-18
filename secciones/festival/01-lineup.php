@@ -1,10 +1,10 @@
 <!-- template festival lineup -->
-<section id="festival-lineup" class="small-12 columns p0">
+<section id="festival-bandas" class="small-12 columns p0">
 
    <h1>
       Bandas
    </h1>
-  
+
 
 
   <?php
