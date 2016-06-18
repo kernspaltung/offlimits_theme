@@ -137,7 +137,7 @@ function setup_interaccion() {
 
          var offsetY = target.offset().top - $('#header').height();
 
-         $('html,body').animate({
+         $('html').animate({
             scrollTop: offsetY
          }, 1000);
 
@@ -208,7 +208,7 @@ function scrollToTarget( url ) {
 
          var offsetY = target.offset().top - $('#header').height();
 
-         $('html,body').animate({
+         $('body').animate({
             scrollTop: offsetY
          }, 1000);
 
@@ -236,20 +236,17 @@ function do_subsection_scroll( url ) {
    }
    var targetId = "#" + string_final;
 
+   console.log( targetId );
 
    var target = $(targetId);
 
    if( target.length > 0 ) {
 
-      if ( target.length > 0 ) {
+      var offsetY = target.offset().top - $('#header').height();
 
-         var offsetY = target.offset().top - $('#header').height();
-
-         $('html,body').animate({
-            scrollTop: offsetY
-         }, 1000);
-
-      }
+      $('html').animate({
+         scrollTop: offsetY
+      }, 1000);
 
    }
 

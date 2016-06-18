@@ -8198,3 +8198,6 @@ input {
 
 .is-off-canvas-open {
   position: fixed; }
+
+.off-canvas-wrapper, .off-canvas-wrapper-inner, .off-canvas {
+  overflow-y: hidden; }
