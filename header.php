@@ -17,6 +17,9 @@
 
 
          <?php
+         if(have_posts()):
+         while(have_posts()):
+            the_post();
 
          $name = get_bloginfo('name');
 
@@ -37,6 +40,10 @@
 
             $thumb_url = wp_get_attachment_image_src( get_post_thumbnail_id(get_page_by_title("Inicio")->ID), 'thumbnail_size' );
          }
+
+
+      endwhile;
+         endif;
 
          $image = $thumb_url[0];
 
