@@ -7,7 +7,7 @@
    $intro_festival = get_page_by_title("Introducción Festival");
 
    ?>
-   <div id="festival-header" class="small-12 columns p0 h_10vh">
+   <div id="festival-header" class="small-12 columns p0">
 
       <a href="<?php echo get_the_permalink( $festival -> ID ); ?>">
 
