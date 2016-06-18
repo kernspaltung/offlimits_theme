@@ -15,6 +15,8 @@ $(document).ready(function(){
 
    scrollToTarget();
 
+   do_subsection_scroll( window.location.href );
+
    $(window).trigger('resize');
 
    // $('#header nav.menu').addClass('small-9');
@@ -214,8 +216,45 @@ function scrollToTarget( url ) {
 
    }
 
+}
+
+function do_subsection_scroll( url ) {
+
+   partes_url = url.split("/");
+
+   var num_partes_revisadas = 0;
+   string_final = "";
+   while( num_partes_revisadas < 2 ) {
+      var siguiente_parte = partes_url.pop();
+
+      if( siguiente_parte != "" ) {
+         num_partes_revisadas++;
+         if( string_final != "" )
+            string_final = "-" + string_final;
+         string_final = siguiente_parte + string_final;
+      }
+   }
+   var targetId = "#" + string_final;
+
+
+   var target = $(targetId);
+
+   if( target.length > 0 ) {
+
+      if ( target.length > 0 ) {
+
+         var offsetY = target.offset().top - $('#header').height();
+
+         $('html,body').animate({
+            scrollTop: offsetY
+         }, 1000);
+
+      }
+
+   }
 
 }
+
 
 
 //mapa

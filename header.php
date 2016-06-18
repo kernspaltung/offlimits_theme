@@ -155,7 +155,7 @@
 
             <!-- main -->
             <main id="main" class="small-12 columns m0 pl0 pr0 pt_10vh">
-               <?php if( is_page('Festival') || is_page('Inicio') ) : ?>
+               <?php if( is_page('Festival') || get_page_template_slug() == "offlimits_festival.php" || is_page('Inicio') ) : ?>
                   <header id="cabecera_seccion" class="columns p0 h_100 h_sm_a mb2">
                      <?php get_template_part('secciones/compartidas/header_seccion'); ?>
                   </header>
