@@ -25,6 +25,14 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 do_action( 'woocommerce_email_header', $email_heading, $email ); ?>
 
+<p>
+	Tu pago fue recibido. Tu recibo en PDF está adjunto en este correo electrónico.
+</p>
+
+<p>
+	Para aclaraciones, puedes escribir a <a href="mailto:boletos@offlimits.mx">boletos@offlimits.mx</a>.
+</p>
+
 <?php
 
 /**
