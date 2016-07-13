@@ -20,7 +20,7 @@ if( have_posts() ) : while( have_posts() ) : the_post();
          <?php echo get_the_post_thumbnail(); ?>
       </div>
 
-      <div id="single-blog-offlimits-titulo-fecha" class="small-12 columns p0 mb2">
+      <div id="single-blog-offlimits-titulo-fecha" class="small-12 columns p0 mb1">
         <div class="small-12 columns pt1 text-left fontL">
            <?php echo get_the_date('d \d\e m\, Y', get_the_ID() ); ?>
         </div>
