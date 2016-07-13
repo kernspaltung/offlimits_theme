@@ -1,4 +1,4 @@
-//
+
 // @font-face {
 //    font-family: 'Averia Serif Libre', sans-serif;
 //    src: url('fonts/googlefonts/Averia_Serif_Libre/AveriaSerifLibre-Regular.ttf');
@@ -28,6 +28,18 @@
 * img {
   background-color: gray;
 }
+
+
+ul {
+   &, li {
+      margin: 0;
+      padding: 0;
+   }
+   li {
+      list-style:none;
+   }
+}
+
 // altura menus
 .h_14 {
   display: block;

@@ -7853,6 +7853,13 @@ table.hover tr:nth-of-type(even):hover {
 * img {
   background-color: gray; }
 
+ul, ul li {
+  margin: 0;
+  padding: 0; }
+
+ul li {
+  list-style: none; }
+
 .h_14 {
   display: block;
   height: 14.2%; }
