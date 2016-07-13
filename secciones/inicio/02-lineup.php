@@ -48,7 +48,7 @@
                </div>
                <div id="img-caption" class="small-12 text-center absDownR fontRXXXL p2 pb6 z1k">
                   <div class="vcenter">
-                     <h1 class="font2 white txsh1">
+                     <h1 class="font2 white txsh2 fontHuge font_sm_XXL">
                         <?php echo apply_filters('the_title', $banda->post_title); ?>
                      </h1>
                   </div>
