@@ -141,6 +141,7 @@ function metabox_banda_markup($object)
   				<input class="enlace repeatable hidden" name="banda-enlaces[]" type="text" value="">
 
 
+		  	</div>
 		  </div>
 
 		  <script type="text/javascript">
