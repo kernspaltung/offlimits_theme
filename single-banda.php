@@ -47,19 +47,26 @@ if( have_posts() ) : while( have_posts() ) : the_post();
 
          <div class="columns medium-4 p4">
 
-            <h6>Lugar de Origen:</h6>
-            <?php echo $banda_lugar_de_origen; ?>
+            <div class="pb1 fontM">
+               <h6 class="mb0">Lugar de Origen:</h6>
+               <p class="m0 p0">
+                  <?php echo $banda_lugar_de_origen; ?>
+               </p>
+            </div>
 
-            <br>
+            <div class="pb1 fontM">
+               <h6 class="mb0">Año de Conformación:</h6>
+               <p class="m0 p0">
+                  <?php echo $banda_anno_formacion; ?>
+               </p>
+            </div>
 
-            <h6>Año de Conformación:</h6>
-            <?php echo $banda_anno_formacion; ?>
-
-            <br>
-
-            <h6>Género:</h6>
-            <?php echo $banda_genero_musical; ?>
-
+            <div class="pb1 fontM">
+               <h6 class="mb0">Género:</h6>
+               <p class="m0 p0">
+                  <?php echo $banda_genero_musical; ?>
+               </p>
+            </div>
 
          </div>
 
