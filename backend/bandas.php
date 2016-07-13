@@ -106,7 +106,6 @@ function metabox_banda_markup($object)
 				<input class="integrante repeatable hidden" name="banda-integrantes[]" type="text" value="">
 
 
-        </div>
 
 		  <div id="enlaces">
 
@@ -141,7 +140,6 @@ function metabox_banda_markup($object)
   				<input class="enlace repeatable hidden" name="banda-enlaces[]" type="text" value="">
 
 
-		  	</div>
 		  </div>
 
 		  <script type="text/javascript">
