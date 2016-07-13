@@ -34,7 +34,7 @@
    <div id="lineup_galeria" class="small-12 columns p0 h_60vh h_sm_40vh">
 
       <?php
-      $bandas = get_posts(array('post_type'=>'banda','posts_per_page'=>-1));
+      $bandas = get_posts(array('post_type'=>'banda','posts_per_page'=>-1, 'orderby' => 'rand' ));
 
       foreach ( $bandas as $banda ) :
       ?>
