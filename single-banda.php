@@ -11,22 +11,13 @@ if( have_posts() ) : while( have_posts() ) : the_post();
     <article class="small-12 columns p0">
       <header class="small-12 columns p2 text-left">
 
-      <h1>
+      <h1 class="text-center fontHuge font_sm_XXL txsh2 mt3">
          <?php echo apply_filters('the_title', get_the_title() ); ?>
       </h1>
       </header>
 
       <div id="single-banda-thumb" class="expanded row imgLiquidFill imgLiquid h_50vh w_100 mb1" >
          <?php echo get_the_post_thumbnail(); ?>
-      </div>
-
-      <div id="single-banda-titulo-fecha" class="small-12 columns p0 h_15vh">
-
-
-        <div class="small-12 columns pt1 text-left fontL">
-           <?php echo get_the_date('d\.m\.Y', get_the_ID() ); ?>
-        </div>
-
       </div>
 
       <div id="single-banda-info">
