@@ -103,16 +103,53 @@ function metabox_banda_markup($object)
 					Añadir Integrante
 				</button>
 
-				<input class="repeatable hidden" name="banda-integrantes[]" type="text" value="">
+				<input class="integrante repeatable hidden" name="banda-integrantes[]" type="text" value="">
 
-				<br>
 
         </div>
+
+		  <div id="enlaces">
+
+
+					<label>Enlaces</label>
+					<br>
+  				<?php
+
+  				$enlaces = get_post_meta($object->ID, "banda-enlaces", true);
+
+  				if( is_array( $enlaces ) ) :
+  					foreach( $enlaces as $enlace ) :
+  						if( $enlace != "" ) :
+  							?>
+
+  			            <input name="banda-enlaces[]" type="text" value="<?php echo $enlace; ?>">
+
+  							<?php
+  						endif;
+  					endforeach;
+  				endif;
+  				?>
+
+  				<input name="banda-enlaces[]" type="text" value="">
+
+  				</div>
+
+  				<button id="annadir_enlace" type="button" name="button">
+  					Añadir Enlace
+  				</button>
+
+  				<input class="enlace repeatable hidden" name="banda-enlaces[]" type="text" value="">
+
+
+		  </div>
 
 		  <script type="text/javascript">
 		  $=jQuery.noConflict();
 			$('#annadir_integrante').click(function(){
-				$('input.repeatable').clone().removeClass('repeatable hidden').detach().appendTo('#integrantes');
+				$('input.integrante.repeatable').clone().removeClass('repeatable hidden').detach().appendTo('#integrantes');
+			})
+			$('#annadir_enlace').click(function(){
+				$('input.enlace.repeatable').clone().removeClass('repeatable hidden').detach().appendTo('#enlaces');
 			})
 		  </script>
     <?php
@@ -138,6 +175,7 @@ function save_bandas_metabox($post_id, $post, $update)
 	$banda_anno_formacion = "";
 	$banda_genero_musical = "";
 	$banda_integrantes = "";
+	$banda_enlaces = "";
 
 
     if(isset($_POST["banda-lugar_de_origen"]))
@@ -165,6 +203,13 @@ function save_bandas_metabox($post_id, $post, $update)
         $banda_integrantes = $_POST["banda-integrantes"];
     }
     update_post_meta($post_id, "banda-integrantes", $banda_integrantes );
+
+
+    if(isset($_POST["banda-enlaces"]))
+    {
+        $banda_enlaces = $_POST["banda-enlaces"];
+    }
+    update_post_meta($post_id, "banda-enlaces", $banda_enlaces );
 
 
 }
