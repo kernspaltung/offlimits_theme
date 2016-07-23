@@ -93,7 +93,7 @@ if( have_posts() ) : while( have_posts() ) : the_post();
          </div>
 
 
-      <div id="single-banda-contenido" class="small-12 medium-8 medium-offset-1 columns end columns fontRL text-left pt2 mt1">
+      <div id="single-banda-contenido" class="contenido small-12 medium-8 medium-offset-1 columns end columns fontRL text-left pt1">
         <?php echo apply_filters('the_content', get_the_content() ); ?>
       </div>
 

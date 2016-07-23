@@ -7896,6 +7896,9 @@ ul li {
   float: left;
   text-align: center; }
 
+.contenido img {
+  margin: 60px 0; }
+
 /****** COLORES ******/
 button, button:focus,
 .button,
