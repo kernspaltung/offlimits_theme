@@ -40,23 +40,23 @@ if( have_posts() ) : while( have_posts() ) : the_post();
 
             <div class="pb1 fontM">
                <h6 class="mb0">Lugar de Origen:</h6>
-               <p class="m0 p0">
+               <span class="m0 p0 fontX">
                   <?php echo $banda_lugar_de_origen; ?>
-               </p>
+               </span>
             </div>
 
             <div class="pb1 fontM">
                <h6 class="mb0">Año de Conformación:</h6>
-               <p class="m0 p0">
+               <span class="m0 p0 fontS">
                   <?php echo $banda_anno_formacion; ?>
-               </p>
+               </span>
             </div>
 
             <div class="pb1 fontM">
                <h6 class="mb0">Género:</h6>
-               <p class="m0 p0">
+               <span class="m0 p0 fontS">
                   <?php echo $banda_genero_musical; ?>
-               </p>
+               </span>
             </div>
 
          </div>
@@ -66,9 +66,9 @@ if( have_posts() ) : while( have_posts() ) : the_post();
 
             <h6>Integrantes:</h6>
 
-            <ul>
+            <ul class="listado">
                <?php foreach( $banda_integrantes as $integrante ) : ?>
-                  <li>
+                  <li class="fontXS">
                      <?php echo $integrante; ?>
                   </li>
                <?php endforeach; ?>
@@ -80,9 +80,9 @@ if( have_posts() ) : while( have_posts() ) : the_post();
 
             <h6>Enlaces:</h6>
 
-            <ul>
+            <ul class="listado">
                <?php foreach( $banda_enlaces as $enlace ) : ?>
-                  <li>
+                  <li class="fontXS">
                      <a href="<?php echo $enlace; ?>" target="_blank">
                         <?php echo $enlace; ?>
                      </a>

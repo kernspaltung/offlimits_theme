@@ -8,7 +8,7 @@ foreach ( $bandas as $banda ) :
 
   <article id="festival-lineup-banda" class="medium-6 large-3 columns p0 h_20vh end rel imgfx1 ">
 
-     <a href="" class="h_100 w_100 p0">
+     <a href="<?php echo get_the_permalink($banda->ID); ?>" class="h_100 w_100 p0">
 
         <div id="festival-lineup-banda-imagen" class="expanded row imgLiquidFill imgLiquid abs w_100 h_100" >
            <?php echo get_the_post_thumbnail( $banda -> ID, 'large' ); ?>

@@ -7872,6 +7872,9 @@ ul li {
   display: block;
   height: 29%; }
 
+.listado li {
+  line-height: 2.3em; }
+
 /****** LAYOUT ******/
 @media screen and (max-width: 640px) {
   #festival-portada {
