@@ -21,6 +21,12 @@ $(document).ready(function(){
 
    // $('#header nav.menu').addClass('small-9');
 
+   var fa = $('<span>').addClass('fa fa-facebook fontM pl1 pr1 white');
+   $('.button-facebook').html( fa );
+
+   fa = $('<span>').addClass('fa fa-twitter fontM pl1 pr1 white');
+   $('.button-twitter').html( fa );
+
 
 });
 

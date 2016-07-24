@@ -493,3 +493,17 @@ input {
 .txsh2 {
    text-shadow: 3px 3px 0px black;
 }
+
+
+
+.social-sharing {
+
+   .before-sharebutton-text {
+      @extend .font2;
+      @extend .fontL;
+      @extend .pr1;
+   }
+
+   @extend .mb1;
+
+}

@@ -7222,7 +7222,7 @@ table.hover tr:nth-of-type(even):hover {
 .mb0 {
   margin-bottom: 0 !important; }
 
-.mb1 {
+.mb1, .social-sharing {
   margin-bottom: 15px !important; }
 
 .mb2 {
@@ -7342,7 +7342,7 @@ table.hover tr:nth-of-type(even):hover {
 .pr0 {
   padding-right: 0 !important; }
 
-.pr1 {
+.pr1, .social-sharing .before-sharebutton-text {
   padding-right: 15px !important; }
 
 .pr2 {
@@ -7702,7 +7702,7 @@ table.hover tr:nth-of-type(even):hover {
 .fontM {
   font-size: 14px; }
 
-.fontL {
+.fontL, .social-sharing .before-sharebutton-text {
   font-size: 18px; }
 
 .fontXL {
@@ -8109,7 +8109,7 @@ div, li, p {
   font-family: 'Roboto Slab', serif;
   font-size: 13px; }
 
-.font2,
+.font2, .social-sharing .before-sharebutton-text,
 h2, h3, h4, h5, h6, .copy {
   font-family: 'Special Elite', cursive; }
 
