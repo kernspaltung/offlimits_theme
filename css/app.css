@@ -8220,3 +8220,7 @@ input {
 
 .menu-menu-principal-container li {
   color: white !important; }
+
+@media screen and (max-width: 640px) {
+  .mt_sm_10vh {
+    margin-top: 10vh; } }
