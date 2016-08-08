@@ -28,6 +28,10 @@ $(document).ready(function(){
    $('.button-twitter').html( fa );
 
 
+   $('#heroscreen-indicadorscroll').click(function(){
+      $('html,body').animate({scrollTop: $(window).height()*0.8},1000);
+   })
+
 });
 
 

@@ -10,7 +10,7 @@
    </div> -->
 
   <!-- logo -->
-  <div id="heroscreen-logo-contador" class="columns pb4 align-center align-middle absDownL z1">
+  <div id="heroscreen-logo-contador" class="columns pb4 align-center align-middle absDownL z1 mb4">
 
 
     <div id="heroscreen-contador" class="columns h_50 text-center">
@@ -36,6 +36,18 @@
       </div>
     </div>
 
+  </div>
+
+
+  <div id="heroscreen-indicadorscroll" class="w_100 cursor-pointer h_15vh absDownL z1 text-center">
+     <div class="columns pb1">
+        <i class="fa fa-chevron-down fontXXL acento cursor-pointer"></i>
+     </div>
+     <div class="columns txsh1">
+        <h6>
+           Scrollea hacia abajo
+        </h6>
+     </div>
   </div>
 
 </section>

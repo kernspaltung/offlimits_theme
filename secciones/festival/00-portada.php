@@ -35,8 +35,8 @@ $festival = get_page_by_title("Festival");
 
                   ?>
                   <li class=" h_50 f_l w_a end primario">
-                     <a class="scrollLink p3 pt0 pl0 h_100 acento txsh1" data-target="<?php echo $link_seccion; ?>" href="<?php echo $link_seccion; ?>">
-                        <div class="vcenter fontL font_sm_M">
+                     <a class="scrollLink p3 pt0 pl0 pr2 h_100  txsh1" data-target="<?php echo $link_seccion; ?>" href="<?php echo $link_seccion; ?>">
+                        <div class="vcenter fontL font_sm_M acento">
                            <?php echo $seccion; ?>
                         </div>
                      </a>
@@ -48,7 +48,7 @@ $festival = get_page_by_title("Festival");
 
    </header>
 
-   <section id="header-portada-introduccion" class="large-10 large-offset-1 columns end h_45vh p5 rel ">
+   <section id="header-portada-introduccion" class="large-10 large-offset-1 columns end h_55vh p5 rel ">
 
       <div id="festival-texto-intro" class="columns medium-6 h_100 p5">
          <div class="vcenter h_a">
