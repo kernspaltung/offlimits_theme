@@ -16,13 +16,13 @@
     <div id="heroscreen-contador" class="columns h_50 text-center ">
       <div class="small-12 medium-10 medium-centered large-8 large-centered columns fontHuge  font_sm_XXL white">
 
-         <span id="heroscreen-contador-dias" class="contador small-3 medium-2 columns text-left font3 txsh1 acento">00</span>
-         <span class="separador f_l small-1 columns text-right font3 txsh1 hide-for-small-only acento">:</span>
-         <span id="heroscreen-contador-horas" class="contador small-3 medium-2 columns text-left font3 txsh1 acento">00</span>
-         <span class="separador f_l small-1 columns text-right font3 txsh1 hide-for-small-only acento">:</span>
-         <span id="heroscreen-contador-minutos" class="contador small-3 medium-2 columns text-left font3 txsh1 acento">00</span>
-         <span class="separador f_l small-1 columns text-right font3 txsh1 hide-for-small-only acento">:</span>
-         <span id="heroscreen-contador-segundos" class="contador small-2 columns text-left font3 txsh1 end acento">00</span>
+         <span id="heroscreen-contador-dias" class="contador small-3 medium-2 columns text-left font3 txsh1">00</span>
+         <span class="separador f_l small-1 columns text-right font3 txsh1 hide-for-small-only">:</span>
+         <span id="heroscreen-contador-horas" class="contador small-3 medium-2 columns text-left font3 txsh1">00</span>
+         <span class="separador f_l small-1 columns text-right font3 txsh1 hide-for-small-only">:</span>
+         <span id="heroscreen-contador-minutos" class="contador small-3 medium-2 columns text-left font3 txsh1">00</span>
+         <span class="separador f_l small-1 columns text-right font3 txsh1 hide-for-small-only">:</span>
+         <span id="heroscreen-contador-segundos" class="contador small-2 columns text-left font3 txsh1 end">00</span>
 
 
          <span id="heroscreen-contador-dias-texto" class="contador small-2 columns text-center fontRXL font3 txsh1">Días</span>

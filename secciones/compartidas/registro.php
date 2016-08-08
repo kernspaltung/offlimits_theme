@@ -33,7 +33,7 @@ $lista_de_correos = get_page_by_title("Lista de Correos");
          <div class="small-6 medium-3 columns text-center h_100">
             <a href="http://twitter.com/offlimitsmx" class="white">
                <div class="vcenter">
-                  <i class="fa fa-twitter fontXXL p3"></i>                  
+                  <i class="fa fa-twitter fontXXL p3"></i>
                   <p class="fontS font_sm_M p1 black_bg white acento_hover_bg black_hover">@OfflimitsMx</p>
                </div>
             </a>
