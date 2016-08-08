@@ -48,7 +48,7 @@ $festival = get_page_by_title("Festival");
 
    </header>
 
-   <section id="header-portada-introduccion" class="large-10 large-offset-1 columns end h_55vh h_sm_80vh p5 rel ">
+   <section id="header-portada-introduccion" class="large-10 large-offset-1 columns end h_55vh h_sm_70vh p5 rel ">
 
       <div id="festival-texto-intro" class="columns medium-6 h_100 p5">
          <div class="vcenter h_a">
