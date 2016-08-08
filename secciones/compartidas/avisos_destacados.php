@@ -4,7 +4,7 @@ $avisos_pagina = get_page_by_title("Avisos");
 $avisos = get_posts( array( 'posts_per_page' => 3, 'post_type' => 'aviso', 'orderby' => 'menu_order', 'order' => 'ASC' ) );
 ?>
 
-<div id="avisos-destacados" class="small-12 small-pull-12 large-3 columns p0" data-sticky-container>
+<div id="avisos-destacados" class="hide-for-small-only hide-for-medium-only large-3 columns p0" data-sticky-container>
 
    <div id="avisos-destacados-sticky" class="sticky" data-sticky data-margin-top="5" data-anchor="area_contenidos" data-sticky-on="large">
 
