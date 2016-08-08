@@ -11,7 +11,7 @@ $foro = get_page_by_title("Foro");
 
 
    <!-- mapa aqui -->
-   <div id="festival-map" class="medium-6 columns h_40vh h_sm_20vh neutral_oscuro1_bg"></div>
+   <div id="festival-map" class="medium-6 columns h_40vh h_sm_30vh neutral_oscuro1_bg"></div>
 
    <div id="festival-map-info" class="medium-6 columns h_40vh h_sm_100vh mt_sm_3">
       <div id="festival-map-texto h_sm_100 h_a">
