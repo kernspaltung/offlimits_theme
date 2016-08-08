@@ -52,7 +52,7 @@ $festival = get_page_by_title("Festival");
 
       <div id="festival-texto-intro" class="columns medium-6 h_100 p5">
          <div class="vcenter h_a">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias ad voluptas delectus, at sint rem impedit provident sunt, nulla animi, commodi cumque numquam reprehenderit perferendis.
+            <?php echo apply_filters('the_content', get_page_by_title("Festival")->post_content); ?>
          </div>
       </div>
 
