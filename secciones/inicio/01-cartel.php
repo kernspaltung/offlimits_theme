@@ -10,7 +10,7 @@
       </a>
    </div>
 </div>
-<?php $imagen_url = wp_get_attachment_image_src( get_post_thumbnail_id( $cartel->ID ) ); ?>
+<?php $imagen_url = wp_get_attachment_image_src( get_post_thumbnail_id( $cartel->ID ), 'single-post-thumbnail' ); ?>
 <div class="imagen columns medium-6 h_100 imgLiquid imgLiquidNoFill">
    <a href="<?php echo $imagen_url[0]; ?>" target="_blank">
 
