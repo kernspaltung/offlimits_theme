@@ -11,7 +11,7 @@
 
 
 <!-- mapa aqui -->
-  <div id="festival-map" class="medium-6 columns h_40vh h_sm_70vh neutral_oscuro1_bg"></div>
+  <div id="festival-map" class="medium-6 columns h_40vh h_sm_100vh neutral_oscuro1_bg"></div>
 
      <div id="festival-map-info" class="medium-6 columns h_40vh h_sm_60vh mt_sm_3">
 
