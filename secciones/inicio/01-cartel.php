@@ -1,4 +1,4 @@
-<section class="w_100 h_50vh h_sm_80vh p5">
+<section class="w_100 h_50vh h_sm_60vh p5">
 
 <div class="columns medium-6 h_100 p5">
    <div class="vcenter h_a text-center">
