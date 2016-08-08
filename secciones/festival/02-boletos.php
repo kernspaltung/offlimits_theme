@@ -1,4 +1,4 @@
-<section id="festival-boletos" class="small-12 columns p0">
+<section id="festival-boletos" class="small-12 columns p5">
 
 
    <?php
@@ -66,7 +66,7 @@
 </section>
 
 
-<section id="festival-puntos_de_venta" class="columns p0 neutral_oscuro2_bg">
+<section id="festival-puntos_de_venta" class="columns p5 neutral_oscuro2_bg">
 
    <?php
    $puntos_de_venta = get_page_by_title("Puntos de Venta");

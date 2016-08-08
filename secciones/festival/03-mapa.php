@@ -2,7 +2,7 @@
    $foro = get_page_by_title("Foro");
 ?>
 <!-- mapa como llegar -->
-<section id="festival-foro" class="small-12 columns p0">
+<section id="festival-foro" class="small-12 columns p5">
 
 
      <h1>
