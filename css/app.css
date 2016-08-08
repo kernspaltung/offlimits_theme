@@ -8217,3 +8217,6 @@ input {
 
 .txsh2 {
   text-shadow: 3px 3px 0px black; }
+
+.menu-menu-principal-container li {
+  color: white !important; }
