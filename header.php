@@ -16,10 +16,10 @@
 
 
 
-         <?php
-         if(have_posts()):
-         while(have_posts()):
-            the_post();
+   <?php
+   if(have_posts()):
+      while(have_posts()):
+         the_post();
 
          $name = get_bloginfo('name');
 
@@ -44,63 +44,72 @@
 
 
       endwhile;
-         endif;
+   endif;
 
-         $image = $thumb_url[0];
-
-
-         $date = '';
-         $time = '';
-
-         ?>
-
-         <title><?php echo $name; ?></title>
+   $image = $thumb_url[0];
 
 
-         <?php //include_once 'favicons.php'; ?>
+   $date = '';
+   $time = '';
 
 
-         <meta name="description" content="<?php echo $description; ?>" />
+   global $mostrar_avisos;
 
-         <!-- Schema.org markup for Google+ -->
-         <meta itemprop="name" content="<?php echo $name; ?>">
-         <meta itemprop="description" content="<?php echo $description; ?>">
-         <meta itemprop="image" content="<?php echo $image; ?>">
+   $mostrar_avisos = true;
 
-         <!-- Twitter Card data -->
-         <meta name="twitter:card" content="<?php echo $image; ?>">
-         <meta name="twitter:site" content="<?php echo $twitter_user; ?>">
-         <meta name="twitter:title" content="<?php echo $name; ?>">
-         <meta name="twitter:description" content="<?php echo $description; ?>">
-         <!-- <meta name="twitter:creator" content="@author_handle"> -->
-         <!-- Twitter summary card with large image must be at least 280x150px -->
-         <meta name="twitter:image:src" content="<?php echo $image; ?>">
+   if( is_page("Festival") || is_page("Bandas") || is_page("Información") || $post->post_parent == get_page_by_title("Festival") )
+      $mostrar_avisos = false;
 
-         <!-- Open Graph data -->
-         <meta property="og:title" content="<?php echo $name; ?>"/>
-         <meta property="og:type" content="article" />
-         <meta property="og:url" content="<?php echo $url; ?>" />
-         <meta property="og:image" content="<?php echo $image; ?>" />
-         <meta property="og:description" content="<?php echo $description; ?>" />
-         <meta property="og:site_name" content="<?php echo $name; ?>" />
-         <meta property="article:published_time" content="<?php echo $date; ?>" />
-         <meta property="article:modified_time" content="<?php echo $time; ?>" />
-         <!-- <meta property="article:section" content="Artget_numberic ID" /> -->
 
-         <?php
-         wp_head();
-         ?>
+   ?>
 
-         <script>
-           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-           })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+   <title><?php echo $name; ?></title>
 
-           ga('create', 'UA-76176145-1', 'auto');
-           ga('send', 'pageview');
 
-         </script>
+   <?php //include_once 'favicons.php'; ?>
+
+
+   <meta name="description" content="<?php echo $description; ?>" />
+
+   <!-- Schema.org markup for Google+ -->
+   <meta itemprop="name" content="<?php echo $name; ?>">
+   <meta itemprop="description" content="<?php echo $description; ?>">
+   <meta itemprop="image" content="<?php echo $image; ?>">
+
+   <!-- Twitter Card data -->
+   <meta name="twitter:card" content="<?php echo $image; ?>">
+   <meta name="twitter:site" content="<?php echo $twitter_user; ?>">
+   <meta name="twitter:title" content="<?php echo $name; ?>">
+   <meta name="twitter:description" content="<?php echo $description; ?>">
+   <!-- <meta name="twitter:creator" content="@author_handle"> -->
+   <!-- Twitter summary card with large image must be at least 280x150px -->
+   <meta name="twitter:image:src" content="<?php echo $image; ?>">
+
+   <!-- Open Graph data -->
+   <meta property="og:title" content="<?php echo $name; ?>"/>
+   <meta property="og:type" content="article" />
+   <meta property="og:url" content="<?php echo $url; ?>" />
+   <meta property="og:image" content="<?php echo $image; ?>" />
+   <meta property="og:description" content="<?php echo $description; ?>" />
+   <meta property="og:site_name" content="<?php echo $name; ?>" />
+   <meta property="article:published_time" content="<?php echo $date; ?>" />
+   <meta property="article:modified_time" content="<?php echo $time; ?>" />
+   <!-- <meta property="article:section" content="Artget_numberic ID" /> -->
+
+   <?php
+   wp_head();
+   ?>
+
+   <script>
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+   ga('create', 'UA-76176145-1', 'auto');
+   ga('send', 'pageview');
+
+   </script>
 
 
 </head>
@@ -140,6 +149,7 @@
             <!-- header -->
             <header id="header" class="columns h_10vh fixed absUpL z1k black_bg">
 
+
                <!-- logo offlimits -->
                <a href="<?php echo site_url(); ?>" class="small-7 large-3 columns h_100 p2">
 
@@ -160,7 +170,6 @@
 
             </header>
 
-
             <!-- main -->
             <main id="main" class="small-12 columns m0 pl0 pr0 pt_10vh">
                <?php if( is_page('Festival') || get_page_template_slug() == "offlimits_festival.php" || is_page('Inicio') ) : ?>
@@ -170,4 +179,4 @@
                <?php endif; ?>
 
                <div id="contenido-general" class="columns ha p0">
-                  <div id="area_contenidos" class="small-12 small-pull-12 large-<?php echo ! is_page('Festival') ? 9 : 12; ?> p0 columns ha pb5">
+                  <div id="area_contenidos" class="small-12 small-pull-12 large-<?php echo $mostrar_avisos ? 9 : 12; ?> p0 columns ha pb5">

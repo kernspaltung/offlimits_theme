@@ -11,7 +11,7 @@ get_header();
 
    <?php
 
-   get_template_part('secciones/festival/01-lineup');
+   // get_template_part('secciones/festival/01-lineup');
 
 
    get_template_part('secciones/festival/02-boletos');

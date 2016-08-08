@@ -147,6 +147,8 @@ function setup_interaccion() {
             scrollTop: offsetY
          }, 1000);
 
+         $(window).scroll();
+
       }
 
       return false;
@@ -218,7 +220,9 @@ function scrollToTarget( url ) {
             scrollTop: offsetY
          }, 1000);
 
+         $(window).scroll();
       }
+
 
    }
 
@@ -249,11 +253,13 @@ function do_subsection_scroll( url ) {
 
       console.log( targetId );
 
-      var offsetY = target.offset().top - $('#header').height();
+       var offsetY = target.offset().top - $('#header').height();
 
       $('html,body').animate({
          scrollTop: offsetY
       }, 1000);
+
+      $(window).scroll();
 
    }
 

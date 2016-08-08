@@ -1,8 +1,8 @@
 </div>
 
 <?php
-
-if( ! is_page("Festival") && ! is_page("Información") ) :
+global $mostrar_avisos;
+if( $mostrar_avisos ) :
 
    get_template_part('secciones/compartidas/avisos_destacados');
 

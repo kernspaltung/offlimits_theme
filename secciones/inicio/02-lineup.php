@@ -1,7 +1,7 @@
 <?php
 
    $festival = get_page_by_title("Festival");
-   $link_lineup = add_query_arg( 'scrollTo', 'festival-lineup', get_the_permalink($festival->ID) );
+   $link_lineup = get_the_permalink( get_page_by_title("Bandas") -> ID );
 
 ?>
 

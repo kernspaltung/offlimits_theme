@@ -24,18 +24,18 @@ $festival = get_page_by_title("Festival");
             </div>
          </div>
 
-         <?php $secciones = array( 'Lineup', 'Boletos', 'Puntos de Venta', 'Foro' ); ?>
+         <?php $secciones = array( /*'Lineup', */'Boletos', 'Puntos de Venta', 'Foro' ); ?>
 
          <nav id="festival-header-menu" class="menu horizontal small-12 columns h_50 p0">
             <ul class="small-12 columns p0 m0 h_100 fontRXL text-left no-bullet p3">
                <?php
-                  foreach ( $secciones as $seccion ) :
+               foreach ( $secciones as $seccion ) :
 
                   $link_seccion = "#festival-" . str_replace( " ", "_", strtolower( $seccion ) );
 
                   ?>
-                  <li class=" h_50 f_l w_a end">
-                     <a class="scrollLink p3 pt0 pl0 h_100  white txsh1" data-target="<?php echo $link_seccion; ?>" href="<?php echo $link_seccion; ?>">
+                  <li class=" h_50 f_l w_a end primario">
+                     <a class="scrollLink p3 pt0 pl0 h_100 acento txsh1" data-target="<?php echo $link_seccion; ?>" href="<?php echo $link_seccion; ?>">
                         <div class="vcenter fontL font_sm_M">
                            <?php echo $seccion; ?>
                         </div>
@@ -50,55 +50,25 @@ $festival = get_page_by_title("Festival");
 
    <section id="header-portada-introduccion" class="large-10 large-offset-1 columns end h_55vh p5 rel ">
 
-      <?php
-      $enlaces_rapidos = array();
-
-      array_push( $enlaces_rapidos, get_page_by_title("Boletos") );
-      array_push( $enlaces_rapidos, get_page_by_title("Puntos de Venta") );
-
-      // $enlaces_rapidos = get_pages( array( 'child_of' => $enlaces_rapidos->ID, 'parent' => $enlaces_rapidos->ID, 'number' => 2 )  );
-
-      $i=0;
-      foreach ($enlaces_rapidos as $enlace_rapido ) :
-
-         $link = obtener_link( $enlace_rapido -> ID );
-
-         ?>
-
-         <div class="small-12 medium-6 large-<?php echo $i==0 ? 7 : 5; ?> columns h_35vh h_md_50vh h_sm_65vh <?php echo $i==0 ? 'pr0' : ''; ?> p5 p_sm_0 pb_sm_4 rel pt_sm_0">
-            <div class="button small-12 columns neutral_oscuro2_bg black_hover_bg h_100 p0">
-               <a href="<?php echo $link; ?>" class="w_100 h_100">
-
-                  <div class="small-12 medium-6  columns h_100 h_sm_50 text-left color p4 pb_sm_0">
-                     <h5 class="acento sameMaxH mb1 h_20 mb_sm_0">
-                        <?php
-
-                           echo apply_filters( 'the_title', $enlace_rapido->post_title );
-
-                        ?>
-                     </h5>
-                     <div class="fontS text-left h_70 pt1">
-                        <div class="vcenter">
-
-                           <?php echo apply_filters( 'the_excerpt', $enlace_rapido->post_excerpt ); ?>
-
-                        </div>
-                     </div>
-                  </div>
-                  <div class="small-12 medium-6 columns h_100 h_sm_50 p_sm_4 text-center color p4 pt_sm_0 p_sm_0 ">
-                     <div class="w_100 h_100 imgLiquid imgLiquidNoFill ">
-                        <?php echo get_the_post_thumbnail( $enlace_rapido->ID ); ?>
-                     </div>
-                  </div>
-
-               </a>
-
-            </div>
+      <div id="festival-texto-intro" class="columns medium-6 h_100 p5">
+         <div class="vcenter h_a">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias ad voluptas delectus, at sint rem impedit provident sunt, nulla animi, commodi cumque numquam reprehenderit perferendis.
          </div>
+      </div>
 
-         <?php $i++; endforeach; ?>
 
-
-      </section>
+      <div id="festival-cartel" class="columns medium-6 h_100 p5">
+         <div class="vcenter h_a">
+            <?php
+            $cartel = get_page_by_title("Cartel");
+            $imagen_url = wp_get_attachment_image_src( get_post_thumbnail_id( $cartel->ID ), 'single-post-thumbnail' );
+            echo '<a href="' . $imagen_url[0] . '" target="_blank">';
+            echo get_the_post_thumbnail( $cartel->ID, 'medium');
+            echo '</a>'
+            ?>
+         </div>
+      </div>
 
    </section>
+
+</section>
