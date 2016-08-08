@@ -1,4 +1,4 @@
-<section class="w_100 h_45vh p5">
+<section class="w_100 h_50vh p5">
 
 <div class="columns medium-6 h_100 p5">
    <div class="vcenter h_a text-center">
@@ -10,9 +10,9 @@
       </a>
    </div>
 </div>
-<?php $imagen_url = wp_get_attachment_image_src( get_post_thumbnail_id( $cartel->ID ), 'single-post-thumbnail' ); ?>
+<?php $imagen_url = wp_get_attachment_image_src( get_post_thumbnail_id( $cartel->ID ) ); ?>
 <div class="imagen columns medium-6 h_100 imgLiquid imgLiquidNoFill">
-   <a href="<?php echo $imagen_url[0]; ?>">
+   <a href="<?php echo $imagen_url[0]; ?>" target="_blank">
 
       <?php echo get_the_post_thumbnail( get_page_by_title("Cartel")->ID, 'large'); ?>
 
