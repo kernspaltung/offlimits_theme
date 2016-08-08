@@ -121,7 +121,7 @@
 
       <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper><!-- cierra en el footer -->
 
-         <div class="off-canvas position-right align-center neutral_oscuro2_bg white" id="offCanvasRight" data-off-canvas data-position="right">
+         <div class="off-canvas w_100 h_100vh position-right align-center neutral_oscuro2_bg white z1k1 " id="offCanvasRight" data-off-canvas data-position="right">
 
 
             <!-- menu movil aqui -->
