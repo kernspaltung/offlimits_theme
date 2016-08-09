@@ -116,67 +116,60 @@
 
 <body>
 
-   <!-- off-canvas menu solo para movil-->
-   <div class="off-canvas-wrapper"><!-- cierra en el footer -->
+   <div id="menu_movil" class="hidden w_100 h_100vh align-center neutral_oscuro2_bg white">
 
-      <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper><!-- cierra en el footer -->
+      <div class="h_a p5 mt4 mt_sm_3">
 
-         <div class="off-canvas w_100 h_100vh position-right align-center neutral_oscuro2_bg white z1k1 " id="offCanvasRight" data-off-canvas data-position="right">
+         <h1 class="text-center">
+            Menú
+         </h1>
 
-
-            <!-- menu movil aqui -->
-            <div id="titulo_menu" class="small-12 columns h_10vh fontRXXL pointer mb2" aria-label="Cerrar menú" data-close="">
-
-               <div class="small-9 columns text-center p2 pointer white vcenter" >
-                  <h1>
-                     Menú
-                  </h1>
-               </div>
-
-               <div class="small-3 columns p2 text-center vcenter" type="button">
-                  <span aria-hidden="true"><i class="fa fa-close fontRXXXL"></i></span>
-               </div>
-
-            </div>
-
+         <div class="vcenter h_a">
             <?php wp_nav_menu( array( 'theme_location' => 'menu-principal', 'container' => 'nav', '' ) ); ?>
-
          </div>
 
-         <!-- contenido del sitio -->
-         <div class="off-canvas-content" data-off-canvas-content><!-- cierra en el footer -->
+      </div>
+   </div>
 
-            <!-- header -->
-            <header id="header" class="columns h_10vh fixed absUpL z1k black_bg">
-
-
-               <!-- logo offlimits -->
-               <a href="<?php echo site_url(); ?>" class="small-7 large-3 columns h_100 p2">
-
-                  <div class="h_100 imgLiquid imgLiquidNoFill">
-                     <img src="<?php echo get_stylesheet_directory_uri() ?>/img/LogoDT.png" alt="" />
-                  </div>
-
-               </a>
-
-               <!-- Este solo aparece en movil -->
-               <div id="header-icono-menu-movil" class="small-5 hide-for-large columns p0 text-right p0 h_100 pointer" data-toggle="offCanvasRight">
-                  <div class="button black_bg boton-menu-movil vcenter mb0 p0 h_a w_a pr1 black_hover_bd" >
-                     <i class="fa fa-bars fontRXXXL text-right"></i>
-                  </div>
-                  <!-- <a class="button hollow boton-menu-movil vcenter mb0 p0 h_100" data-toggle="offCanvasRight"><i class="fa fa-bars fontRXXXL"></i></a> -->
-               </div>
+   <!-- header -->
+   <header id="header" class="columns h_10vh fixed absUpL z1k black_bg">
 
 
-            </header>
+      <!-- logo offlimits -->
+      <a href="<?php echo site_url(); ?>" class="small-7 large-3 columns h_100 p2">
 
-            <!-- main -->
-            <main id="main" class="small-12 columns m0 pl0 pr0 pt_10vh">
-               <?php if( is_page('Festival') || get_page_template_slug() == "offlimits_festival.php" || is_page('Inicio') ) : ?>
-                  <header id="cabecera_seccion" class="columns p0 h_100 h_sm_a mb2">
-                     <?php get_template_part('secciones/compartidas/header_seccion'); ?>
-                  </header>
-               <?php endif; ?>
+         <div class="h_100 imgLiquid imgLiquidNoFill">
+            <img src="<?php echo get_stylesheet_directory_uri() ?>/img/LogoDT.png" alt="" />
+         </div>
 
-               <div id="contenido-general" class="columns ha p0">
-                  <div id="area_contenidos" class="small-12 small-pull-12 large-<?php echo $mostrar_avisos ? 9 : 12; ?> p0 columns ha pb5">
+      </a>
+
+      <!-- Este solo aparece en movil -->
+      <div id="header-icono-menu-movil" class="small-5 hide-for-large columns p0 text-right p0 h_100 pointer" data-toggle="offCanvasRight">
+         <div class="button black_bg boton-menu-movil vcenter mb0 p0 h_a w_a pr1 black_hover_bd" >
+            <div class="vcenter f_l w_a h_a fontL acento pr1">
+               Menú
+            </div>
+            <div class="vcenter f_l w_a h_a fontL acento">
+               <i class="fa fa-bars fontRXXXL text-right"></i>
+            </div>
+         </div>
+         <!-- <a class="button hollow boton-menu-movil vcenter mb0 p0 h_100" data-toggle="offCanvasRight"><i class="fa fa-bars fontRXXXL"></i></a> -->
+      </div>
+
+      <div id="menu-desktop" class="menu hide-for-small-only hide-for-medium-only columns large-9">
+         <?php wp_nav_menu( array( 'theme_location' => 'menu-principal', 'container' => 'nav', '' ) ); ?>
+      </div>
+
+   </header>
+
+   <!-- main -->
+   <main id="main" class="small-12 columns m0 pl0 pr0 pt_10vh">
+      <?php if( is_page('Festival') || get_page_template_slug() == "offlimits_festival.php" || is_page('Inicio') ) : ?>
+         <header id="cabecera_seccion" class="columns p0 h_100 h_sm_a mb2">
+            <?php get_template_part('secciones/compartidas/header_seccion'); ?>
+         </header>
+      <?php endif; ?>
+
+      <div id="contenido-general" class="columns ha p0">
+         <div id="area_contenidos" class="small-12 small-pull-12 large-<?php echo $mostrar_avisos ? 9 : 12; ?> p0 columns ha pb5">

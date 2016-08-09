@@ -63,7 +63,7 @@ add_action( 'wp_enqueue_scripts', 'ol_enqueue_scripts' );
 
 
 function add_classes_on_li($classes, $item, $args) {
-  $classes[] = 'small-12 large-2 columns end color_principal uppercase fontL font2 text-center pt1';
+  $classes[] = 'small-12 large-3 columns end color_principal uppercase fontL font2 text-center p2';
   return $classes;
 }
 add_filter('nav_menu_css_class','add_classes_on_li',1,3);

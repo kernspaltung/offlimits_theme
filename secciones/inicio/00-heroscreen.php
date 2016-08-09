@@ -47,7 +47,7 @@
   </div>
 
 
-  <div id="heroscreen-indicadorscroll" class="w_100 cursor-pointer h_10vh mb1 absDownL z1 text-center">
+  <div id="heroscreen-indicadorscroll" class="w_100 cursor-pointer h_10vh mb2 absDownL z1 text-center">
      <div class="columns pb1">
         <i class="fa fa-chevron-down fontXXL acento cursor-pointer"></i>
      </div>

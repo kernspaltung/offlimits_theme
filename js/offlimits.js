@@ -21,6 +21,31 @@ $(document).ready(function(){
 
    // $('#header nav.menu').addClass('small-9');
 
+   $('#header-icono-menu-movil').click(function(){
+      if( $('#menu_movil').hasClass('hidden') ) {
+         $('#menu_movil').css({
+            opacity:0
+         }).removeClass('hidden');
+         $('#header-icono-menu-movil .fa').removeClass('fa-bars').addClass('fa-close');
+
+         u.vcenter('#menu_movil .vcenter');
+
+         $('#menu_movil').animate({
+            opacity:1
+         },400,function(){
+         })
+      } else {
+         $('#menu_movil').animate({
+            opacity:0
+         },400,function(){
+            $('#header-icono-menu-movil .fa').addClass('fa-bars').removeClass('fa-close');
+            $('#menu_movil').addClass('hidden')
+         })
+      }
+
+   })
+
+
    var fa = $('<span>').addClass('fa fa-facebook fontM pl1 pr1 white');
    $('.button-facebook').html( fa );
 
