@@ -116,7 +116,7 @@
 
 <body>
 
-   <div id="menu_movil" class="hidden w_100 h_100vh align-center neutral_oscuro2_bg white">
+   <div id="menu_movil" class="hidden w_100 h_100vh mt_sm_10vh align-center neutral_oscuro2_bg white">
 
       <div class="h_a p5 mt4 mt_sm_3">
 
