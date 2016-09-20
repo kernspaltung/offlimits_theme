@@ -1,12 +1,12 @@
 $(document).ready(function(){
 
-   if( $('#heroscreen').length > 0 ) {
+//   if( $('#heroscreen').length > 0 ) {
 
-      setInterval( tiempo_faltante, 1000 );
+//      setInterval( tiempo_faltante, 1000 );
 
-      tiempo_faltante();
+//      tiempo_faltante();
 
-   }
+//   }
 
 
 });
