@@ -9,7 +9,7 @@
 
       get_template_part('secciones/inicio/02-lineup');
 
-      get_template_part('secciones/inicio/03-festival');
+      // get_template_part('secciones/inicio/03-festival');
 
       get_template_part('secciones/inicio/04-blog');
 
